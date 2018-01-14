@@ -1,0 +1,36 @@
+Sell My Click
+
+Navbar- 
+searchbar-
+login signup-
+
+
+
+
+Navbar:
+	Home
+	About
+	Team
+
+
+
+
+We can have option of giving job opportuninty for the profectional Editors (Photoshop)
+We can show output in Mobile Theme at right 
+
+
+
+1) photio video store :http://www.photostorescript.com/wordpress-plugin-online-demo/
+2) Free thems : http://www.photostorescript.com/online_demo/?template=55
+
+
+
+3) https://www.ecwid.com/sell-photos-online
+4)http://photosbyriggs.com/Portfolios
+5) http://shootmenowphotos.com
+6)http://laphotostudio.com/Home
+7)https://pixabay.com/	
+
+ 
+Plan A:We can show output in Mobile Theme at right 
+Plan B:We can have sections of all contents and the liknks to navbar 
