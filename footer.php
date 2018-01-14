@@ -1,10 +1,10 @@
 
-<footer style="background-color:#191919;" class="footer">
+<footer style="background-color:#191919; font-size: 13px;" class="footer">
 
       <div class="container">
-  <div class="row">
+  <div class="row" style="padding-top: 10px;">
     <div class="col-6 col-sm-3">
-      <ul> <h4>Company</h4>
+      <ul><h6>Company</h6>
         <li>
           <a href="#"> About Us</a>
         </li>
@@ -23,7 +23,7 @@
       </ul>
     </div>
     <div class="col-6 col-sm-3">
-    <ul> <h4>Community</h4>
+    <ul> <h6>Community</h6>
         <li>
           <a href="#">Blogs</a>
         </li>
@@ -36,7 +36,7 @@
       </ul>
     </div>
     <div class="col-6 col-sm-3">
-<ul> <h4>Services</h4>
+<ul> <h6>Services</h6>
         <li>
           <a href="#">Edit</a>
         </li>
@@ -51,10 +51,10 @@
         </li>      
       </ul>
     </div>
-        <div class="col-6 col-sm-3"> <h4>Follow Us</h4>
-       <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-       <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
-       <i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i>
+        <div class="col-6 col-sm-3"> <h6>Follow Us</h6>
+       <a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
     </div>
   </div>
 </div>
