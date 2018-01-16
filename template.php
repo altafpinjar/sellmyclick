@@ -9,25 +9,16 @@
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
   </head>
-  <body >
-    <!--navbar-->
-    <?php include_once "header.php"; ?>
-    <!--end of navbar-->
+  <body style="background-color: #d3d3d3;">
+  <!--navbar-->
+  <?php include_once "header.php"; ?>
+  <!--end of navbar-->
+    
 
 
-
-    <br>
-    <br><br><br><br><br><br>
-
-
-
-
-
-
-<!--footer-->
-
-<?php include_once "footer.php"; ?>
-<!-- end of footer-->    
-     <?php include_once "script.php"; ?>
+  <!--footer-->
+  <?php include_once "footer.php"; ?>
+  <!-- end of footer-->    
+  <?php include_once "script.php"; ?>
   </body>
 </html>

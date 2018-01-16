@@ -1,5 +1,4 @@
 .navbar {
-  overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
@@ -7,21 +6,110 @@
 .newClass li a{
 	color: #fff !important;
 }
-.col-6 ul,.col-6 h4{
+.col-6 ul,.col-6 h6{
  color: #fff !important; 
 }
   .newClass li a{
     color: #fff !important;
   }
-  .col-md-3 h4,.fa{
+  .col-md-3 h6,.fa{
     color: #fff !important;
   }
-  .navbar {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {    
+    background-color: #d3d3d3;
+}
+
+
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE 10 */
+    flex: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+.btn:hover, .active {
+    background-color: #ccc;
+}
+/*  botton pageination links*/
+.pagination a {
+    color: black;
+    float: middle;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+/*  end of botton pageination links*/
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
   width: 100%;
+  height: auto;
 }
-.footer{
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1ABC9C;
   overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .3s ease;
 }
+
+.container:hover .overlay {
+  height: 10%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nav-menu
+{
+  color: white;
+}
+
+
+
+
