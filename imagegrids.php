@@ -14,13 +14,9 @@
     <?php include_once "header.php"; ?>
     <!--end of navbar-->
     
-<div class="header" id="myHeader">
- <br>
-  <p>Click on the buttons to change the grid view.</p>
-  <button class="btn" onclick="one()">1</button>
-  <button class="btn" onclick="two()">2</button>
-  <button class="btn active" onclick="four()">4</button>
-</div>
+<br>
+<br>
+<br>
 <div class="row"> 
   <div class="column">
     <img src="images/2.jpg" style="width:100%">

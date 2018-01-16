@@ -9,7 +9,7 @@
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
   </head>
-  <body>
+  <body style="background-color: #d3d3d3;">
   <!--navbar-->
   <?php include_once "header.php"; ?>
   <!--end of navbar-->
