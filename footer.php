@@ -6,13 +6,13 @@
     <div class="col-6 col-sm-3">
       <ul><h6>Company</h6>
         <li>
-          <a href="#"> About Us</a>
+          <a href="aboutus.php"> About Us</a>
         </li>
         <li>
           <a href="#"> Partners</a>
         </li>
         <li>
-         <a href="#"> Our Team </a>
+         <a href="aboutus.php"> Our Team </a>
         </li>
         <li>
          <a href="#"> FAQs </a>
@@ -31,20 +31,20 @@
           <a href="#"> Press</a>
         </li>
         <li>
-         <a href="#"> Our Team </a>
+         <a href="aboutus.php"> Our Team </a>
         </li>        
       </ul>
     </div>
     <div class="col-6 col-sm-3">
 <ul> <h6>Services</h6>
         <li>
-          <a href="#">Edit</a>
+          <a href="editorial.php">Edit</a>
         </li>
         <li>
-          <a href="#">Sell</a>
+          <a href="sellphotos.php">Sell</a>
         </li>
         <li>
-         <a href="#">Buy</a>
+         <a href="buyernew.php">Buy</a>
         </li>  
            <li>
          <a href="#">Upload</a>
