@@ -51,7 +51,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-dark" style="z-index: 40;">
-  <a href="home.php" class="navbar-brand text-white" href="#">Sell My Click</a>
+  <a href="home.php" class="navbar-brand text-white" href="#"><h6>Sell My Click</h6></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -92,7 +92,7 @@
               <a class="nav-link " href="sellphotos.php" ><i class="fa fa-sellsy" aria-hidden="true"></i>&nbsp;Sell</a>
             </li>
             <li class="nav-item" >
-              <a class="nav-link" href="loginpage.php"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;Login or Sign Up</a>
+              <a class="nav-link" href="loginpage.php"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;Login or signup</a>
             </li>
         </ul>
   </div>

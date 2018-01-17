@@ -172,7 +172,7 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
   </ol>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="images/sumaiya/snap.png" alt="First slide" style="height: 500px">
+          <img class="d-block w-100" src="images/sumaiya/snap.png" alt="First slide" style="height: 100%">
                  
         </div> <!-- close carousel-item 1 -->
         <div class="carousel-item" style="position: absolute; top:0px; width: 100% ; height: 100%">
@@ -239,7 +239,7 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
         <div class="col-md-2"><img src="images/sumaiya/11.jpg" style="height: 140px;width: 200px;"></div>
         <div class="col-md-2"><img src="images/sumaiya/4.jpg" style="height: 140px;width: 200px;"></div>
       </div>
-       <a href="imagegrids.php" > <div style="float: right;padding-right: 10px; margin-top: 10px;"><button class="btn btn-sm" role="button" style="background-color: gray">view more</button></div>
+       <a href="imagegrids.php" > <div style="float: right;padding-right: 10px; margin-top: 10px;"><button class="btn btn-sm" role="button" style="background-color: gray">view more</button></div></a>
 
     </div>
    

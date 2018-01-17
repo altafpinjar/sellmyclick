@@ -102,7 +102,7 @@ One of the most trusted names in online photo editing & retouching services sinc
  </div>
  
  
- <div class="col-md-4 text-justify">A photograph is the physical capturing
+ <div class="col-md-4 text-justify"><p>A photograph is the physical capturing
 of a moment – and you can never have
 that moment again. That means that
 sometimes, a photograph will appear
@@ -114,7 +114,7 @@ your loved ones justice.
 It can be very upsetting when this
 happens, especially when you thought
 that the photographs were going to look
-SO wonderful.</div>
+SO wonderful.</p></div>
  <div class="col-md"></div>
  
  </div>
@@ -164,7 +164,7 @@ SO wonderful.</div>
  
  
  
- <div class="col-md-4 text-justify">SourcesUS provides professional photo
+ <div class="col-md-4 text-justify"><p>SourcesUS provides professional photo
 editing services to photographers and
 photography studios around the globe.
 How can we help your photography
@@ -178,7 +178,7 @@ photo.
 There are no minimum order
 requirements for our photo editing
 services.
-Average turnaround times.</div>
+Average turnaround times.</p></div>
 
 <div class="col-md-4">
  

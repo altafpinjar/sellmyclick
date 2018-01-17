@@ -5,6 +5,9 @@
   top: 0;
   width: 100%;
 }
+.navbar a{
+  font-size: 13px;
+}
 
 .nav-menu
 {
@@ -30,6 +33,7 @@ background-color:#fff;
 @media only screen and (max-width: 1200px) {
     body {
         background-color:#fff;
+
     }
 }
 
@@ -106,3 +110,7 @@ background-color:#fff;
 .gridimg img{
   width:100%;
 }
+/*
+h1,h2,h3,h4,h5,h6,a,p {
+  font-family: 'Saira Condensed', sans-serif;
+}*/
