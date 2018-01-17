@@ -1,8 +1,8 @@
 
-<footer style="background-color:#191919; font-size: 13px;" class="footer">
+<footer class="footer">
 
       <div class="container">
-  <div class="row" style="padding-top: 10px;">
+  <div class="row">
     <div class="col-6 col-sm-3">
       <ul><h6>Company</h6>
         <li>
@@ -57,6 +57,8 @@
         <a href="#"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
     </div>
   </div>
+
 </div>
-  
+<hr color="#1ABC9C;">
+<center><p style="padding-bottom: 15px;"><font color="White">&copy;All rights Reserved by : <a href="http://sourceuscorporation.com/"><b>SUCO TECHNOLOGIES.</b></a></font></p></center>
 </footer>

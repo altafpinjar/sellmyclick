@@ -19,10 +19,10 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-3" >
-      <div class="jumbotron" style="color:#1ABC9C; background-color: black;">
+      <div class="jumbotron descimg">
       <h6 class="text-center">Uploaded By: Maktum Husen</h6>
   
-        <form style="padding-left: 75px;">
+        <form  class="jumnodesc">
     <div class="radio">
       <label><input type="radio" name="optradio">size:1920 x 1280</label>
     </div>
@@ -38,52 +38,52 @@
      <button type="button" class="btn btn-outline-success"><i class="fa fa-share-alt-square" aria-hidden="true"></i></button></center>
   </div>
     </div>
-    <div class="col-lg-9">
-   <center> <img src="images/2.jpg" style="width:800px; height: 400px;"></center>
+    <div class="col-lg-9 imgdec">
+   <center> <img src="images/12.jpg"></center>
   </div>
 </div>
 <br>
 <center> <h3>Similar Photos</h3></center><br>
-<div class="row">
+<div class="row imgsize">
 
   <div class="col-lg-2">
-      <img src="images/11.jpg" style="height:150px; width:100%">
+      <img src="images/11.jpg" >
     </div>
     <div class="col-lg-2">
-    <img src="images/2.jpg" style="height:150px; width:100%">
+    <img src="images/2.jpg">
   </div>
    <div class="col-lg-2">
-    <img src="images/13.jpg" style="height:150px; width:100%">
+    <img src="images/13.jpg">
   </div>
    <div class="col-lg-2">
-    <img src="images/12.jpg" style="height:150px; width:100%">
+    <img src="images/12.jpg">
   </div>
    <div class="col-lg-2">
-    <img src="images/book.jpg" style="height:150px; width:100%">
+    <img src="images/book.jpg">
   </div>
    <div class="col-lg-2">
-    <img src="images/Download.jpg" style="height:150px; width:100%"> 
+    <img src="images/Download.jpg"> 
   </div>
 </div><br>
 <div class="row">
 
   <div class="col-lg-2">
-      <img src="images/2.jpg" style="height:150px; width:100%">
+      <img src="images/2.jpg">
     </div>
     <div class="col-lg-2">
-    <img src="images/11.jpg" style=" height:150px;width:100%">
+    <img src="images/11.jpg" >
   </div>
    <div class="col-lg-2">
-    <img src="images/12.jpg" style=" height:150px;width:100%">
+    <img src="images/12.jpg">
   </div>
    <div class="col-lg-2">
-    <img src="images/13.jpg" style="height:150px; width:100%">
+    <img src="images/13.jpg">
   </div>
    <div class="col-lg-2">
-    <img src="images/book.jpg" style="height:150px; width:100%">
+    <img src="images/book.jpg">
   </div>
    <div class="col-lg-2">
-    <img src="images/rails.jpg" style="height:150px;width:100%"> 
+    <img src="images/rails.jpg"> 
   </div>
 </div>
 
