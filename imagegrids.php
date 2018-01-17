@@ -10,46 +10,48 @@
     <!--styles css--> 
   </head>
   <body >
+
     <!--navbar-->
     <?php include_once "header.php"; ?>
+
     <!--end of navbar-->
     
 <br>
 <br>
 <br>
-<div class="row"> 
+<div class="row gridimg"> 
   <div class="column">
-    <img src="images/2.jpg" style="width:100%">
-    <img src="images/11.jpg" style="width:100%">
-    <img src="images/12.jpg" style="width:100%">
-    <img src="images/13.jpg" style="width:100%">
-    <img src="images/book.jpg" style="width:100%">
-    <img src="images/rails.jpg" style="width:100%">    
+    <a href="image2desc.php"><img src="images/2.jpg" ></a>
+    <a href="image11desc.php"><img src="images/11.jpg" ></a>
+   <a href="image12desc.php"> <img src="images/12.jpg" ></a>
+   <a href="image11desc.php"> <img src="images/13.jpg" ></a>
+   <a href="image11desc.php"> <img src="images/book.jpg" ></a>
+  <a href="image11desc.php">  <img src="images/rails.jpg" ></a> 
   </div>
   <div class="column">
-    <img src="images/class.jpeg" style="width:100%">
-    <img src="images/class1.jpeg" style="width:100%">
-    <img src="images/download (2).jpg" style="width:100%">
-    <img src="images/download.jpg" style="width:100%">
-    <img src="images/rocks.jpg" style="width:100%">
-    <img src="images/park.jpg" style="width:100%">
+    <img src="images/class.jpeg" >
+    <img src="images/class1.jpeg" >
+    <img src="images/download (2).jpg" >
+    <img src="images/download.jpg" >
+    <img src="images/rocks.jpg" >
+    <img src="images/park.jpg" >
   </div>  
   <div class="column">
-    <img src="images/12.jpg" style="width:100%">
-    <img src="images/rocks.jpg" style="width:100%">
-    <img src="images/tunnel.jpg" style="width:100%">
-    <img src="images/sky.jpg" style="width:100%">
-    <img src="images/park.jpg" style="width:100%">
-    <img src="images/11.jpg" style="width:100%">
+    <img src="images/12.jpg" >
+    <img src="images/rocks.jpg" >
+    <img src="images/tunnel.jpg" >
+    <img src="images/sky.jpg" >
+    <img src="images/2.jpg" >
+    <img src="images/11.jpg" >
     
   </div>
   <div class="column">
-    <img src="images/11.jpg" style="width:100%">
-    <img src="images/12.jpg" style="width:100%">
-    <img src="images/13.jpg" style="width:100%">
-    <img src="images/3d.jpg" style="width:100%">
-    <img src="images/rocks.jpg" style="width:100%">
-    <img src="images/download.jpg" style="width:100%">
+    <img src="images/11.jpg" >
+    <img src="images/12.jpg" >
+    <img src="images/13.jpg" >
+    <img src="images/2.jpg" >
+    <img src="images/rocks.jpg" >
+    <img src="images/download.jpg" >
   </div>
 </div><br>
 <div class="pagination">

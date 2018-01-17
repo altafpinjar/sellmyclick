@@ -18,10 +18,11 @@
   <br>
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-3" style="padding-left: 100px;">
-      <h6>Uploaded By: Maktum Husen</h6>
+    <div class="col-lg-3" >
+      <div class="jumbotron" style="color:#1ABC9C; background-color: black;">
+      <h6 class="text-center">Uploaded By: Maktum Husen</h6>
   
-        <form>
+        <form style="padding-left: 75px;">
     <div class="radio">
       <label><input type="radio" name="optradio">size:1920 x 1280</label>
     </div>
@@ -32,15 +33,64 @@
       <label><input type="radio" name="optradio">size:640 x 426</label>
     </div>
   </form>
-<button type="button" class="btn btn-outline-success">Download</button><br><br>
-    <button type="button" class="btn btn-outline-success"><i class="fa fa-gratipay" aria-hidden="true"></i></button>
+<center><button type="button" class="btn btn-outline-success">Download</button><br><br>
+    <button type="button" class="btn btn-outline-success" ><i class="fa fa-heart" aria-hidden="true" ></i></button>
+     <button type="button" class="btn btn-outline-success"><i class="fa fa-share-alt-square" aria-hidden="true"></i></button></center>
+  </div>
     </div>
     <div class="col-lg-9">
-    <img src="images/2.jpg" style="width:100%">
+   <center> <img src="images/2.jpg" style="width:800px; height: 400px;"></center>
+  </div>
+</div>
+<br>
+<center> <h3>Similar Photos</h3></center><br>
+<div class="row">
+
+  <div class="col-lg-2">
+      <img src="images/11.jpg" style="height:150px; width:100%">
+    </div>
+    <div class="col-lg-2">
+    <img src="images/2.jpg" style="height:150px; width:100%">
+  </div>
+   <div class="col-lg-2">
+    <img src="images/13.jpg" style="height:150px; width:100%">
+  </div>
+   <div class="col-lg-2">
+    <img src="images/12.jpg" style="height:150px; width:100%">
+  </div>
+   <div class="col-lg-2">
+    <img src="images/book.jpg" style="height:150px; width:100%">
+  </div>
+   <div class="col-lg-2">
+    <img src="images/Download.jpg" style="height:150px; width:100%"> 
+  </div>
+</div><br>
+<div class="row">
+
+  <div class="col-lg-2">
+      <img src="images/2.jpg" style="height:150px; width:100%">
+    </div>
+    <div class="col-lg-2">
+    <img src="images/11.jpg" style=" height:150px;width:100%">
+  </div>
+   <div class="col-lg-2">
+    <img src="images/12.jpg" style=" height:150px;width:100%">
+  </div>
+   <div class="col-lg-2">
+    <img src="images/13.jpg" style="height:150px; width:100%">
+  </div>
+   <div class="col-lg-2">
+    <img src="images/book.jpg" style="height:150px; width:100%">
+  </div>
+   <div class="col-lg-2">
+    <img src="images/rails.jpg" style="height:150px;width:100%"> 
   </div>
 </div>
 
-</div><br><br><br><br><br>
+
+</div><hr color="gray">
+
+
 <!--footer-->
 
 <?php include_once "footer.php"; ?>
