@@ -52,9 +52,9 @@
       </ul>
     </div>
         <div class="col-6 col-sm-3"> <h6>Follow Us</h6>
-       <a href="#"><i class="fa fa-facebook-official fa-2x footericon" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-twitter-square fa-2x footericon" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-google-plus-square fa-2x footericon" aria-hidden="true"></i></a>
+       <a href="http://facebook.com/"><i class="fa fa-facebook-official fa-2x footericon" aria-hidden="true"></i></a>
+        <a href="http://twitter.com/"><i class="fa fa-twitter-square fa-2x footericon" aria-hidden="true"></i></a>
+        <a href="#/"><i class="fa fa-google-plus-square fa-2x footericon" aria-hidden="true"></i></a>
     </div>
   </div>
 

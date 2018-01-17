@@ -155,7 +155,7 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
         <div class="col-md-2"><img src="images/sumaiya/11.jpg" style="height: 140px;width: 200px;"></div>
         <div class="col-md-2"><img src="images/sumaiya/4.jpg" style="height: 140px;width: 200px;"></div>
       </div>
-       <div style="float: right;padding-right: 10px;"><button class="btn btn-sm" role="button">view more</button></div>
+       <a href="imagegrids.php" > <div style="float: right;padding-right: 10px; margin-top: 10px;"><button class="btn btn-sm" role="button" style="background-color: gray">view more</button></div>
 
     </div>
    

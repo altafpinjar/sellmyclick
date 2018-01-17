@@ -25,7 +25,12 @@
 
 /* body*/
 body {    
-    background-color: #d3d3d3;
+background-color:#fff;
+}
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color:#fff;
+    }
 }
 
 /* end body*/
@@ -33,6 +38,7 @@ body {
 {
   background-color:#191919; 
   font-size: 13px;
+
 }
 
 .footer .row{
@@ -76,7 +82,7 @@ body {
 
 .container {
   position: relative;
-  width: 50%;
+  width: 70%;
 }
 
 
