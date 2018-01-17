@@ -22,7 +22,7 @@
           <div class="jumbotron descimg">
       <h6 class="text-center">Uploaded By: Maktum Husen</h6>
   
-        <form class="jumnodesc">
+        <form class="jumbodesc">
     <div class="radio">
       <label><input type="radio" name="optradio">size:1920 x 1280</label>
     </div>
@@ -33,9 +33,12 @@
       <label><input type="radio" name="optradio">size:640 x 426</label>
     </div>
   </form>
-<center><button type="button" class="btn btn-outline-success">Download</button><br><br>
+<center><button type="button" class="btn btn-outline-success">Download</button>
+  <br><br>
     <button type="button" class="btn btn-outline-success" ><i class="fa fa-heart" aria-hidden="true" ></i></button>
-     <button type="button" class="btn btn-outline-success"><i class="fa fa-share-alt-square" aria-hidden="true"></i></button></center>
+     <button type="button" class="btn btn-outline-success"><i class="fa fa-share-alt-square" aria-hidden="true"></i></button>
+    </center>
+
   </div>
     </div>
     <div class="col-lg-9 imgdec">
