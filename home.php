@@ -12,7 +12,11 @@
 
     <style>
 
-
+/******star ratings*******/
+.checked {
+    color: orange;
+}
+/*************/
 
       .carousel-fade .carousel-item {
   display: block;
@@ -67,7 +71,7 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
 .popcat img
 {
  height: 200px;
- width: 300px;
+ width: 310px;
 }
 
 
@@ -89,59 +93,62 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
   overflow: hidden;
   top: 0;
   left: 0;
+  background-color: rgba(75,75,75,0.7);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover .overlay {
+  background-color: rgba(48, 152, 157, 0.4);
 }
 
 .hovereffect img {
   display: block;
   position: relative;
-  -webkit-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
-}
-
-.hovereffect:hover img {
-  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
-  filter: grayscale(1) blur(3px);
-  -webkit-filter: grayscale(1) blur(3px);
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
 }
 
 .hovereffect h2 {
   text-transform: uppercase;
+  color: #fff;
   text-align: center;
   position: relative;
   font-size: 17px;
   padding: 10px;
   background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateY(155px);
+  -ms-transform: translateY(155px);
+  transform: translateY(155px);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
 }
 
 .hovereffect a.info {
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
   border: 1px solid #fff;
-  margin: 50px 0 0 0;
   background-color: transparent;
-}
-
-.hovereffect a.info:hover {
-  box-shadow: 0 0 5px #fff;
-}
-
-.hovereffect a.info, .hovereffect h2 {
-  -webkit-transform: scale(0.7);
-  -ms-transform: scale(0.7);
-  transform: scale(0.7);
-  -webkit-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
   opacity: 0;
   filter: alpha(opacity=0);
-  color: #fff;
-  text-transform: uppercase;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-weight: normal;
+  margin: -32px 0 0 0;
+  padding: 72px 100px;
 }
 
-.hovereffect:hover a.info, .hovereffect:hover h2 {
+.hovereffect:hover a.info {
   opacity: 1;
   filter: alpha(opacity=100);
   -webkit-transform: scale(1);
@@ -149,6 +156,9 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
   transform: scale(1);
 }
 
+.hovereffect a.info:hover {
+  box-shadow: 0 0 1px #fff;
+}
 
 
 
@@ -369,23 +379,40 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
 
 
 <div id="section4" class="container-fluid" style="padding-top:10px;padding-bottom:10px">
-<center><h3>Our Team</h3></center><br>
+<center><h3>Our Contributors</h3></center><br>
 <div class="row">
   <div class="col-md-3"><center><img src="images/sumaiya/6.jpg" class="rounded-circle" width="150" height="120"><h5>Lorem Ipsum </h5>
-    <span class="text-muted">Photographer</span></center></div>
+   <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    </center></div>
   <div class="col-md-3"><center><img src="images/sumaiya/6.jpg" class="rounded-circle" width="150" height="120"><h5>Lorem Ipsum </h5>
-   <span class="text-muted">Photographer</span></center></div>
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></center></div>
   <div class="col-md-3"><center><img src="images/sumaiya/6.jpg" class="rounded-circle" width="150" height="120"><h5>Lorem Ipsum</h5>
-   <span class="text-muted">Photographer</span></center></div>
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></center></div>
   <div class="col-md-3"><center><img src="images/sumaiya/6.jpg" class="rounded-circle" width="150" height="120"><h5>Lorem Ipsum </h5>
-   <span class="text-muted">Photographer</span></center></div>
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></center></div>
 </div>
 </div><br>
 
     
 
 
-  <!--footer-->
+  <!--footer--> 
   <?php include_once "footer.php"; ?>
   <!-- end of footer-->    
   <?php include_once "script.php"; ?>
