@@ -5,11 +5,10 @@
 
  
  <link rel="stylesheet" type="text/css" href="css/maktum.css">
-<<<<<<< HEAD
+
  <link rel="stylesheet" type="text/css" href="css/asgar.css">
-=======
+
  <link rel="stylesheet" type="text/css" href="css/manju.css">
->>>>>>> a8e8f8691831a0cfb6b352932413b62e29120078
 
 
 <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
