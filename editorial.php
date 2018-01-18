@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hello, world!</title>
+    <title>editorial</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,49 +10,11 @@
     <!--styles css--> 
 	<link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
-	.c {
-  position: relative;
-  width:auto;
-}
-
-.im{
-  display: block;
-  width: 100%;
-  height: 250px;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 100%;	
-  right: 0;
-  background-color: none;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .7s ease;
-}
-
-.c:hover .overlay {
-  width: 100%;
-  
-  left: 0;
-}
-
-.t {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  white-space: nowrap;
-}
+	
 </style>
 	
   </head>
-  <body style="background-color: #d3d3d3;">
+  <body>
   <!--navbar-->
   <?php include_once "header.php"; ?>
   <!--end of navbar-->
@@ -60,42 +22,32 @@
 <!-- Mobile bar ends here -->
   <br><br>
   <div class="container-fluid m-0 p-0 ">
-  
-     <div style=" height: 400px;position: relative; " class="bg-primary" >
-	<img src = "images/edit-p-r.jpg" style="height:400px;position:absolute;" class="img-fluid w-100">
-	<div style=" height: 400px;position: relative; -ms-transform: rotate(20deg); /* IE 9 */
-    opacity:0.3;" class="bg-primary" >
+                                          
+										      <!--cover-->
+     <div  class="stse-cover" >
+	   <img src = "images/edit-cover-2.jpeg"  class="img-fluid w-100 stse-img">
+	         <div class="bg-dark stse-ov"></div>
 	
+	<span class="text-center text-white stse-ov-text">
+      <h1>Create better photos with us</h1>
 
-	
-</div>
-	
-	
-	
-
-  <span  style="margin: 0;position: absolute;top: 50%;left: 50%;-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);opacity:none;z-index:2;" class="text-center text-white">
-<h1>Create better photos with us</h1>
-
-One of the most trusted names in online photo editing & retouching services since 2007. No headaches. No hassle.
-<br><br> <a class="btn btn-lg bg-danger"> Get Started &nbsp<i class="fa fa-arrow-right" aria-hidden="true"></i></a></span> 
-
-
-
- </div><br>
+            One of the most trusted names in online photo editing & retouching services since 2007. No headaches. No hassle.
+                 <br><br> <a class="btn btn-lg bg-danger"> Get Started &nbsp<i class="fa fa-arrow-right" aria-hidden="true"></i></a></span> 
+</div><br>
  
                                                 <!--photo retouching-->
- <div class="container-fluid ">
+ <div class="container-fluid">
  <center><h1> Photo Retouching Services</h1></center>
  <div class="row" >
- 
- <div class="col-md" style="height:10px;"></div>
- 
+            <!--left col-->
+ <div class="col-md" ></div>
+           <!--middle col-->
  <div class="col-md-4">
  
   <div class="c" >
-  <img src="images/edit-p-r.jpg" alt="Avatar" class="im img-fluid">
+  <img src="images/edit-before-1.jpeg" alt="before" class="im img-fluid">
   <div class="overlay">
-    <img src="images/edit-p-r.jpg" alt="Avatar" class="t im">
+    <img src="images/edit-after-1.jpeg" alt="after" class="t im">
 	</div>
 </div>
  
@@ -115,6 +67,7 @@ It can be very upsetting when this
 happens, especially when you thought
 that the photographs were going to look
 SO wonderful.</div>
+
  <div class="col-md"></div>
  
  </div>
@@ -125,7 +78,7 @@ SO wonderful.</div>
  <br>
  <div class="row">
    <div class = "col-md-2"></div>
-   <div class = "col-md-4 pl-5">
+   <div class = "col-md-4 pl-4">
    <h4>Our retouching services include:</h4>
     <ul>
 <li>Spots, blemishes, wrinkles, eye bags, and braces removal.</li>
@@ -137,14 +90,14 @@ SO wonderful.</div>
 </ul>
 </div>
 
-<div class = "col-md-4 pl-5">
+<div class = "col-md-4">
 <h4>Why choose SourceUS?</h4>
 <ul>
 <li>We have the retouching expertise needed to make images look their best.</li>
 <li>Quick turnaround time and your privacy guaranteed.</li>
 <li>Premium quality at a fair price.</li>
 </ul> <br><br>
-<a class= "btn bg-primary btn-sm btn-block text-white rounded " style="margin-left:-12px;"> Try Now</a>
+<a class= "btn bg-primary btn-sm btn-block text-white rounded " > Try Now</a>
 </div>
 
  <div class = "col-md-2"></div>
@@ -155,11 +108,11 @@ SO wonderful.</div>
  
                                                   <!--photo editing services-->
 												  
-<div class="container-fluid ">
+<div class="container-fluid">
  <center><h1> Photo Editing Services for Photographers</h1></center>
  <div class="row" >
  
- <div class="col-md" style="height:10px;"></div>
+ <div class="col-md"></div>
  
  
  
@@ -183,9 +136,9 @@ Average turnaround times.</div>
 <div class="col-md-4">
  
   <div class="c" >
-  <img src="images/edit-p-r-1.jpeg" alt="Avatar" class="im img-fluid">
+  <img src="images/edit-before-2.jpeg" alt="before" class="im img-fluid">
   <div class="overlay">
-    <img src="images/edit-p-r-1.jpeg" alt="Avatar" class="t im">
+    <img src="images/edit-after-2.jpeg" alt="After" class="t im">
 	</div>
 </div>
  
@@ -203,17 +156,17 @@ Average turnaround times.</div>
    <div class = "col-md-2"></div>
    
 
-<div class = "col-md-4 pl-5">
+<div class = "col-md-4 ">
 <h4>Why choose SourceUS?</h4>
 <ul>
 <li>We have the retouching expertise needed to make images look their best.</li>
 <li>Quick turnaround time and your privacy guaranteed.</li>
 <li>Premium quality at a fair price.</li>
 </ul><br>
-<a class= "btn bg-primary btn-sm btn-block text-white rounded " style="margin-left:-12px;"> Try Now</a>
+<a class= "btn bg-primary btn-sm btn-block text-white rounded" > Try Now</a>
 </div>
 
-<div class = "col-md-4 pl-5">
+<div class = "col-md-4 ">
    <h4>Our retouching services include:</h4>
     <ul>
 <li>Spots, blemishes, wrinkles, eye bags, and braces removal.</li>
