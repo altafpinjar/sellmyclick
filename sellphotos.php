@@ -154,33 +154,33 @@ We want to see the world through your eyes.</p>
     </div>
 <div class="col-md p-0 m-0 ">
 
-<<<<<<< HEAD
+
 
     <div class="card" style="width:100%; border:none;">
    <center> <img src="images/interface.png" width="70" height="70"></center>
     <div class="card-body">
      <center> <h4 class="card-title">Simple Interface</h4></center>
        <center><p style="font-size:16px;">Easily manage your products within the Shopify admin. Upload your own images or use our free stock photos, add new products etc.</p>
-=======
+
     <div class="card" style="width:100%; border:none; ">
    <center> <i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></center>
     <div class="card-body">
      <center> <h4 class="card-title">footage</h4></center>
        <center><p style="font-size:16px;">Our customers are increasingly requesting both HD and 4k video content, including location-based, driving shots, green screen and more.</p>
->>>>>>> a8e8f8691831a0cfb6b352932413b62e29120078
+
       </center>
     </div>
   </div>
 
   </div>
   <div class="col-md p-0 m-0 ">
-<<<<<<< HEAD
+
     <div class="card" style="width:100%;border:none;"">
    <center><img src="images/repair_service-512.png" width="70" height="70"></center>
-=======
+
     <div class="card" style="width:100%;border:none;">
    <center> <i class="fa fa-camera-retro fa-3x sab-linechart" aria-hidden="true"></i></center>
->>>>>>> a8e8f8691831a0cfb6b352932413b62e29120078
+
     <div class="card-body">
      <center> <h4 class="card-title">business tools</h4></center>  
       <center><p style="font-size:16px;">Keep track of the status on all orders. Analyze your order history to build better customer relations and target your marketing campaign.</p>
@@ -192,11 +192,11 @@ We want to see the world through your eyes.</p>
   
   <div class="col-md p-0 m-0  ">
     <div class="card" style="width:100%;border:none; ">
-<<<<<<< HEAD
+
    <center><img src="images/support.png" width="70" height="70"></center>
-=======
+
    <center> <i class="fa fa-line-chart fa-3x" aria-hidden="true" ></i></center>
->>>>>>> a8e8f8691831a0cfb6b352932413b62e29120078
+
     <div class="card-body">
      <center> <h4 class="card-title">Support</h4></center>
        <center><p style="font-size:16px;">We're here to help, 24 hours a day, 7 days a week. You can email or call our dedicated support team if you have any issues.</p>
@@ -232,7 +232,7 @@ We want to see the world through your eyes.</p>
 
 
   <!--footer-->
-  <?php include_once "footer.php"; ?>
+   <?php include_once "footer.php"; ?>
   <!-- end of footer-->    
   <?php include_once "script.php"; ?>
   </body>
