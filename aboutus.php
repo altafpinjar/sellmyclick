@@ -22,7 +22,7 @@
   <!--end of navbar-->
     <div class="manz-head">
     <center><span class="manz-spn"><b>ABOUT US</b></span></center>
-
+         
 </div><br><br>
 
 
