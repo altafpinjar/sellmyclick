@@ -9,7 +9,7 @@
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
   </head>
-  <body style="background-color: #d3d3d3;">
+  <body>
   <!--navbar-->
   <?php include_once "header.php"; ?>
   <!--end of navbar-->
@@ -93,10 +93,10 @@ margin-top:8%;
     </div>
 
 
-<a class="btn btn-danger btn-lg  text-white btn-block" style="  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);cursor: pointer;margin-top:35px;   " >Login</a>
+<a href="home.php" class="btn btn-danger btn-lg  text-white btn-block" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);cursor: pointer;margin-top:35px;" >Login</a>
 <center><a href="#"><p style="margin-top:15px;color: #249CC9 ">forgot your password?</p></a></center>
 
-<center><a href="http://localhost/NewDesign_DCentMASS/Sellform.php#"><p style="margin-top:15px;color: #249CC9 ">Create an account</p></a></center>
+<center><a href="Sellform.php"><p style="margin-top:15px;color: #249CC9 ">Create an account</p></a></center>
 
 
   </form>

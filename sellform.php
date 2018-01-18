@@ -57,22 +57,7 @@ margin-top:22px;
   line-height:5px; 
 }
  
-
-
-
-
-
-
-
-
-
 </style>
-
-
-
-
-
-
 
 <div class="container-fluid">
   
@@ -81,7 +66,7 @@ margin-top:22px;
     </div>
     <div class="col-md-4" id="sab-sell-signup">
 
-      <h3>Join the community and start selling in seconds</h3>
+      <h3>Join the community and start selling.</h3>
 
       <form>
           
@@ -108,8 +93,8 @@ margin-top:22px;
    <p> Passwords must be at least 8 characters long.</p>
 
  <p><input type="checkbox" >&nbsp;I certify that I am 18 or older and I agree to the terms and</p>
- <button type="button" class="btn btn-danger btn-block " style="cursor:pointer; ">Next</button>
- <p>already have an account <a href="http://localhost/NewDesign_DCentMASS/loginpage.php#" style="color:#249CC9">sign in</a></p>
+ <button type="button" class="btn btn-danger btn-block " style="cursor:pointer; ">Submit</button>
+ <p>already have an account <a href="loginpage.php" style="color:#249CC9">sign in</a></p>
  
   </form>
 

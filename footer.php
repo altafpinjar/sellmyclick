@@ -6,13 +6,13 @@
     <div class="col-6 col-sm-3">
       <ul><h6>Company</h6>
         <li>
-          <a href="#"> About Us</a>
+          <a href="aboutus.php"> About Us</a>
         </li>
         <li>
           <a href="#"> Partners</a>
         </li>
         <li>
-         <a href="#"> Our Team </a>
+         <a href="ourteam.php"> Our Team </a>
         </li>
         <li>
          <a href="#"> FAQs </a>
@@ -30,35 +30,33 @@
         <li>
           <a href="#"> Press</a>
         </li>
-        <li>
-         <a href="#"> Our Team </a>
-        </li>        
+           
       </ul>
     </div>
     <div class="col-6 col-sm-3">
 <ul> <h6>Services</h6>
         <li>
-          <a href="#">Edit</a>
+          <a href="editorial.php">Edit</a>
         </li>
         <li>
-          <a href="#">Sell</a>
+          <a href="sellphotos.php">Sell</a>
         </li>
         <li>
-         <a href="#">Buy</a>
+         <a href="buyernew.php">Buy</a>
         </li>  
            <li>
-         <a href="#">Upload</a>
+         <a href="Upload.php">Upload</a>
         </li>      
       </ul>
     </div>
         <div class="col-6 col-sm-3"> <h6>Follow Us</h6>
-       <a href="#"><i class="fa fa-facebook-official fa-2x footericon" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-twitter-square fa-2x footericon" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-google-plus-square fa-2x footericon" aria-hidden="true"></i></a>
+       <a href="http://facebook.com/"><i class="fa fa-facebook-official fa-2x footericon" aria-hidden="true"></i></a>
+        <a href="http://twitter.com/"><i class="fa fa-twitter-square fa-2x footericon" aria-hidden="true"></i></a>
+        <a href="#/"><i class="fa fa-google-plus-square fa-2x footericon" aria-hidden="true"></i></a>
     </div>
   </div>
 
 </div>
-<hr color="#1ABC9C;">
+<hr color="White">
 <center><p style="padding-bottom: 15px;"><font color="White">&copy;All rights Reserved by : <a href="http://sourceuscorporation.com/"><b>SUCO TECHNOLOGIES.</b></a></font></p></center>
 </footer>
