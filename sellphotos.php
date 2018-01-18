@@ -9,7 +9,7 @@
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
   </head>
-  <body style="background-color: #d3d3d3;">
+  <body style="background-color: #fff;">
   <!--navbar-->
   <?php include_once "header.php"; ?>
   <!--end of navbar-->
@@ -90,9 +90,9 @@ We want to see the world through your eyes.</p>
     </div>
 <div class="col-md-8 ">
   
-   <h3>Sell images online and make money with your photos.</h3>
+   <center><h3>Sell images online and make money with your photos.</h3></center>
 
-          <h5>Spread your creativity all over the world...</h5>
+         <center> <h5>Spread your creativity all over the world...</h5></center>
    <center><img src="images/globe_PNG9.png" width="250px" height="100px;" class="img-fluid" ></center> 
 
           <p class="text-justify  ">When you upload your images or videos to Fotolia you are showcasing your work to millions of buyers around the world, 24/7. Thanks to Fotolia’s reseller network, your creations are promoted by hundreds of partners, giving even more visibility to your portfolio (whether directly or through print-on-demand activities).</p>
@@ -107,22 +107,15 @@ We want to see the world through your eyes.</p>
 </div>
 </div>
 
-
-
-
-
-
-
-
-
-<center><h3>Content comes in all shapes and sizes. Here's what we're looking for:</h3></center>
-<div class="container-fluid" style="margin-top:30px; ">
+<!-- <div class="container-fluid">
   <div class="row">
     <div class="col-md-2">
     </div>
-<div class="col-md p-0 m-0 ">
-
-    <div class="card" style="width:100%; border:none; background-color: #D3D3D3; ">
+    <div class="col-md-8">
+      <h2>All the features you want, none of the hassle:</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width:100%; border:none; background-color: #D3D3D3; ">
    <center> <i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></center>
     <div class="card-body">
      <center> <h4 class="card-title">footage</h4></center>
@@ -130,14 +123,76 @@ We want to see the world through your eyes.</p>
       </center>
     </div>
   </div>
+  </div>
+
+        <div class="col-md-4">
+          <div class="card" style="width:100%; border:none; background-color: #D3D3D3; ">
+   <center> <i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></center>
+    <div class="card-body">
+     <center> <h4 class="card-title">footage</h4></center>
+       <center><p style="font-size:16  px;">Our customers are increasingly requesting both HD and 4k video content, including location-based, driving shots, green screen and more.</p>
+      </center>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="col-md-4">
+          <div class="card" style="width:100%; border:none; background-color: #D3D3D3; ">
+   <center> <i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></center>
+    <div class="card-body">
+     <center> <h4 class="card-title">footage</h4></center>
+       <center><p style="font-size:16  px;">Our customers are increasingly requesting both HD and 4k video content, including location-based, driving shots, green screen and more.</p>
+      </center>
+    </div>
+  </div>  
+
+
+
+    </div>
+    <div class="col-md-2">
+    </div>
+  </div>
+</div>   -->
+
+
+
+<div class="text-center p-4"> <h1 class=" text-black">Sell Your Image</h1>
+<h3 class="text-black">Just click on bellow Sign in button to sell your image</h3><br>
+    <a class="btn btn-lg  bg-danger text-white  ">Sign In</a>
+  </div>
+
+
+
+
+
+<div class="container-fluid" style="margin-top:30px; ">
+
+  <div class="row">
+
+    <div class="col-md-2">
+    </div>
+<div class="col-md p-0 m-0 ">
+
+
+    <div class="card" style="width:100%; border:none;">
+   <center> <img src="images/interface.png" width="70" height="70"></center>
+    <div class="card-body">
+     <center> <h4 class="card-title">Simple Interface</h4></center>
+       <center><p style="font-size:16px;">Easily manage your products within the Shopify admin. Upload your own images or use our free stock photos, add new products etc.</p>
+      </center>
+    </div>
+  </div>
 
   </div>
   <div class="col-md p-0 m-0 ">
-    <div class="card" style="width:100%;border:none;  background-color: #D3D3D3;">
-   <center> <i class="fa fa-camera-retro fa-3x sab-linechart" aria-hidden="true"></i></center>
+    <div class="card" style="width:100%;border:none;"">
+   <center><img src="images/repair_service-512.png" width="70" height="70"></center>
     <div class="card-body">
-     <center> <h4 class="card-title">Images</h4></center>  
-      <center><p style="font-size:16  px;">Our customers are increasingly requesting both HD and 4k video content, including location-based, driving shots, green screen and more.</p>
+     <center> <h4 class="card-title">business tools</h4></center>  
+      <center><p style="font-size:16px;">Keep track of the status on all orders. Analyze your order history to build better customer relations and target your marketing campaign.</p>
       </center>
     </div>
   </div>
@@ -145,11 +200,11 @@ We want to see the world through your eyes.</p>
   </div>
   
   <div class="col-md p-0 m-0  ">
-    <div class="card" style="width:100%;border:none; background-color: #D3D3D3; ">
-   <center> <i class="fa fa-line-chart fa-3x" aria-hidden="true" ></i></center>
+    <div class="card" style="width:100%;border:none; ">
+   <center><img src="images/support.png" width="70" height="70"></center>
     <div class="card-body">
-     <center> <h4 class="card-title">Vectors</h4></center>
-       <center><p style="font-size:16  px;">Our customers are increasingly requesting both HD and 4k video content, including location-based, driving shots, green screen and more.</p>
+     <center> <h4 class="card-title">Support</h4></center>
+       <center><p style="font-size:16px;">We're here to help, 24 hours a day, 7 days a week. You can email or call our dedicated support team if you have any issues.</p>
       </center>
     </div>
   </div>
@@ -162,6 +217,16 @@ We want to see the world through your eyes.</p>
     </div>
 </div>
 </div>
+
+
+
+
+
+
+
+
+
+
 <div class="text-center bg-info p-4"> <h2 class="display-4 text-white">Ready?</h2>
   Signing up is fast. Contributing is fun. And turning your creativity into cash, well, it just makes sense..<br><br>
     <a class="btn btn-lg  bg-danger text-white  ">Create an account</a>
