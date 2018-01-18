@@ -9,11 +9,11 @@
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
   </head>
-<<<<<<< HEAD
-  <body style="background-color: #fff;">
-=======
+
   <body>
->>>>>>> c5bc124bc0803795419852bcd1044a36d9978fc8
+
+  <body>
+
   <!--navbar-->
   <?php include_once "header.php"; ?>
   <!--end of navbar-->
@@ -67,9 +67,7 @@ We want to see the world through your eyes.</p>
     </div>
 <div class="col-md-10 ">
 
-   <center><h3>Sell images online and make money with your photos.</h3></center>
-
-         <center> <h5>Spread your creativity all over the world...</h5></center>
+   
    <h3 class="text-center">Sell images online and make money with your photos.</h3>
 
           <h5 class="text-center">Spread your creativity all over the world...</h5>
@@ -152,7 +150,7 @@ We want to see the world through your eyes.</p>
 
   <div class="row">
 
-    <div class="col-md-2">
+    <div class="col-md-1">
     </div>
 <div class="col-md p-0 m-0 ">
 
@@ -193,7 +191,7 @@ We want to see the world through your eyes.</p>
   
   
 
-   <div class="col-md-2">
+   <div class="col-md-1">
     </div>
 </div>
 </div>
