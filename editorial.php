@@ -29,19 +29,19 @@
 	         <div class="bg-dark stse-ov"></div>
 	
 	<span class="text-center text-white stse-ov-text">
-      <h1>Create better photos with us</h1>
+      <h1>Photo Retouching Services</h1>
 
             One of the most trusted names in online photo editing & retouching services since 2007. No headaches. No hassle.
                  <br><br> <a class="btn btn-lg bg-danger"> Get Started &nbsp<i class="fa fa-arrow-right" aria-hidden="true"></i></a></span> 
 </div><br>
  
-                                                <!--photo retouching-->
+                                                <!--photo retouching
  <div class="container-fluid">
  <center><h1> Photo Retouching Services</h1></center>
  <div class="row" >
-            <!--left col-->
+            <!--left col
  <div class="col-md" ></div>
-           <!--middle col-->
+           <!--middle col--> <!--
  <div class="col-md-4">
  
   <div class="c" >
@@ -66,7 +66,51 @@ your loved ones justice.
 It can be very upsetting when this
 happens, especially when you thought
 that the photographs were going to look
-SO wonderful.</div>
+</div>
+
+
+</div>
+
+ <div class="col-md"></div>
+ 
+ </div>
+ </div>-->
+
+ <div class="container-fluid">
+ <center><h1> Photo Editing Services for Photographers</h1></center>
+ <div class="row" >
+ 
+ <div class="col-md"></div>
+ 
+ <div class="col-md-4">
+ 
+  <div class="c" >
+  <img src="images/edit-before-1.jpeg" alt="before" class="im img-fluid">
+  <div class="overlay">
+    <img src="images/edit-after-1.jpeg" alt="After" class="t im">
+	</div>
+</div>
+ 
+ </div>
+
+ 
+ 
+ <div class="col-md-4 text-justify">SourcesUS provides professional photo
+editing services to photographers and
+photography studios around the globe.
+How can we help your photography
+business?
+With 7 years of experience in photo
+retouching, we guarantee premium
+quality of finished photos, quick delivery
+and reasonable prices.
+Our photo retouching rates start at €7 per
+photo.
+There are no minimum order
+requirements for our photo editing
+services.
+Average turnaround times.</div>
+
 
  <div class="col-md"></div>
  
@@ -162,7 +206,7 @@ Average turnaround times.</div>
 <li>We have the retouching expertise needed to make images look their best.</li>
 <li>Quick turnaround time and your privacy guaranteed.</li>
 <li>Premium quality at a fair price.</li>
-</ul><br>
+</ul><br><br>
 <a class= "btn bg-primary btn-sm btn-block text-white rounded" > Try Now</a>
 </div>
 
@@ -183,7 +227,7 @@ Average turnaround times.</div>
  <div class = "col-md-2"></div>
  </div>												  
  
-
+</div>
 
   <!--footer-->
   <?php include_once "footer.php"; ?>

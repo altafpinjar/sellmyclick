@@ -5,11 +5,17 @@
 
  
  <link rel="stylesheet" type="text/css" href="css/maktum.css">
+ <link rel="stylesheet" type="text/css" href="css/manju.css">
 
 
 <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+
                        
-					       <!-- sateesh css -->
+
 						   
-<link rel="stylesheet" type="text/css" href="css/sateesh.css">						   
+    <link rel="stylesheet" type="text/css" href="css/sateesh.css">						   
 						   
+
+<link href="https://fonts.googleapis.com/css?family=Saira+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+
