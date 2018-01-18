@@ -94,18 +94,18 @@ We want to see the world through your eyes.</p>
     </div>
 <div class="col-md p-0 m-0 ">
 
-    <div class="card" style="width:100%; border:none; background-color: #D3D3D3; ">
+    <div class="card" style="width:100%; border:none; ">
    <center> <i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></center>
     <div class="card-body">
      <center> <h4 class="card-title">footage</h4></center>
-       <center><p style="font-size:16  px;">Our customers are increasingly requesting both HD and 4k video content, including location-based, driving shots, green screen and more.</p>
+       <center><p style="font-size:16px;">Our customers are increasingly requesting both HD and 4k video content, including location-based, driving shots, green screen and more.</p>
       </center>
     </div>
   </div>
 
   </div>
   <div class="col-md p-0 m-0 ">
-    <div class="card" style="width:100%;border:none;  background-color: #D3D3D3;">
+    <div class="card" style="width:100%;border:none;">
    <center> <i class="fa fa-camera-retro fa-3x sab-linechart" aria-hidden="true"></i></center>
     <div class="card-body">
      <center> <h4 class="card-title">Images</h4></center>  
@@ -117,7 +117,7 @@ We want to see the world through your eyes.</p>
   </div>
   
   <div class="col-md p-0 m-0  ">
-    <div class="card" style="width:100%;border:none; background-color: #D3D3D3; ">
+    <div class="card" style="width:100%;border:none; ">
    <center> <i class="fa fa-line-chart fa-3x" aria-hidden="true" ></i></center>
     <div class="card-body">
      <center> <h4 class="card-title">Vectors</h4></center>

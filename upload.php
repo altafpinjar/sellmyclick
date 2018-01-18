@@ -9,7 +9,7 @@
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
   </head>
-  <body style="background-color: #d3d3d3;">
+  <body>
   <!--navbar-->
   <?php include_once "header.php"; ?>
   <!--end of navbar-->
@@ -21,12 +21,7 @@
     background-image:url('images/pexels-photo-368893.jpeg');
  background-size:cover;
 
-  
-     
-
- 
-
-  }
+   }
 
 }
 
@@ -41,23 +36,16 @@
   color:#333; 
 }
 </style>
-
-
-
 </head>
 
-
-
-
-
-<body>
-    
+<body> 
 
 
 
 <!-- WRITE MAIN CONTENT HERE -->
 
-
+<br>
+<br>
  
 <section id="showcase" class="py-5">
   <div class="primary-overlay text-white ">
