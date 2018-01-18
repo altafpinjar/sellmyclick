@@ -200,3 +200,52 @@
 .materialbutton{
   text-align: center;
 }
+
+
+
+
+
+
+/*<about us css styles>*/
+
+.manju img:hover {
+  opacity:.4;
+  cursor:pointer;
+  overflow:hidden;
+  transition-duration:1s;
+  transform:scale(1.1);
+   } 
+
+ .manz-hdr{
+  color:#161719;
+  margin-left:10px;
+ }     
+
+.manz-img{
+  border-radius:50%;
+  width:150px;
+}
+.manz-pgf{
+color:#161719;
+margin-top:40px;
+}
+
+.manz-head{
+  background-image:url(../images/manju/k3.jpeg);
+  height:300px;
+  padding-top:130px;
+}
+
+.manz-spn{
+  font-size:50px;
+  color:#ffffff;
+}
+
+.manz-bdy{
+  background-color: #d3d3d3;
+}
+
+.manz-jumbotron{
+  background-color:#e5e6e8;
+  box-shadow:0px 0px 1px 0px;
+}

@@ -14,8 +14,8 @@
   <?php include_once "header.php"; ?>
   <!--end of navbar-->
     
-<div style="background-image:url('images/manju/k3.jpeg');height:300px;padding-top:110px;">
-    <center><span style="font-size:50px;color:#ffffff"><b>Meet our Team</b></span></center>
+<div style="background-image:url('images/manju/COVER.jpg');height:300px;padding-top:110px;">
+    <center><span style="font-size:50px;"><b>Meet our Team</b></span></center>
 
 </div><br><br>
 
