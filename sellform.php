@@ -57,22 +57,7 @@ margin-top:22px;
   line-height:5px; 
 }
  
-
-
-
-
-
-
-
-
-
 </style>
-
-
-
-
-
-
 
 <div class="container-fluid">
   
@@ -81,7 +66,7 @@ margin-top:22px;
     </div>
     <div class="col-md-4" id="sab-sell-signup">
 
-      <h3>Join the community and start selling in seconds</h3>
+      <h3>Join the community and start selling.</h3>
 
       <form>
           

@@ -52,7 +52,7 @@
 </style>
 	
   </head>
-  <body style="background-color: #d3d3d3;">
+  <body>
   <!--navbar-->
   <?php include_once "header.php"; ?>
   <!--end of navbar-->

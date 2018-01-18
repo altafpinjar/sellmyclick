@@ -42,7 +42,7 @@
       <h1 class="display-5 mt-5 pt-5 " style="text-shadow: 1px 1px 1px #222;">
             Earn Money Doing What You Love..
       </h1>
-      <p class="lead" style="text-shadow: 1px 1px 1px #222;">SMC is a global marketplace for artists and creators to sell royalty-free images.
+      <p class="lead" style="text-shadow: 1px 1px 1px #222;">SMC is a global marketplace for artists and creators to sell royalty-free images.<br>
 
 We want to see the world through your eyes.</p>
 

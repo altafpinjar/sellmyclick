@@ -19,6 +19,7 @@
 <br>
 <br>
 <br>
+
 <div class="row gridimg"> 
   <div class="column">
     <a href="image2desc.php"><img src="images/2.jpg" ></a>

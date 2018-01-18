@@ -12,7 +12,7 @@
           <a href="#"> Partners</a>
         </li>
         <li>
-         <a href="aboutus.php"> Our Team </a>
+         <a href="ourteam.php"> Our Team </a>
         </li>
         <li>
          <a href="#"> FAQs </a>
@@ -30,9 +30,7 @@
         <li>
           <a href="#"> Press</a>
         </li>
-        <li>
-         <a href="aboutus.php"> Our Team </a>
-        </li>        
+           
       </ul>
     </div>
     <div class="col-6 col-sm-3">
@@ -47,7 +45,7 @@
          <a href="buyernew.php">Buy</a>
         </li>  
            <li>
-         <a href="#">Upload</a>
+         <a href="Upload.php">Upload</a>
         </li>      
       </ul>
     </div>
@@ -59,6 +57,6 @@
   </div>
 
 </div>
-<hr color="#1ABC9C;">
+<hr color="White">
 <center><p style="padding-bottom: 15px;"><font color="White">&copy;All rights Reserved by : <a href="http://sourceuscorporation.com/"><b>SUCO TECHNOLOGIES.</b></a></font></p></center>
 </footer>

@@ -5,9 +5,7 @@
   top: 0;
   width: 100%;
 }
-.navbar a{
-  font-size: 13px;
-}
+
 
 .nav-menu
 {
@@ -99,8 +97,8 @@ background-color:#fff;
   width:800px; height: 400px;
 }
 
-.jumnodesc{
-  padding-left: 30%;
+.jumbodesc{
+  padding-left: 26%;
 }
 
 .descimg{
@@ -114,3 +112,4 @@ background-color:#fff;
 h1,h2,h3,h4,h5,h6,a,p {
   font-family: 'Saira Condensed', sans-serif;
 }*/
+

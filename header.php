@@ -51,7 +51,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-dark" style="z-index: 40;">
-  <a href="home.php" class="navbar-brand text-white" href="#"><h6>Sell My Click</h6></a>
+  <a href="home.php" class="navbar-brand text-white" href="#">Sell My Click</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -64,8 +64,9 @@
           Category
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Recent Photos</a>
+          <a class="dropdown-item" href="#">Most Liked </a>
+          <a class="dropdown-item" href="#">Top Rated</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
@@ -85,7 +86,7 @@
               <a class="nav-link " href="editorial.php">Editorial </a>
             </li>
             <li class="nav-item" >
-              <a class="nav-link" href="#"><i class="fa fa-upload" aria-hidden="true"></i>&nbsp;Upload</a>
+              <a class="nav-link" href="Upload.php"><i class="fa fa-upload" aria-hidden="true"></i>&nbsp;Upload</a>
             </li>
             <li class="nav-item" >
 
