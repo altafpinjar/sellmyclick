@@ -10,3 +10,4 @@
 
 <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Saira+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
