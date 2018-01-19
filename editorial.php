@@ -32,7 +32,7 @@
       <h1>Photo Retouching Services</h1>
 
             One of the most trusted names in online photo editing & retouching services since 2007. No headaches. No hassle.
-                 <br><br> <a class="btn btn-lg bg-danger"> Get Started &nbsp<i class="fa fa-arrow-right" aria-hidden="true"></i></a></span> 
+                 <br><br> <a href="loginpage.php" class="btn btn-lg bg-danger text-white">Get Started &nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a></span> 
 </div><br>
  
                                                 <!--photo retouching
@@ -206,7 +206,7 @@ Average turnaround times.</div>
 <li>We have the retouching expertise needed to make images look their best.</li>
 <li>Quick turnaround time and your privacy guaranteed.</li>
 <li>Premium quality at a fair price.</li>
-</ul><br><br>
+</ul><br>
 <a class= "btn bg-primary btn-sm btn-block text-white rounded" > Try Now</a>
 </div>
 

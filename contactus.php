@@ -73,18 +73,15 @@
                 <div class="col-10 multi-horizontal" data-for="message">
                             <label class="form-control-label">Message</label>
                             <textarea id="ad-forms" type="text" class="form-control " name="message" rows="7" data-form-field="Message"></textarea>
-                        </div>
+                        
                         <div class="container" style="padding-top: 10px;">
-                        <span  class="input-group-btn" style="float: left;">
-                            <button id="ad-forms" href="#" type="submit" class="btn btn-primary btn-form display-4">SEND FORM</button>
-                        </span>
+                        
+                            <button id="ad-forms" href="#" type="submit" class="btn btn-success btn-form display-4" >SEND FORM</button>                  
 
                            
         </div>
+        </div>
        </form>
-
-
-
 
 
   </div>
