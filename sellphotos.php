@@ -22,15 +22,7 @@
 
     background-image:url('images/pexels-photo-218863.jpeg');
  background-size:cover;
-  
-     
-
- 
-
   }
-
-
-
 }
 @media only screen and (min-width: 768px) {
    .#showcase {
@@ -40,24 +32,9 @@
 }
 
 </style>
-
-
-
 </head>
-
-
-
-
-
 <body>
-    
-
-
-
-<!-- WRITE MAIN CONTENT HERE -->
-
-
- 
+<!-- WRITE MAIN CONTENT HERE --> 
 <section id="showcase" class="py-4">
   <div class="primary-overlay text-white ">
    <div class="container">
@@ -69,16 +46,11 @@
       <p class="lead" style="text-shadow: 1px 1px 1px #222;">SMC is a global marketplace for artists and creators to sell royalty-free images, footage, vectors and illustrations.
 
 We want to see the world through your eyes.</p>
-
-
       <a href="http://localhost/NewDesign_DCentMASS/Sellform.php#" class="btn btn-danger btn-lg  text-white " style="border:1px solid #fff; cursor:pointer; ">Signup now</a>
       <p style="margin-top:10px;">already a user?<a href="http://localhost/NewDesign_DCentMASS/loginpage.php#" style="color:#ddd;font-size:20px; ">&nbsp;<u>Sign in</u></a></p>
 
      </div>
-    
-
    </div>
-
   </div>
 </div>
 
@@ -98,9 +70,7 @@ We want to see the world through your eyes.</p>
           <p class="text-justify  ">When you upload your images or videos to Fotolia you are showcasing your work to millions of buyers around the world, 24/7. Thanks to Fotolia’s reseller network, your creations are promoted by hundreds of partners, giving even more visibility to your portfolio (whether directly or through print-on-demand activities).</p>
            <p class="text-justify">Thanks to huge daily sales volumes and royalties of up to 63% of the sales price, Fotolia has in a few years become the European leader in the Microstock industry. There are no registration or portfolio management fees and you could potentially earn thousands of dollars every month. <br>
             </p>
-
   </div>
-  
 
    <div class="col-md-2">
     </div>
@@ -217,22 +187,10 @@ We want to see the world through your eyes.</p>
     </div>
 </div>
 </div>
-
-
-
-
-
-
-
-
 <div class="text-center bg-info p-4"> <h2 class="display-4 text-white">Ready?</h2>
   Signing up is fast. Contributing is fun. And turning your creativity into cash, well, it just makes sense..<br><br>
     <a class="btn btn-lg  bg-danger text-white  ">Create an account</a>
   </div>
-
-
-
-
 
   <!--footer-->
   <?php include_once "footer.php"; ?>
