@@ -12,11 +12,8 @@
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
   </head>
-<<<<<<< HEAD
   <body class="manz-bdy">
-=======
-  <body>
->>>>>>> c5bc124bc0803795419852bcd1044a36d9978fc8
+
   <!--navbar-->
   <?php include_once "header.php"; ?>
   <!--end of navbar-->
@@ -24,7 +21,6 @@
     <center><span class="manz-spn"><b>ABOUT US</b></span></center>
          
 </div><br><br>
-
 
 
 <div class="container-fluid">

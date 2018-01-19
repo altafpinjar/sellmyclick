@@ -115,14 +115,18 @@
 
 </center>
 
-<div class="jumbotron" style="height:250px; ">
 
-    
- <img src="images/pexels-photo-297648.jpeg" width="350px;" height="250px" ">
+
+ 
+
+<div class="jumbotron">
+
+  <div class="container-fluid">
+
+     <img src="images/pexels-photo-297648.jpeg">
+  </div>
 
 </div>
-
-
 
 
   <!--footer-->

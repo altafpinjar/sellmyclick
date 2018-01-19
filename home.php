@@ -71,7 +71,7 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
 .popcat img
 {
  height: 200px;
- width: 310px;
+ width: 330px;
 }
 
 
