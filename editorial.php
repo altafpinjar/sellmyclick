@@ -8,11 +8,11 @@
       <!--styles css-->  
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
-	<link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<style>
-	
+  <link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  
 </style>
-	
+  
   </head>
   <body>
   <!--navbar-->
@@ -23,16 +23,16 @@
   <br><br>
   <div class="container-fluid m-0 p-0 ">
                                           
-										      <!--cover-->
+                          <!--cover-->
      <div  class="stse-cover" >
-	   <img src = "images/edit-cover-2.jpeg"  class="img-fluid w-100 stse-img">
-	         <div class="bg-dark stse-ov"></div>
-	
-	<span class="text-center text-white stse-ov-text">
+     <img src = "images/edit-cover-2.jpeg"  class="img-fluid w-100 stse-img">
+           <div class="bg-dark stse-ov"></div>
+  
+  <span class="text-center text-white stse-ov-text">
       <h1>Photo Retouching Services</h1>
 
             One of the most trusted names in online photo editing & retouching services since 2007. No headaches. No hassle.
-                 <br><br> <a href="loginpage.php" class="btn btn-lg bg-danger text-white">Get Started &nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a></span> 
+                 <br><br> <a href="loginpage.php" class="btn btn-lg bg-danger text-white">Get Started  <i class="fa fa-arrow-right" aria-hidden="true"></i></a></span> 
 </div><br>
  
                                                 <!--photo retouching
@@ -48,7 +48,7 @@
   <img src="images/edit-before-1.jpeg" alt="before" class="im img-fluid">
   <div class="overlay">
     <img src="images/edit-after-1.jpeg" alt="after" class="t im">
-	</div>
+  </div>
 </div>
  
  </div>
@@ -88,7 +88,7 @@ that the photographs were going to look
   <img src="images/edit-before-1.jpeg" alt="before" class="im img-fluid">
   <div class="overlay">
     <img src="images/edit-after-1.jpeg" alt="After" class="t im">
-	</div>
+  </div>
 </div>
  
  </div>
@@ -151,7 +151,7 @@ Average turnaround times.</div>
  
  
                                                   <!--photo editing services-->
-												  
+                          
 <div class="container-fluid">
  <center><h1> Photo Editing Services for Photographers</h1></center>
  <div class="row" >
@@ -183,7 +183,7 @@ Average turnaround times.</div>
   <img src="images/edit-before-2.jpeg" alt="before" class="im img-fluid">
   <div class="overlay">
     <img src="images/edit-after-2.jpeg" alt="After" class="t im">
-	</div>
+  </div>
 </div>
  
  </div>
@@ -225,7 +225,7 @@ Average turnaround times.</div>
 </div>
 
  <div class = "col-md-2"></div>
- </div>												  
+ </div>                         
  
 </div>
 
