@@ -8,15 +8,7 @@
       <!--styles css-->  
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
-  </head>
-  <body style="background-color: #fff;">
-  <!--navbar-->
-  <?php include_once "header.php"; ?>
-  <!--end of navbar-->
-    
-
-
-<style>
+    <style>
 
     #showcase {
 
@@ -32,8 +24,12 @@
 }
 
 </style>
-</head>
-<body>
+  </head>
+  <body>
+  <!--navbar-->
+  <?php include_once "header.php"; ?>
+  <!--end of navbar-->
+    
 <!-- WRITE MAIN CONTENT HERE --> 
 <section id="showcase" class="py-4">
   <div class="primary-overlay text-white ">
@@ -77,66 +73,11 @@ We want to see the world through your eyes.</p>
 </div>
 </div>
 
-<!-- <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-2">
-    </div>
-    <div class="col-md-8">
-      <h2>All the features you want, none of the hassle:</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card" style="width:100%; border:none; background-color: #D3D3D3; ">
-   <center> <i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></center>
-    <div class="card-body">
-     <center> <h4 class="card-title">footage</h4></center>
-       <center><p style="font-size:16  px;">Our customers are increasingly requesting both HD and 4k video content, including location-based, driving shots, green screen and more.</p>
-      </center>
-    </div>
-  </div>
-  </div>
-
-        <div class="col-md-4">
-          <div class="card" style="width:100%; border:none; background-color: #D3D3D3; ">
-   <center> <i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></center>
-    <div class="card-body">
-     <center> <h4 class="card-title">footage</h4></center>
-       <center><p style="font-size:16  px;">Our customers are increasingly requesting both HD and 4k video content, including location-based, driving shots, green screen and more.</p>
-      </center>
-    </div>
-  </div>
-</div>
-
-
-
-
-<div class="col-md-4">
-          <div class="card" style="width:100%; border:none; background-color: #D3D3D3; ">
-   <center> <i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></center>
-    <div class="card-body">
-     <center> <h4 class="card-title">footage</h4></center>
-       <center><p style="font-size:16  px;">Our customers are increasingly requesting both HD and 4k video content, including location-based, driving shots, green screen and more.</p>
-      </center>
-    </div>
-  </div>  
-
-
-
-    </div>
-    <div class="col-md-2">
-    </div>
-  </div>
-</div>   -->
-
-
 
 <div class="text-center  p-4"> <h1 class=" text-black">Sell Your Image</h1>
 <h3 class="text-black">Just click on bellow Sign in button to sell your image</h3><br>
     <a class="btn btn-lg  bg-danger text-white  ">Sign In</a>
   </div>
-
-
-
-
 
 <div class="container-fluid" style="margin-top:30px; ">
 
@@ -180,7 +121,6 @@ We want to see the world through your eyes.</p>
   </div>
 
   </div>
-  
   
 
    <div class="col-md-2">
