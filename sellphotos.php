@@ -34,11 +34,11 @@
       <h1 class="display-5 mt-5 pt-5 " style="text-shadow: 1px 1px 1px #222;">
             Earn Money Doing What You Love..
       </h1>
-      <p class="lead" style="text-shadow: 1px 1px 1px #222;">SMC is a global marketplace for artists and creators to sell royalty-free images, footage, vectors and illustrations.
+      <p class="lead" style="text-shadow: 1px 1px 1px #222;">SMC is a global marketplace for artists and creators to sell royalty-free images.<br>
 
 We want to see the world through your eyes.</p>
-      <a href="http://localhost/NewDesign_DCentMASS/Sellform.php#" class="btn btn-danger btn-lg  text-white " style="border:1px solid #fff; cursor:pointer; ">Signup now</a>
-      <p style="margin-top:10px;">already a user?<a href="http://localhost/NewDesign_DCentMASS/loginpage.php#" style="color:#ddd;font-size:20px; ">&nbsp;<u>Sign in</u></a></p>
+      <a href="sellform.php" class="btn btn-danger btn-lg  text-white " style="border:1px solid #fff; cursor:pointer; ">Signup now</a>
+      <p style="margin-top:10px;">already a user?<a href="loginpage.php" style="color:#ddd;font-size:20px; ">&nbsp;<u>Sign in</u></a></p>
 
      </div>
    </div>

@@ -183,29 +183,30 @@
 
 
 
-<div id="section4" class="container-fluid section_1">
+<div id="section4" class="container section_1" style="padding-top:10px;padding-bottom:10px">
 <center><h3>Our Contributors</h3></center><br>
-<div class="row contributers">
-  <div class="col-md-3"><center><img src="images/sumaiya/6.jpg" class="rounded-circle" width="150" height="120"><h5>Lorem Ipsum </h5>
+<div class="row">
+  <div class="col-md-3"><center><img src="images/sumaiya/APJ-Abdul-Kalam.jpg" class="rounded-circle" width="150" height="160"><h5>Lorem Ipsum </h5>
+
    <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     <span class="fa fa-star checked"></span>
     </center></div>
-  <div class="col-md-3"><center><img src="images/sumaiya/6.jpg" class="rounded-circle" width="150" height="120"><h5>Lorem Ipsum </h5>
+  <div class="col-md-3"><center><img src="images/sumaiya/APJ-Abdul-Kalam.jpg" class="rounded-circle" width="150" height="160"><h5>Lorem Ipsum </h5>
    <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span></center></div>
-  <div class="col-md-3"><center><img src="images/sumaiya/6.jpg" class="rounded-circle" width="150" height="120"><h5>Lorem Ipsum</h5>
+  <div class="col-md-3"><center><img src="images/sumaiya/APJ-Abdul-Kalam.jpg" class="rounded-circle" width="150" height="160"><h5>Lorem Ipsum</h5>
    <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span></center></div>
-  <div class="col-md-3"><center><img src="images/sumaiya/6.jpg" class="rounded-circle" width="150" height="120"><h5>Lorem Ipsum </h5>
+  <div class="col-md-3"><center><img src="images/sumaiya/APJ-Abdul-Kalam.jpg" class="rounded-circle" width="150" height="160"><h5>Lorem Ipsum </h5>
    <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
