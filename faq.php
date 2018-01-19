@@ -41,8 +41,8 @@
           <br>
                <a href="#" > Terms of Service</a><br>
                <a href="#" > Privacy Policy</a><br>
-               <a href="#" > About Us</a><br>
-                <a href="#" > Forum</a>
+               <a href="aboutus.php" > About Us</a><br>
+                <a href="contactus.php">Contact US</a>
             </div>
             
             <div class="col-9">
@@ -71,7 +71,30 @@
              <br>
              <h4>Can I make a donation without PayPal?</h4>
              <p id="ad-ptext">Image authors can only receive donations through PayPal. If you would like to support Sellmy Click, please use any of the following options:</p>
-              <button type="button" class="btn btn-primary">Way to Give</button>
+             
+
+             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Enter your question here</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input type="text" name="question" class="form-control" placeholder="Your Question">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send your Query</button>
+      </div>
+    </div>
+  </div>
+</div>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+ Have a Question?
+</button>
             </ul>
             </div>
           </div>
@@ -84,6 +107,10 @@
 
     </div>
   </div>
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
 
 
   <!--footer-->

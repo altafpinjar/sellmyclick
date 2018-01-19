@@ -15,7 +15,7 @@
          <a href="ourteam.php"> Our Team </a>
         </li>
         <li>
-         <a href="#"> FAQs </a>
+         <a href="faq.php"> FAQs </a>
         </li>
         <li>
           <a href="#"> Contact Us </a>
@@ -25,7 +25,7 @@
     <div class="col-6 col-sm-3">
     <ul> <h6>Community</h6>
         <li>
-          <a href="#">Blogs</a>
+          <a href="blog.php">Blogs</a>
         </li>
         <li>
           <a href="#"> Press</a>

@@ -9,7 +9,7 @@
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
   </head>
-  <body style="background-color: #d3d3d3;">
+  <body>
   <!--navbar-->
   <?php include_once "header.php"; ?>
   <!--end of navbar-->
@@ -75,7 +75,7 @@
                             <textarea id="ad-forms" type="text" class="form-control " name="message" rows="7" data-form-field="Message"></textarea>
                         </div>
                         <div class="container" style="padding-top: 10px;">
-                        <span  class="input-group-btn">
+                        <span  class="input-group-btn" style="float: left;">
                             <button id="ad-forms" href="#" type="submit" class="btn btn-primary btn-form display-4">SEND FORM</button>
                         </span>
 
@@ -98,17 +98,17 @@
               <br>
               <p>phone number</p></b>
               <p>084958 13777</p>
-             <b> <p><b>Fax</b></p></b>
-              <p>1-347-402-0710</p>
+             <b> <p><b>E-Mail</b></p></b>
+              <p>sellmyclick@gmail.com</p>
               <hr>
-              <h5><b>Address: (Headquarters)</b></h5>
+              <h5><b>Address:</b></h5>
               <p>S No.158, Near Ashoka gardan., Dharwad Rd, Haliyal, Karnataka 581329</p>
 <h5>Hours: Open 24 hours</h5>
   <br>
   <hr>
  
     <h6><b>Social Support</b></h6>
-    <br>
+
 
             </div>
           </div>
@@ -117,17 +117,17 @@
       <tr>
         <td>
        <a class="btn btn-social-icon btn-twitter">
-    <span id="ad-iconstyle" class="fa fa-2x fa-twitter">&nbsp<span id="ad-spanicon">@SellmyClick</span></span>
+   <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
   </a></td>
    <td>
        <a class="btn btn-social-icon btn-twitter">
-    <span id="ad-iconstyle1" class="fa fa-2x fa-facebook">&nbsp<span id="ad-spanicon">@Facebook</span></span>
+   <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
   </a></td>
 </tr>
 </table>
 </div>
 <hr>
-<br>
+
 <div class="col-md-12">
   <b>Jobs:</b>
   <br>
