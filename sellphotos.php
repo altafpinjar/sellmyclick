@@ -16,12 +16,7 @@
  background-size:cover;
   }
 }
-@media only screen and (min-width: 768px) {
-   .#showcase {
-      background-image:none;
 
-    }
-}
 
 </style>
   </head>
