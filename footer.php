@@ -9,7 +9,7 @@
           <a href="aboutus.php"> About Us</a>
         </li>
         <li>
-          <a href="#"> Partners</a>
+          <a href="aboutus.php"> Partners</a>
         </li>
         <li>
          <a href="ourteam.php"> Our Team </a>

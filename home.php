@@ -64,20 +64,20 @@
 </div>
     
       <div class="row photos">
-        <div class="col-md-2"><img src="images/sumaiya/1.jpeg"></div>
-        <div class="col-md-2"><img src="images/sumaiya/2.jpg"></div>
-        <div class="col-md-2"><img src="images/sumaiya/3.jpeg"></div>
-        <div class="col-md-2"><img src="images/sumaiya/4.jpg"></div>
-        <div class="col-md-2"><img src="images/sumaiya/5.jpg"></div>
-        <div class="col-md-2"><img src="images/sumaiya/6.jpg"></div>
+        <div class="col-md-2"><img src="images/sumaiya/1.jpeg" style="border-radius: 4px;"></div>
+        <div class="col-md-2"><img src="images/sumaiya/2.jpg" style="border-radius: 4px;">  </div>
+        <div class="col-md-2"><img src="images/sumaiya/3.jpeg" style="border-radius: 4px;"></div>
+        <div class="col-md-2"><img src="images/sumaiya/4.jpg" style="border-radius: 4px;"></div>
+        <div class="col-md-2"><img src="images/sumaiya/5.jpg" style="border-radius: 4px;"></div>
+        <div class="col-md-2"><img src="images/sumaiya/6.jpg" style="border-radius: 4px;"></div>
       </div><br>
       <div class="row photos">
-        <div class="col-md-2"><img src="images/sumaiya/7.jpg"></div>
-        <div class="col-md-2"><img src="images/sumaiya/8.jpg"></div>
-        <div class="col-md-2"><img src="images/sumaiya/9.jpg"></div>
-        <div class="col-md-2"><img src="images/sumaiya/10.jpg"></div>
-        <div class="col-md-2"><img src="images/sumaiya/11.jpg"></div>
-        <div class="col-md-2"><img src="images/sumaiya/4.jpg"></div>
+        <div class="col-md-2"><img src="images/sumaiya/7.jpg" style="border-radius: 4px;"></div>
+        <div class="col-md-2"><img src="images/sumaiya/8.jpg" style="border-radius: 4px;"></div>
+        <div class="col-md-2"><img src="images/sumaiya/9.jpg" style="border-radius: 4px;"></div>
+        <div class="col-md-2"><img src="images/sumaiya/10.jpg" style="border-radius: 4px;"></div>
+        <div class="col-md-2"><img src="images/sumaiya/11.jpg" style="border-radius: 4px;"></div>
+        <div class="col-md-2"><img src="images/sumaiya/4.jpg" style="border-radius: 4px;"></div>
       </div>
        <a href="imagegrids.php" ><button class="btn btn-sm" role="button">view more</button></a>
 

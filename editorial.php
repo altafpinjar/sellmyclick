@@ -57,7 +57,7 @@
  <div class="col-md-4 text-justify">A photograph is the physical capturing
 of a moment – and you can never have
 that moment again. That means that
-sometimes, a photograph will appear
+sometimes, a photograph will appear    
 from a day that is very special to you,
 such as a wedding, or a graduation, that
 you cannot go back and do again . . . and

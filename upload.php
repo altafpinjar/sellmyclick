@@ -22,9 +22,7 @@
  background-size:cover;
 
    }
-
 }
-
 
 @media only screen and (min-width: 768px) {
    .#showcase {
@@ -41,8 +39,6 @@
 
 <body> 
 
-
-
 <!-- WRITE MAIN CONTENT HERE -->
 
 <br>
@@ -56,10 +52,7 @@
       <h1 class="display-5 mt-5 pt-5 py-1" style="text-shadow: 2px 2px 2px #222; ">
             Become a Part of us...
       </h1>
-      <p class="lead"  style="text-shadow: 2px 2px 2px #222; font-size:25px;  ">Upload your photos and get discovered by millions of people.</p>
-
-
-      
+      <p class="lead"  style="text-shadow: 2px 2px 2px #222; font-size:25px;  ">Upload your photos and get discovered by millions of people.</p>      
 
 
      </div>
@@ -77,7 +70,7 @@
       <h1><b>How it Works</b></h1>
       <p style="font-size:20px; ">Do you have amazing pictures that you want to share with the community? Then click on the button to upload them to Pexels. They will be released under the CC0 license. You will help people to get access to beautiful photos that they can use freely.</p>
 
-      <a class="btn text-white " style="background-color: #2275D7">Get Started</a>
+      <a href="#" class="btn btn-lg bg-danger text-white">Get Started </a>
     </div>
   </div>
   </div>
