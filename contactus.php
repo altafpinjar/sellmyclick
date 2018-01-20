@@ -75,10 +75,11 @@
                             <textarea id="ad-forms" type="text" class="form-control " name="message" rows="7" data-form-field="Message"></textarea>
                         
                         <div class="container" style="padding-top: 10px;">
-                        
-                            <button id="ad-forms" href="#" type="submit" class="btn btn-success btn-form display-4" >SEND FORM</button>                  
 
-                           
+                        <span  class="input-group-btn">
+                            <button  id="ad-forms" href="#" type="submit" class="btn btn-primary btn-form display-4">SEND FORM</button>
+                        </span>            
+
         </div>
         </div>
        </form>
