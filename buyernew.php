@@ -16,7 +16,7 @@
     
 <!-- Mobile bar ends here -->
   <br><br>
-  <div class="container-fluid m-0 p-0 ">
+	
   
   <div  class="bg-primary stsb-cover" >
   
@@ -35,10 +35,11 @@ Search over 181 million royalty-free images, video clips, and music tracks. Crea
    <br><br>
    
                                               <!--priceS-->
-   <div class="container w-100 text-center "> 
-<div class="row">                             
+   <div class="container-fluid  text-center "> 
+<div class="row">          
+<div class="col-md-1"></div>                   
                                                <!--on demand-->
-       <div class="col-md-4 mt-5 ">
+       <div class="col-md mt-5 ">
         <div class="bg-dark p-1 text-white p-1"><b>On Demand</b><br> Standard Licence</div>
       <small><b>Standard or enhanced Licence</b> </small>
   
@@ -51,7 +52,7 @@ Search over 181 million royalty-free images, video clips, and music tracks. Crea
        </div>
                                                         
                                              <!--Subscriptions-->
-      <div class="col-md-4">
+      <div class="col-md">
         <div class="bg-info p-1 text-white p-1"><b>Subscriptions</b><br> Standard Licence</div>
     <small><b>Images Per Month</b> </small>
       
@@ -66,7 +67,7 @@ Search over 181 million royalty-free images, video clips, and music tracks. Crea
         <small>Download images within a year of purchase</small>
        </div>
                                                 <!--Team Subscriptions-->
-        <div class="col-md-4 mt-5  ">
+        <div class="col-md mt-5  ">
         <div class="bg-dark p-1 text-white p-1"><b>Team Subscriptions</b><br> Standard Licence</div>
           <small><b>750 Images Per Month</b> for 1 year</small> 
   
@@ -77,6 +78,8 @@ Search over 181 million royalty-free images, video clips, and music tracks. Crea
         <a class  = "btn btn-md bg-danger w-75 m-2 text-white">Buy Now</a><br>
         <small>*Prices vary by number of users</small>
        </div>
+	   
+	   <div class="col-md-1"></div>
 </div>
    
    </div><hr><br><br>
