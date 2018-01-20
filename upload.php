@@ -35,8 +35,8 @@
   <div class="container">
   <div class="row">
     <div class="col-md-12 text-center mt-5">
-      <h1><b>How it Works</b></h1>
-      <p class="sab-howitworks">Do you have amazing pictures that you want to share with the community? Then click on the button to upload them to Pexels. They will be released under the CC0 license. You will help people to get access to beautiful photos that they can use freely.</p>
+      <h1>How it Works</h1>
+      <p class="sab-howitworks">Do you have amazing pictures that you want to share with the community? Then click on the button to upload them . They will be released under the CC0 license. You will help people to get access to beautiful photos that they can use freely.</p><br>
       <a href="#" class="btn btn-lg bg-danger text-white">Get Started </a>
     </div>
   </div>
