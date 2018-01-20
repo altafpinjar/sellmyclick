@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hello, world!</title>
+    <title>Thank You</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,11 +18,11 @@
   <br><br>
 <div class="container-fluid m-0 p-0" >
 
-
+<br>
 <div class="row">
 
 <div class="col-md-2"></div>
-<div class="col-md-8 container card m-4" style="background-image: url(https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);%22); width:100%;height:500px;">
+<div class="col-md-8 container card m-4" style="background-image: url('images/upload.jpeg'); width:100%;height:500px;">
 	
 	
 		<br>

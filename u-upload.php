@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hello, world!</title>
+    <title>Upload image</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,11 +18,11 @@
   <br><br>
 <div class="container-fluid m-0 p-0" >
 <br>
-<h1 class= "text-center">Upload Your Image</h1>
+<h1 class= "text-center">Upload Your Image</h1><br>
 <div class="row">
 
 <div class="col-md-2"></div>
-<div class="col-md-8 container card" style="background-image: url(https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);%22); width:100%;height:auto;">
+<div class="col-md-8 container card" style="background-image: url('images/upload.jpeg'); width:100%;height:auto;">
 	
 	
 		<br>
@@ -55,8 +55,8 @@ Image Catergory<br>
 
         <label class="btn btn-info " for="upload-file-selector">
             <input id="upload-file-selector "   type="file">    </label><br>
-<ul>
-    <li>You can upload photos that are .JPEG, .JPG, or .PNG.</li><li>Max file size 25mb        </li></ul>
+<br>
+    You can upload photos that are .JPEG, .JPG, or .PNG.<br>Max file size 25mb        <br>
 	
 
       <label><input type="checkbox" value="">&nbsp I Agree <a href="#">Terms and Conditions</a></label><br><br>
