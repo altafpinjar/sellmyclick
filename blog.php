@@ -9,18 +9,17 @@
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
   </head>
-  <body style="background-color: #d3d3d3;">
+  <body>
   <!--navbar-->
   <?php include_once "header.php"; ?>
   <!--end of navbar-->
-  
-<br><br>
-
+    <div class="maincontainer-fluid">
+ <div class="container-12">
   <div class="container-fluid m-0 p-0">
   
-<div id="ad-hcolor" class="h">
+<div id="ad-hcolor" class="h w-0 m-0">
   <div id="ad-subh" class="container">
-  <h4 id="ad-padig">Sell my Click <span id="ad-span">BLOG</span></h4>
+  <h4 id="ad-padig">BLOG</h4>
   </div>
 </div>
 
@@ -33,16 +32,16 @@
   </section>
   <br>
 </div>
-
+</div>
   
-<div class="container-fluid m-0 p-0 ">
+<div class="container-fluid m-0 p-0">
   <div class= "row">
-    <div class="col-2"></div>
+    <div class="col-3"></div>
     <!-- <div class="col">
       left
     </div> -->
     
-      <div id="ad-textcenter" class="col-md-8  m-4 ">
+      <div id="ad-textcenter" class="col-md-6  m-4 ">
 
 
        
@@ -168,11 +167,65 @@
     </h6>
     <p id="ad-textleft">It’s 6pm on a Tuesday when I ring up Pete Johnson – someone I’ve never spoken to before, but someone whose photos moved me. Pete answers immediately, apologizing for the connection – he’s in a yurt in rural Durango, Colorado where the connection is iffy at best. “Yurt life, huh? That must be pretty cool,” I started. “I’m…</p>
       
-      <a id="ad-endbtn"  href="#" class="btn btn--default">Continue Reading →</a>
+      <a id="ad-endbtn"  href="#" class="btn btn--default">Continue Reading → </a>
       <br>
       <br>
       <hr>
       <!--end img blog -->
+
+        <!-- image blog -->
+            
+ 
+        <a href="#"><h3 id="ad-headtext">Stunning Fall Pictures</h3></a>
+    <h6 id="ad-textleft"><span  class="u-text-muted">
+                Written by Sellmyclick ·
+                <time datetime="2017-12-15 16:27">
+                December 15, 2017 </time>
+                 ·
+               <a href="#">0 Comments</a>
+        </span>
+    </h6>
+    <p id="ad-textleft">Below are some stunning pictures of a magical time of the year. These pictures with vivid colors and breathtaking landscapes are our favorite fall pictures on Pexels. To find even more amazing pictures of leaves, forests and other nature sceneries click here: All fall pictures All photos are licensed under the CC0 license. This means…</p>
+      
+      <a id="ad-endbtn"  href="#" class="btn btn--default">Continue Reading → </a>
+      <br>
+      <br>
+      <hr>
+      <!--end img blog -->
+
+         <!-- image blog -->
+            
+ 
+        <a href="#"><h3 id="ad-headtext">The Most Beautiful Winter Pictures</h3></a>
+    <h6 id="ad-textleft"><span  class="u-text-muted">
+                Written by Sellmyclick ·
+                <time datetime="2017-12-15 16:27">
+                December 15, 2017 </time>
+                 ·
+               <a href="#">0 Comments</a>
+        </span>
+    </h6>
+    <p id="ad-textleft">In this post we provide you with a selection of the most stunning winter pictures. Discover snow covered hills, roads and cities and other amazing winter sceneries. As with all pictures on Pexels these winter pictures are free to download and can be used commercially under the CC0 license. Get started browsing by clicking here:…</p>
+      
+      <a id="ad-endbtn"  href="#" class="btn btn--default">Continue Reading → </a>
+      <br>
+      <br>
+                                    <div class="page-nation">
+                                        <ul class="pagination pagination-large">
+                                        <li><a rel="next" href="#">Previous</a></li>
+                              
+                                        <li class="active"><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                      
+                                
+                                        <li><a rel="next" href="#">Next</a></li>
+                
+                                     </ul>
+                                  </div>
+      
+      <!--end img blog -->
+
 
       
 
@@ -180,12 +233,13 @@
      </div> 
     
 
-    <div class="col-2"></div>
+    <div class="col-3"></div>
     <!-- <div class="col">
       right
     </div> -->
   
 
+</div>
 </div>
 </div>
 

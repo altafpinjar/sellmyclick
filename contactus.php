@@ -76,9 +76,9 @@
                         </div>
                         <div class="container" style="padding-top: 10px;">
                         <span  class="input-group-btn">
-                            <button id="ad-forms" href="#" type="submit" class="btn btn-primary btn-form display-4">SEND FORM</button>
+                            <button  id="ad-forms" href="#" type="submit" class="btn btn-primary btn-form display-4">SEND FORM</button>
                         </span>
-
+        
                            
         </div>
        </form>
