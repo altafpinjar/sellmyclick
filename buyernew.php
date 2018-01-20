@@ -88,7 +88,7 @@ Search over 181 million royalty-free images, video clips, and music tracks. Crea
         Whether you're a creative agency, production company, or Fortune 500 enterprise, we have the perfect solution for your needs.<br><br>
     <a class="btn btn-lg  bg-danger">See Business Solutions</a>
   </div>
-   <br><br>
+   
 
 
   <!--footer-->
