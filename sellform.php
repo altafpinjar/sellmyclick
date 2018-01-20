@@ -8,118 +8,59 @@
       <!--styles css-->  
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
-  </head>
-  <body style="background-color: #d3d3d3;">
+ 
+
+
+
+
+ </head>
+
+
+<br><br><br>
+<body class="sab-sell-form-body">
   <!--navbar-->
   <?php include_once "header.php"; ?>
   <!--end of navbar-->
-    
-
-
-
-
-<br><br>
-
-
-<body class="sab-sell-form-body" >
-
-<style>
-  
-.sab-sell-form-body{
-  background-image:url("images/pexels-photo-265152.jpeg"); 
-  background-size:cover;
-
-
-
-}
-@media only screen and (max-width: 900px) {
-   .sab-sell-form-body{
-        background-image: none;
-    }
-
-   
-
-}
-
-#sab-sell-signup{
-background-color:#fff;
-  
-  padding-top:15px; 
-  padding-left:25px;
-  padding-right:25px;  
-border-radius:6px;
-box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);  
-margin-top:22px;
- 
-}
-
-.form-group{
-  line-height:5px; 
-}
- 
-</style>
-
+<!-- START OF CONTAINER -->
 <div class="container-fluid">
-  
-  <div class="row">
+<div class="row">
     <div class="col-md-4">
     </div>
     <div class="col-md-4" id="sab-sell-signup">
-
-      <h3>Join the community and start selling.</h3>
-
-      <form>
-          
-         <div class="form-group">
-      <label for="Name"></label>
-      <input type="text" class="form-control" id="email" placeholder="full-name">
-      <p style="font-size:15px; margin-top:6px;line-height:20px; ">Please provide your legal name</p>
+    <h3>Join the community and start selling.</h3>
+<!-- START OF FORM -->
+     <form>
+        <div class="form-group sab-form-group">
+        <label for="Name"></label>
+        <input type="text" class="form-control" id="email" placeholder="full-name">
+        <p class="sab-para-text">Please provide your legal name</p>
+        </div>
+                <div class="form-group sab-form-group">
+                <label for="displayname"></label>
+                <input type="displayname" class="form-control" id="email" placeholder="Display Name" >
+                <p class="sab-para-text">Choose the name you want customers to see.</p>
+                </div>
+        <div class="form-group sab-form-group">
+        <label for="email"></label>
+        <input type="E-mail" class="form-control" id="email" placeholder="E-mail" >
+        </div>
+                <div class="form-group sab-form-group">
+                <label for="password"></label>
+                <input type="password" class="form-control"  id="password" placeholder="password">
+                </div>
+        <p>Passwords must be at least 8 characters long.</p>
+        <p><input type="checkbox" >&nbsp; I agree to the terms and conditions.</p>
+               <button type="button" class="btn btn-danger btn-block sab-btn">Submit</button>
+        <p>already have an account <a href="loginpage.php"><span class="text-primary">sign in</span></a></p>
+     </form>
     </div>
-    <div class="form-group">
-      <label for="displayname"></label>
-      <input type="displayname" class="form-control" id="email" placeholder="Display Name" >
-      <p style="font-size:15px; margin-top:6px;line-height:20px; ">Choose the name you want customers to see.</p>
-    </div>
-     <div class="form-group">
-      <label for="email"></label>
-      <input type="E-mail" class="form-control" id="email" placeholder="E-mail" >
-  
-    </div>
-             
-             <div class="form-group">
-      <label for="password"></label>
-      <input type="password" class="form-control"  id="password" placeholder="password" name="password"   >
-    </div>
-   <p> Passwords must be at least 8 characters long.</p>
-
- <p><input type="checkbox" >&nbsp;I certify that I am 18 or older and I agree to the terms and</p>
- <button type="button" class="btn btn-danger btn-block " style="cursor:pointer; ">Submit</button>
- <p>already have an account <a href="loginpage.php" style="color:#249CC9">sign in</a></p>
- 
-  </form>
-
-</div>
- <div class="col-md-4">
+    <div class="col-md-4">
     </div>
 
 </div>
-</div>
+</div><!-- END OF CONTAINER -->
   <br>  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!--footer-->
+<!--footer-->
   <?php include_once "footer.php"; ?>
   <!-- end of footer-->    
   <?php include_once "script.php"; ?>
