@@ -128,7 +128,7 @@ We want to see the world through your eyes.</p>
 </div>
 </div><!-- END OF CONTAINER-2 -->
   
-   <div class="text-center mt-4"> <h1 class=" text-black ">Sell Your Image</h1>
+   <div class="text-center mt-4"> <h1 class=" text-black ">Sell Your status</h1>
    <h3 class="text-black">Just click on bellow Sign in button to sell your image</h3><br>
    <a class="btn btn-lg  bg-danger text-white sab-main-text ">Sign In</a>
    </div>
