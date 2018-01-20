@@ -77,7 +77,7 @@ that the photographs were going to look
  </div>-->
 
  <div class="container-fluid">
- <center><h1> Photo Editing Services for Photographers</h1></center>
+ <center><h1> Photo Retouching</h1></center><br>
  <div class="row" >
  
  <div class="col-md"></div>
@@ -152,8 +152,8 @@ Average turnaround times.</div>
  
                                                   <!--photo editing services-->
 												  
-<div class="container-fluid">
- <center><h1> Photo Editing Services for Photographers</h1></center>
+<div class="container-fluid my-4">
+ <center><h1> Photo Editing Services for Photographers</h1></center><br>
  <div class="row" >
  
  <div class="col-md"></div>
