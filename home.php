@@ -11,8 +11,11 @@
     <!--styles css--> 
 
   </head>
+
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
   <!--navbar-->
+
   <?php include_once "header.php";?>
   <!--end of navbar-->
 
@@ -88,7 +91,7 @@
 <div class="row popcat">
   <div class="col-md-3">
       <div class="hovereffect_s">
-    <img src="images/sumaiya/1.jpeg" >
+    <img src="images/sumaiya/edu.jpeg" >
     <div class="overlay_s">
        <h2>Education</h2>
            <a class="info" href="#">VIEW</a>
@@ -99,7 +102,7 @@
 
   <div class="col-md-3">
       <div class="hovereffect_s">
-    <img src="images/sumaiya/3.jpeg">
+    <img src="images/sumaiya/tech.jpeg">
             <div class="overlay_s">
            <h2>Technology</h2>
            <a class="info" href="#">VIEW</a>
@@ -110,7 +113,7 @@
 
   <div class="col-md-3">
       <div class="hovereffect_s">
-    <img src="images/sumaiya/7.jpg" >
+    <img src="images/sumaiya/arch.jpeg" >
             <div class="overlay_s">
            <h2>Architecture</h2>
            <a class="info" href="#">VIEW</a>
@@ -121,7 +124,7 @@
 
   <div class="col-md-3">
     <div class="hovereffect_s">
-    <img src="images/sumaiya/5.jpg">
+    <img src="images/sumaiya/nature.jpeg">
         <div class="overlay_s">
            <h2>NATURE</h2>
            <a class="info" href="#">VIEW</a>
@@ -134,9 +137,9 @@
 <div class="row popcat">
   <div class="col-md-3">
 <div class="hovereffect_s">
-    <img src="images/sumaiya/6.jpg" >
+    <img src="images/sumaiya/interior.jpeg" >
           <div class="overlay_s">
-           <h2>Animals</h2>
+           <h2>Interior</h2>
            <a class="info" href="#">VIEW</a>
         </div>
     </div>
@@ -145,9 +148,9 @@
 
   <div class="col-md-3">
 <div class="hovereffect_s">
-    <img src="images/sumaiya/1.jpeg" >
+    <img src="images/sumaiya/adven.jpeg" >
           <div class="overlay_s">
-           <h2>Science</h2>
+           <h2>Adventure</h2>
            <a class="info" href="#">VIEW</a>
         </div>
     </div>
@@ -156,7 +159,7 @@
 
   <div class="col-md-3">
     <div class="hovereffect_s">
-    <img src="images/sumaiya/2.jpg" >
+    <img src="images/sumaiya/monu.jpeg" >
         <div class="overlay_s">
            <h2>Monuments</h2>
            <a class="info" href="#">VIEW</a>
@@ -167,9 +170,9 @@
 
   <div class="col-md-3">
     <div class="hovereffect_s">
-    <img src="images/sumaiya/4.jpg" >
+    <img src="images/sumaiya/cam.jpeg" >
         <div class="overlay_s">
-           <h2>Streets</h2>
+           <h2>Photography</h2>
            <a class="info" href="#">VIEW</a>
         </div>
     </div>
