@@ -9,23 +9,23 @@
           <a href="aboutus.php"> About Us</a>
         </li>
         <li>
-          <a href="#"> Partners</a>
+          <a href="aboutus.php"> Partners</a>
         </li>
         <li>
          <a href="ourteam.php"> Our Team </a>
         </li>
         <li>
-         <a href="#"> FAQs </a>
+         <a href="faq.php"> FAQs </a>
         </li>
         <li>
-          <a href="#"> Contact Us </a>
+          <a href="contactus.php"> Contact Us </a>
         </li>
       </ul>
     </div>
     <div class="col-6 col-sm-3">
     <ul> <h6>Community</h6>
         <li>
-          <a href="#">Blogs</a>
+          <a href="blog.php">Blogs</a>
         </li>
         <li>
           <a href="#"> Press</a>

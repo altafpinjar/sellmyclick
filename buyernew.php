@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hello, world!</title>
+    <title>buyer</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,9 +18,13 @@
   <br><br>
   <div class="container-fluid m-0 p-0 ">
   
-  <div style=" height: 400px;position: relative;" class="bg-primary" >
+  <div  class="bg-primary stsb-cover" >
   
-  <h4  style="margin: 0;position: absolute;top: 50%;left: 50%;-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);" class="text-center text-white">
+   <img src = "images/buyer-3.jpg"  class="img-fluid w-100 stse-img">
+	         <div class="bg-dark stse-ov"></div>
+	
+  
+  <h4  class="text-center text-white stsb-ov-text">
 Search over 181 million royalty-free images, video clips, and music tracks. Create and share unlimited Collections.
 <br><br> <a class="btn btn-lg bg-danger"> Subscribe Now</a></h4>
 
@@ -81,7 +85,7 @@ Search over 181 million royalty-free images, video clips, and music tracks. Crea
         Whether you're a creative agency, production company, or Fortune 500 enterprise, we have the perfect solution for your needs.<br><br>
     <a class="btn btn-lg  bg-danger">See Business Solutions</a>
   </div>
-   <br><br>
+   
 
 
   <!--footer-->
