@@ -56,14 +56,14 @@
   }
   #ad-span
   {
-    font-size: 15PX;
+    
     font-weight: bold;
   }
 #ad-subh2
 {
     position:relative;
      padding: 10px; 
-    font-size: 15px;
+   
      font-weight:bold;
 }
 #ad-button
@@ -72,7 +72,7 @@
     border-color: #217dbb;
      display: inline-block;
     border: 1px solid #eee;
-    font-size: 16px; 
+    
     padding: 10px 15px;
     font-weight: 700;"
 }
@@ -87,7 +87,7 @@
 #ad-headtext
 {
     color: #333;
-     font-size: 24px;
+    
      text-align: left;
      padding-top: 20px;
 }
@@ -98,11 +98,11 @@
 #ad-endbtn
 {
     float: left; 
-    color: #666; border: 1px solid #eee;
-    font-size: 16px;    
+     border: 2px solid ;
+      
     padding: 10px 15px;
     font-weight: 700;
-    color: white;
+  
 }
 #imgwidth
 {
@@ -148,18 +148,18 @@
   #ad-iconstyle
   {
     background-color: #55ACEE;
-    border-radius: 10px;
-    width: 112%;
-    padding:3px;
+   
+    
+ 
   }
   #ad-spanicon
   {
-    font-size: 20px;
+   
   }
   #ad-iconstyle1
   {
     background-color: #3B5998;
-    border-radius: 10px;
-    width: 112%;
-    padding:3px;
+   
+    
+   
   }

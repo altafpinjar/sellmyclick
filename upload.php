@@ -9,10 +9,38 @@
     <!--styles css--> 
     
 
+
+
+<style>
+
+  #showcase {
+
+    background-image:url('images/pexels-photo-368893.jpeg');
+ background-size:cover;
+
+   }
+}
+
+@media only screen and (min-width: 768px) {
+   .#showcase {
+      background-image:none;
+
+    }
+}
+.sab-ghs{
+  color:#333; 
+}
+
+</style>
+
 </head>
 
 
 
+
+
+
+<!-- WRITE MAIN CONTENT HERE -->
 
 
 <!-- WRITE MAIN CONTENT HERE -->
@@ -31,8 +59,15 @@
       <h1 class="display-5 mt-5 pt-5 py-1 sab-h1">
             Become a Part of us...
       </h1>
+
       <p class="sab-top-text">Upload your photos and get discovered by millions of people.</p>
 </div>
+
+      <p class="lead"  style="text-shadow: 2px 2px 2px #222; font-size:25px;  ">Upload your photos and get discovered by millions of people.</p>      
+
+
+     </div>
+
     
 
    </div>
@@ -47,7 +82,11 @@
       <h1><b>How it Works</b></h1>
       <p class="sab-howitworks">Do you have amazing pictures that you want to share with the community? Then click on the button to upload them to Pexels. They will be released under the CC0 license. You will help people to get access to beautiful photos that they can use freely.</p>
 
+
       <a class="btn text-white btn-danger">Get Started</a>
+
+      <a href="#" class="btn btn-lg bg-danger text-white">Get Started </a>
+
     </div>
   </div>
   </div>

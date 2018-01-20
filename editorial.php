@@ -8,11 +8,11 @@
       <!--styles css-->  
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
-	<link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<style>
-	
+  <link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  
 </style>
-	
+  
   </head>
   <body>
   <!--navbar-->
@@ -23,16 +23,16 @@
   <br><br>
   <div class="container-fluid m-0 p-0 ">
                                           
-										      <!--cover-->
+                          <!--cover-->
      <div  class="stse-cover" >
-	   <img src = "images/edit-cover-2.jpeg"  class="img-fluid w-100 stse-img">
-	         <div class="bg-dark stse-ov"></div>
-	
-	<span class="text-center text-white stse-ov-text">
+     <img src = "images/edit-cover-2.jpeg"  class="img-fluid w-100 stse-img">
+           <div class="bg-dark stse-ov"></div>
+  
+  <span class="text-center text-white stse-ov-text">
       <h1>Photo Retouching Services</h1>
 
             One of the most trusted names in online photo editing & retouching services since 2007. No headaches. No hassle.
-                 <br><br> <a class="btn btn-lg bg-danger"> Get Started &nbsp<i class="fa fa-arrow-right" aria-hidden="true"></i></a></span> 
+                 <br><br> <a href="loginpage.php" class="btn btn-lg bg-danger text-white">Get Started  <i class="fa fa-arrow-right" aria-hidden="true"></i></a></span> 
 </div><br>
  
                                                 <!--photo retouching
@@ -48,7 +48,7 @@
   <img src="images/edit-before-1.jpeg" alt="before" class="im img-fluid">
   <div class="overlay">
     <img src="images/edit-after-1.jpeg" alt="after" class="t im">
-	</div>
+  </div>
 </div>
  
  </div>
@@ -57,7 +57,7 @@
  <div class="col-md-4 text-justify">A photograph is the physical capturing
 of a moment – and you can never have
 that moment again. That means that
-sometimes, a photograph will appear
+sometimes, a photograph will appear    
 from a day that is very special to you,
 such as a wedding, or a graduation, that
 you cannot go back and do again . . . and
@@ -88,7 +88,7 @@ that the photographs were going to look
   <img src="images/edit-before-1.jpeg" alt="before" class="im img-fluid">
   <div class="overlay">
     <img src="images/edit-after-1.jpeg" alt="After" class="t im">
-	</div>
+  </div>
 </div>
  
  </div>
@@ -151,7 +151,7 @@ Average turnaround times.</div>
  
  
                                                   <!--photo editing services-->
-												  
+                          
 <div class="container-fluid">
  <center><h1> Photo Editing Services for Photographers</h1></center>
  <div class="row" >
@@ -183,7 +183,7 @@ Average turnaround times.</div>
   <img src="images/edit-before-2.jpeg" alt="before" class="im img-fluid">
   <div class="overlay">
     <img src="images/edit-after-2.jpeg" alt="After" class="t im">
-	</div>
+  </div>
 </div>
  
  </div>
@@ -206,7 +206,7 @@ Average turnaround times.</div>
 <li>We have the retouching expertise needed to make images look their best.</li>
 <li>Quick turnaround time and your privacy guaranteed.</li>
 <li>Premium quality at a fair price.</li>
-</ul><br><br>
+</ul><br>
 <a class= "btn bg-primary btn-sm btn-block text-white rounded" > Try Now</a>
 </div>
 
@@ -225,7 +225,7 @@ Average turnaround times.</div>
 </div>
 
  <div class = "col-md-2"></div>
- </div>												  
+ </div>                         
  
 </div>
 

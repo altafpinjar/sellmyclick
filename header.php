@@ -64,9 +64,14 @@
           Category
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Recent Photos</a>
-          <a class="dropdown-item" href="#">Most Liked </a>
-          <a class="dropdown-item" href="#">Top Rated</a>
+          <a class="dropdown-item" href="#">Education</a>
+          <a class="dropdown-item" href="#">Science</a>
+          <a class="dropdown-item" href="#">Menuments</a>
+          <a class="dropdown-item" href="#">Technologies</a>
+          <a class="dropdown-item" href="#">Architecture</a>
+          <a class="dropdown-item" href="#">Nature</a>
+          <a class="dropdown-item" href="#">Animals</a>
+          <a class="dropdown-item" href="#">Streets</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
