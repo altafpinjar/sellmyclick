@@ -6,43 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
     <?php include_once "styles.php"; ?>
-    <!--styles css--> 
+   
     
-
-
-
-<style>
-
-  #showcase {
-
-    background-image:url('images/pexels-photo-368893.jpeg');
- background-size:cover;
-
-   }
-}
-
-@media only screen and (min-width: 768px) {
-   .#showcase {
-      background-image:none;
-
-    }
-}
-.sab-ghs{
-  color:#333; 
-}
-
-</style>
-
-</head>
-
-
-
-
-
-
-<!-- WRITE MAIN CONTENT HERE -->
-
-
 <!-- WRITE MAIN CONTENT HERE -->
   <body>
   <!--navbar-->
@@ -50,7 +15,7 @@
   <!--end of navbar-->
 <br>
 <br>
-
+<!-- START OF SECTION -->
 <section id="showcase" class="py-5">
   <div class="primary-overlay text-white ">
    <div class="container">
@@ -62,40 +27,22 @@
 
       <p class="sab-top-text">Upload your photos and get discovered by millions of people.</p>
 </div>
-
-      <p class="lead"  style="text-shadow: 2px 2px 2px #222; font-size:25px;  ">Upload your photos and get discovered by millions of people.</p>      
-
-
-     </div>
-
-    
-
+ </div>
    </div>
-
   </div>
-</div>
-
-</section>
-<div class="container">
+</section><!-- END OF SECTION -->
+<!-- START OF CONTAINER -->
+  <div class="container">
   <div class="row">
     <div class="col-md-12 text-center mt-5">
       <h1><b>How it Works</b></h1>
       <p class="sab-howitworks">Do you have amazing pictures that you want to share with the community? Then click on the button to upload them to Pexels. They will be released under the CC0 license. You will help people to get access to beautiful photos that they can use freely.</p>
-
-
-      <a class="btn text-white btn-danger">Get Started</a>
-
       <a href="#" class="btn btn-lg bg-danger text-white">Get Started </a>
-
     </div>
   </div>
-  </div>
+  </div><!-- END OF CONTAINER -->
 
-
-
-
-
-
+<!-- START OF CONTAINER FLUID -->
  <center><div class="container-fluid mt-5"  >
   
 
@@ -121,7 +68,7 @@
 </div>
 </div>
 
-</div></center>
+</div></center><!-- END OF CONTAINER FLUID -->
 
 
   <!--footer-->
