@@ -42,8 +42,9 @@
 
   #ad-hcolor
   {
-    background-color: black;
+    background-image: url(https://i0.wallpaperscraft.com/image/background_light_stripes_spots_uniform_43981_200x300.jpg);
     min-height: 40px;
+    padding-top: 4%;
   }
   #ad-subh
   {
@@ -102,12 +103,13 @@
       
     padding: 10px 15px;
     font-weight: 700;
-  
+
 }
 #imgwidth
 {
     width:100%;
 }
+
 
 
 
@@ -134,7 +136,7 @@
   #ad-tpaddingtop
   {
     
-    padding-top: 10px;
+    padding-top: 5px;
   }
   #ad-forms
   {
