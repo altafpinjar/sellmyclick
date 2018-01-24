@@ -35,7 +35,34 @@
   </form>
 <center><button type="button" class="btn btn-outline-success">Download</button><br><br>
     <button type="button" class="btn btn-outline-success" ><i class="fa fa-heart" aria-hidden="true" ></i></button>
-     <button type="button" class="btn btn-outline-success"><i class="fa fa-share-alt-square" aria-hidden="true"></i></button></center>
+      
+            
+                    
+            <button href="#" data-toggle="dropdown" class="btn btn-outline-success dropdown-toggle share">
+              <span class="fa fa-share-alt fa-inverse"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                  <a data-original-title="Twitter" rel="tooltip"  href="#" class="btn btn-twitter" data-placement="left">
+                <i class="fa fa-twitter"></i>
+              </a>
+              </li>
+              <li>
+                <a data-original-title="Facebook" rel="tooltip"  href="#" class="btn btn-facebook" data-placement="left">
+                <i class="fa fa-facebook"></i>
+              </a>
+              </li>         
+              <li>
+                <a data-original-title="Google+" rel="tooltip"  href="#" class="btn btn-google" data-placement="left">
+                <i class="fa fa-google-plus"></i>
+              </a>
+              </li>
+               <li>
+                <a  data-original-title="Email" rel="tooltip" class="btn btn-mail" data-placement="left">
+                <i class="fa fa-envelope"></i>
+              </a>
+              </li>
+                    </ul></center>
   </div>
     </div>
     <div class="col-lg-9">

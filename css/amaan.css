@@ -136,39 +136,36 @@ text-shadow: 2px 2px 2px #222;
      border-radius:6px;
      box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.70);  
      margin-top:8%;
+     background-color: #fff;
  }
 #sab-login2 h3{
-     color:#fff;
-     box-shadow:  0 4px 20px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    
      margin-bottom:30px;padding-bottom:4px; 
 }
 .sab-form-group2{
      line-height:5px; 
 }
 .sab-btn2{
-     background-color:transparent;
-     color:black;
+   
+
      font-weight:bold;
-     border:1px solid #fff;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.50);
+
      cursor: pointer;
      margin-top:35px;
 }
 .sab-bottom-text2{
      margin-top:15px;
-     color:#fff;
+  
      font-weight:bold;
      font-size:20px;
-     text-shadow: 1px 10px 30px #000;
+  
 }
 .sab-form-group2 >label{
      color: #fff;
      font-weight:bold;
      height:20px;
 }
-.sab-form-group2 input{
-     background-color:transparent; 
-}
+
 .sab-form-control:hover{
-      border-color: red;
+      border-color: #0109CC;
 }

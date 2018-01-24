@@ -5,7 +5,13 @@
   top: 0;
   width: 100%;
 }
-
+.navbar-light ,.btn-outline-secondary,a:hover{
+background-color: #1ABC9C;
+border-color: green;
+}
+.navbar-light{ 
+border-color: green;
+}
 
 .nav-menu
 {

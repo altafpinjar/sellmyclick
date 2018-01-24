@@ -50,7 +50,7 @@
                 </div>
         <p>Passwords must be at least 8 characters long.</p>
         <p><input type="checkbox" >&nbsp; I agree to the terms and conditions.</p>
-               <button type="button" class="btn btn-danger btn-block sab-btn">Submit</button>
+               <a href="loginpage.php"><button type="button" class="btn btn-danger btn-block sab-btn">Submit</button></a>
         <p>already have an account <a href="loginpage.php"><span class="text-primary">sign in</span></a></p>
      </form>
     </div>

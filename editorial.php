@@ -32,7 +32,7 @@
       <h1>Photo Retouching Services</h1>
 
             One of the most trusted names in online photo editing & retouching services since 2007. No headaches. No hassle.
-                 <br><br> <a class="btn btn-lg bg-danger"> Get Started &nbsp<i class="fa fa-arrow-right" aria-hidden="true"></i></a></span> 
+                 <br><br> <a class="btn btn-lg bg-danger text-white"  href="loginpage2.php"> Get Started &nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a></span> 
 </div><br>
  
                                                 <!--photo retouching
@@ -141,7 +141,7 @@ Average turnaround times.</div>
 <li>Quick turnaround time and your privacy guaranteed.</li>
 <li>Premium quality at a fair price.</li>
 </ul> <br><br>
-<a class= "btn bg-primary btn-sm btn-block text-white rounded " > Try Now</a>
+<a class= "btn bg-primary btn-sm btn-block text-white rounded " href="loginpage2.php"> Try Now</a>
 </div>
 
  <div class = "col-md-2"></div>
@@ -207,7 +207,7 @@ Average turnaround times.</div>
 <li>Quick turnaround time and your privacy guaranteed.</li>
 <li>Premium quality at a fair price.</li>
 </ul><br>
-<a class= "btn bg-primary btn-sm btn-block text-white rounded" > Try Now</a>
+<a class= "btn bg-primary btn-sm btn-block text-white rounded"  href="loginpage2.php"> Try Now</a>
 </div>
 
 <div class = "col-md-4 ">

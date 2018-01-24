@@ -28,9 +28,9 @@
             Earn Money Doing What You Love..
 
     </h1>
-    <p class="lead sab-main-text">SMC is a global marketplace for artists and creators to sell royalty-free images. We want to see the world through your eyes.</p>
-    <a href="Sellform.php#" class="btn btn-danger btn-lg sab-signup-btn sab-main-text">Signup now</a>
-    <p class="sab-already-text">already a user?<a class="sab-sign-in-text" href="loginpage.php#">&nbsp;<u>Sign in</u></a></p>
+    <p class="lead sab-main-text">SMC is a global marketplace for artists and creators to sell royalty-free images.<br> We want to see the world through your eyes.</p>
+    <a href="Sellform.php" class="btn btn-danger btn-lg sab-signup-btn sab-main-text">Signup now</a>
+    <p class="sab-already-text">already a user?<a class="sab-sign-in-text" href="loginpage2.php">&nbsp;<u>Sign in</u></a></p>
     </div>
     </div>
     </div><!-- END OF CONTAINER-1 -->
@@ -59,7 +59,7 @@
 
 <div class="text-center  p-4"> <h1 class=" text-black">Sell Your Image</h1>
 <h3 class="text-black">Just click on bellow Sign in button to sell your image</h3><br>
-    <a class="btn btn-lg  bg-danger text-white  ">Sign In</a>
+    <a class="btn btn-lg  bg-danger text-white"  href="loginpage2.php">Sign In</a>
   </div>
 
 
@@ -110,7 +110,7 @@
 </div><!-- END OF CONTAINER-3 -->
 <div class="text-center bg-info p-4"> <h2 class="display-4 text-white sab-main-text ">Ready?</h2>
  <h4> Signing up is fast. Contributing is fun. And turning your creativity into cash, well, it just makes sense..</h4><br>
-    <a class="btn btn-lg  bg-danger text-white sab-main-text  ">Create an account</a>
+    <a class="btn btn-lg  bg-danger text-white sab-main-text" href="Sellform.php">Create an account</a>
   </div>
  <!--footer--> 
 

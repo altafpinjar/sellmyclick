@@ -36,7 +36,7 @@
          <label for="password">Password :</label>
          <input type="password" class="form-control sab-form-control"  id="password" placeholder="password" name="password" required="" >
      </div>
-     <a href="home.php" class="btn btn-lg btn-primary btn-block sab-btn2">Login</a>
+     <a href="smc.php" class="btn btn-lg btn-primary btn-block sab-btn2">Login</a>
           <center><a href="#"><p class="sab-bottom-text2">Forgotton your password?</p></a></center>
           <center><a href="Sellform.php"><p class="sab-bottom-text2">Create an account</p></a></center>
 

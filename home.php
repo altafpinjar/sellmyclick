@@ -67,20 +67,220 @@
 </div>
     
       <div class="row photos">
-        <div class="col-md-2"><img src="images/sumaiya/1.jpeg" style="border-radius: 4px;"></div>
-        <div class="col-md-2"><img src="images/sumaiya/2.jpg" style="border-radius: 4px;">  </div>
-        <div class="col-md-2"><img src="images/sumaiya/3.jpeg" style="border-radius: 4px;"></div>
-        <div class="col-md-2"><img src="images/sumaiya/4.jpg" style="border-radius: 4px;"></div>
-        <div class="col-md-2"><img src="images/sumaiya/5.jpg" style="border-radius: 4px;"></div>
-        <div class="col-md-2"><img src="images/sumaiya/6.jpg" style="border-radius: 4px;"></div>
+
+        <div class="col-md-2">
+
+    <div class="hovereffect">
+        <img class="img-responsive" src="images/sumaiya/2.jpg" alt="" style="width: 213px;">
+            <div class="overlay">
+               
+                <p class="icon-links">
+                    <a href="#">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="image2desc.php">
+                        <span class="fa fa-download"></span>
+                    </a>
+                </p>
+            </div>
+    </div>
+</div>
+        <div class="col-md-2">
+   <div class="hovereffect">
+        <img class="img-responsive" src="images/sumaiya/2.jpg" alt="" style="width: 213px;">
+            <div class="overlay">
+               
+                <p class="icon-links">
+                    <a href="#">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-usd"></span>
+                    </a>
+                </p>
+            </div>
+    </div>
+         </div>
+        <div class="col-md-2">
+   <div class="hovereffect">
+        <img class="img-responsive" src="images/sumaiya/11.jpg" alt="" style="width: 213px;">
+            <div class="overlay">
+               
+                <p class="icon-links">
+                    <a href="#">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                </p>
+            </div>
+    </div>
+         </div>
+        <div class="col-md-2">   <div class="hovereffect">
+        <img class="img-responsive" src="images/sumaiya/4.jpg" alt="" style="width: 213px;">
+            <div class="overlay">
+               
+                <p class="icon-links">
+                    <a href="#">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                </p>
+            </div>
+    </div></div>
+        <div class="col-md-2">   <div class="hovereffect">
+        <img class="img-responsive" src="images/sumaiya/5.jpg" alt="" style="width: 213px;">
+            <div class="overlay">
+               
+                <p class="icon-links">
+                    <a href="#">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                </p>
+            </div>
+    </div></div>
+        <div class="col-md-2">   <div class="hovereffect">
+        <img class="img-responsive" src="images/sumaiya/6.jpg" alt="" style="width: 213px;">
+            <div class="overlay">
+               
+                <p class="icon-links">
+                    <a href="#">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                </p>
+            </div>
+    </div></div>
       </div><br>
       <div class="row photos">
-        <div class="col-md-2"><img src="images/sumaiya/7.jpg" style="border-radius: 4px;"></div>
-        <div class="col-md-2"><img src="images/sumaiya/8.jpg" style="border-radius: 4px;"></div>
-        <div class="col-md-2"><img src="images/sumaiya/9.jpg" style="border-radius: 4px;"></div>
-        <div class="col-md-2"><img src="images/sumaiya/10.jpg" style="border-radius: 4px;"></div>
-        <div class="col-md-2"><img src="images/sumaiya/11.jpg" style="border-radius: 4px;"></div>
-        <div class="col-md-2"><img src="images/sumaiya/4.jpg" style="border-radius: 4px;"></div>
+        <div class="col-md-2">   <div class="hovereffect">
+        <img class="img-responsive" src="images/sumaiya/7.jpg" alt="" style="width: 213px;">
+            <div class="overlay">
+               
+                <p class="icon-links">
+                    <a href="#">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                </p>
+            </div>
+    </div></div>
+        <div class="col-md-2">   <div class="hovereffect">
+        <img class="img-responsive" src="images/sumaiya/8.jpg" alt="" style="width: 213px;">
+            <div class="overlay">
+               
+                <p class="icon-links">
+                    <a href="#">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                </p>
+            </div>
+    </div></div>
+        <div class="col-md-2">   <div class="hovereffect">
+        <img class="img-responsive" src="images/sumaiya/9.jpg" alt="" style="width: 213px;">
+            <div class="overlay">
+               
+                <p class="icon-links">
+                    <a href="#">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                </p>
+            </div>
+    </div></div>
+        <div class="col-md-2">   <div class="hovereffect">
+        <img class="img-responsive" src="images/sumaiya/10.jpg" alt="" style="width: 213px;">
+            <div class="overlay">
+               
+                <p class="icon-links">
+                    <a href="#">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                </p>
+            </div>
+    </div></div>
+        <div class="col-md-2">   <div class="hovereffect">
+        <img class="img-responsive" src="images/sumaiya/11.jpg" alt="" style="width: 213px;">
+            <div class="overlay">
+               
+                <p class="icon-links">
+                    <a href="#">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                </p>
+            </div>
+    </div></div>
+        <div class="col-md-2">   <div class="hovereffect">
+        <img class="img-responsive" src="images/sumaiya/5.jpg" alt="" style="width: 213px;">
+            <div class="overlay">
+               
+                <p class="icon-links">
+                    <a href="#">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                </p>
+            </div>
+    </div></div>
       </div>
        <a href="imagegrids.php" ><button class="btn btn-sm" role="button">view more</button></a>
 
@@ -91,10 +291,10 @@
 <div class="row popcat">
   <div class="col-md-3">
       <div class="hovereffect_s">
-    <img src="images/sumaiya/edu.jpeg" >
+    <img src="images/sumaiya/Education.png" >
     <div class="overlay_s">
        <h2>Education</h2>
-           <a class="info" href="#">VIEW</a>
+           <a class="info" href="imagegrids.php">VIEW</a>
   </div>
 </div>
 </div>
@@ -102,10 +302,10 @@
 
   <div class="col-md-3">
       <div class="hovereffect_s">
-    <img src="images/sumaiya/tech.jpeg">
+    <img src="images/sumaiya/technology.png">
             <div class="overlay_s">
            <h2>Technology</h2>
-           <a class="info" href="#">VIEW</a>
+           <a class="info" href="imagegrids.php">VIEW</a>
         </div>
     </div>
   </div>
@@ -113,10 +313,10 @@
 
   <div class="col-md-3">
       <div class="hovereffect_s">
-    <img src="images/sumaiya/arch.jpeg" >
+    <img src="images/sumaiya/architecture.png" >
             <div class="overlay_s">
            <h2>Architecture</h2>
-           <a class="info" href="#">VIEW</a>
+           <a class="info" href="imagegrids.php">VIEW</a>
         </div>
     </div>
   </div>
@@ -124,10 +324,10 @@
 
   <div class="col-md-3">
     <div class="hovereffect_s">
-    <img src="images/sumaiya/nature.jpeg">
+    <img src="images/sumaiya/nature.png">
         <div class="overlay_s">
            <h2>NATURE</h2>
-           <a class="info" href="#">VIEW</a>
+           <a class="info" href="imagegrids.php">VIEW</a>
         </div>
     </div>
 </div>
@@ -137,10 +337,10 @@
 <div class="row popcat">
   <div class="col-md-3">
 <div class="hovereffect_s">
-    <img src="images/sumaiya/interior.jpeg" >
+    <img src="images/sumaiya/interior.png" >
           <div class="overlay_s">
            <h2>Interior</h2>
-           <a class="info" href="#">VIEW</a>
+           <a class="info" href="imagegrids.php">VIEW</a>
         </div>
     </div>
   </div>
@@ -148,10 +348,10 @@
 
   <div class="col-md-3">
 <div class="hovereffect_s">
-    <img src="images/sumaiya/adven.jpeg" >
+    <img src="images/sumaiya/adventure.png" >
           <div class="overlay_s">
            <h2>Adventure</h2>
-           <a class="info" href="#">VIEW</a>
+           <a class="info" href="imagegrids.php">VIEW</a>
         </div>
     </div>
   </div>
@@ -159,10 +359,10 @@
 
   <div class="col-md-3">
     <div class="hovereffect_s">
-    <img src="images/sumaiya/monu.jpeg" >
+    <img src="images/sumaiya/monuments.png" >
         <div class="overlay_s">
            <h2>Monuments</h2>
-           <a class="info" href="#">VIEW</a>
+           <a class="info" href="imagegrids.php">VIEW</a>
         </div>
     </div>
   </div>
@@ -170,10 +370,10 @@
 
   <div class="col-md-3">
     <div class="hovereffect_s">
-    <img src="images/sumaiya/cam.jpeg" >
+    <img src="images/sumaiya/photography.png" >
         <div class="overlay_s">
            <h2>Photography</h2>
-           <a class="info" href="#">VIEW</a>
+           <a class="info" href="imagegrids.php">VIEW</a>
         </div>
     </div>
   </div>
@@ -187,7 +387,7 @@
 
 
 <div id="section4" class="container section_1" style="padding-top:10px;padding-bottom:10px">
-<center><h3>Our Contributors</h3></center><br>
+<center><h3>Our Top Contributors</h3></center><br>
 <div class="row">
   <div class="col-md-3"><center><img src="images/sumaiya/APJ-Abdul-Kalam.jpg" class="rounded-circle" width="150" height="160"><h5>Lorem Ipsum </h5>
 
