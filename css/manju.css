@@ -156,7 +156,7 @@
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  background-color: #1A77DB;
+  background-color: #1ABC9C;
   padding: 40% 30px !important;
 }
 
@@ -242,10 +242,10 @@ margin-top:40px;
 }
 
 .manz-bdy{
-  background-color: #d3d3d3;
+  
 }
 
 .manz-jumbotron{
-  background-color:#e5e6e8;
+  
   box-shadow:0px 0px 1px 0px;
 }

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hello, world!</title>
+    <title>buyer</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,11 +16,15 @@
     
 <!-- Mobile bar ends here -->
   <br><br>
-  <div class="container-fluid m-0 p-0 ">
+	
   
-  <div style=" height: 400px;position: relative;" class="bg-primary" >
+  <div  class="bg-primary stsb-cover" >
   
-  <h4  style="margin: 0;position: absolute;top: 50%;left: 50%;-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);" class="text-center text-white">
+   <img src = "images/buyer-3.jpg"  class="img-fluid w-100 stse-img">
+	         <div class="bg-dark stse-ov"></div>
+	
+  
+  <h4  class="text-center text-white stsb-ov-text">
 Search over 181 million royalty-free images, video clips, and music tracks. Create and share unlimited Collections.
 <br><br> <a class="btn btn-lg bg-danger"> Subscribe Now</a></h4>
 
@@ -31,10 +35,11 @@ Search over 181 million royalty-free images, video clips, and music tracks. Crea
    <br><br>
    
                                               <!--priceS-->
-   <div class="container w-100 text-center "> 
-<div class="row">                             
+   <div class="container-fluid  text-center "> 
+<div class="row">          
+<div class="col-md-1"></div>                   
                                                <!--on demand-->
-       <div class="col-md-4 mt-5 ">
+       <div class="col-md mt-5 ">
         <div class="bg-dark p-1 text-white p-1"><b>On Demand</b><br> Standard Licence</div>
       <small><b>Standard or enhanced Licence</b> </small>
   
@@ -47,7 +52,7 @@ Search over 181 million royalty-free images, video clips, and music tracks. Crea
        </div>
                                                         
                                              <!--Subscriptions-->
-      <div class="col-md-4">
+      <div class="col-md">
         <div class="bg-info p-1 text-white p-1"><b>Subscriptions</b><br> Standard Licence</div>
     <small><b>Images Per Month</b> </small>
       
@@ -62,7 +67,7 @@ Search over 181 million royalty-free images, video clips, and music tracks. Crea
         <small>Download images within a year of purchase</small>
        </div>
                                                 <!--Team Subscriptions-->
-        <div class="col-md-4 mt-5  ">
+        <div class="col-md mt-5  ">
         <div class="bg-dark p-1 text-white p-1"><b>Team Subscriptions</b><br> Standard Licence</div>
           <small><b>750 Images Per Month</b> for 1 year</small> 
   
@@ -73,6 +78,8 @@ Search over 181 million royalty-free images, video clips, and music tracks. Crea
         <a class  = "btn btn-md bg-danger w-75 m-2 text-white">Buy Now</a><br>
         <small>*Prices vary by number of users</small>
        </div>
+	   
+	   <div class="col-md-1"></div>
 </div>
    
    </div><hr><br><br>
@@ -81,7 +88,7 @@ Search over 181 million royalty-free images, video clips, and music tracks. Crea
         Whether you're a creative agency, production company, or Fortune 500 enterprise, we have the perfect solution for your needs.<br><br>
     <a class="btn btn-lg  bg-danger">See Business Solutions</a>
   </div>
-   <br><br>
+   
 
 
   <!--footer-->

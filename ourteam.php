@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hello, world!</title>
+    <title>SMC</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -24,18 +24,19 @@
   <div class="row">
     <div class="col-md-12">
       
-              <h2><center>CEOs and DIRECTOR</center></h2>
+              <h2><center>Website Leads</center></h2>
   
     </div>
   </div>
 </div>
-
+<br>
+<br>
 <div class="container">
   <div class="row">
     <div class="col-md-4">
       <div class="memberimage">
       <img src="images/manju/member.png" class="img-fluid" id="girish-image"> </br>
-      <h3>DIRECTOR1</h3></br>
+      <h3>UI/UX Designer</h3></br>
 
     </div>
     </div>
@@ -67,7 +68,7 @@
     <div class="col-md-4">
       <div class="memberimage">
       <img src="images/manju/member2.jpg" class="img-fluid" id="girish-image"></br>
-      <h3>DIRECTOR2</h3></br>
+      <h3>Front-End Lead</h3></br>
   </div>
 </div>
 </div>
@@ -80,7 +81,7 @@
     <div class="col-md-4">
       <div class="memberimage">
       <img src="images/manju/member3.jpg" class="img-fluid" id="girish-image"></br>
-      <h3>DIRECTOR3</h3></br>
+      <h3>Back-End Lead</h3></br>
     </div>
     </div>
     <div class="col-md-8">
@@ -111,7 +112,7 @@
     <div class="col-md-4">
       <div class="memberimage">
       <img src="images/manju/member2.jpg" class="img-fluid" id="girish-image"></br>
-      <h3>DIRECTOR4</h3></br>
+      <h3>Website Lead</h3></br>
   </div>
 </div>
 </div>
@@ -135,7 +136,7 @@
 
   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project wow animated animated4 fadeInLeft">
         <div class="project-hover">
-          <h2>Trainer1</h2>
+          <h2>Front-End Coder</h2>
             
             <hr />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
@@ -144,7 +145,7 @@
     </div>
   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-2 wow animated animated3 fadeInLeft">
       <div class="project-hover">
-          <h2>Trainer2</h2>
+          <h2>Front-End Coder</h2>
             <hr />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
             <a href="#">Know more</a>
@@ -152,7 +153,7 @@
     </div>
   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-3 wow animated animated2 fadeInLeft">
       <div class="project-hover">
-          <h2>Trainer3</h2>
+          <h2>Front-End Coder</h2>
             <hr />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
             <a href="#">Know more</a>
@@ -160,7 +161,7 @@
     </div>
   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-4 wow animated fadeInLeft">
       <div class="project-hover">
-          <h2>Trainer4</h2>
+          <h2>Front-End Coder</h2>
             <hr />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
             <a href="#">Know more</a>
@@ -184,7 +185,7 @@
 
   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project wow animated animated4 fadeInLeft">
         <div class="project-hover">
-          <h2>HR 1</h2>
+          <h2>Front-End Coder</h2>
             
             <hr />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
@@ -193,7 +194,7 @@
     </div>
   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-2 wow animated animated3 fadeInLeft">
       <div class="project-hover">
-          <h2>HR 2</h2>
+          <h2>Front-End Coder</h2>
             <hr />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
             <a href="#">Know more</a>
@@ -201,7 +202,7 @@
     </div>
   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-3 wow animated animated2 fadeInLeft">
       <div class="project-hover">
-          <h2>HR 3</h2>
+          <h2>Back-End Coder</h2>
             <hr />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
             <a href="#">Know more</a>
@@ -209,7 +210,7 @@
     </div>
   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-4 wow animated fadeInLeft">
       <div class="project-hover">
-          <h2>HR 4</h2>
+          <h2>Photo-Editor</h2>
             <hr />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
             <a href="#">Know more</a>
@@ -218,7 +219,7 @@
    </div>
 </div>
 </div>
-
+<br>
 
 
   <!--footer-->

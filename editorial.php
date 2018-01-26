@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hello, world!</title>
+    <title>editorial</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,45 +10,7 @@
     <!--styles css--> 
 	<link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
-	.c {
-  position: relative;
-  width:auto;
-}
-
-.im{
-  display: block;
-  width: 100%;
-  height: 250px;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 100%;	
-  right: 0;
-  background-color: none;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .7s ease;
-}
-
-.c:hover .overlay {
-  width: 100%;
-  
-  left: 0;
-}
-
-.t {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  white-space: nowrap;
-}
+	
 </style>
 	
   </head>
@@ -60,49 +22,39 @@
 <!-- Mobile bar ends here -->
   <br><br>
   <div class="container-fluid m-0 p-0 ">
-  
-     <div style=" height: 400px;position: relative; " class="bg-primary" >
-	<img src = "images/edit-p-r.jpg" style="height:400px;position:absolute;" class="img-fluid w-100">
-	<div style=" height: 400px;position: relative; -ms-transform: rotate(20deg); /* IE 9 */
-    opacity:0.3;" class="bg-primary" >
+                                          
+										      <!--cover-->
+     <div  class="stse-cover" >
+	   <img src = "images/edit-cover-2.jpeg"  class="img-fluid w-100 stse-img">
+	         <div class="bg-dark stse-ov"></div>
 	
+	<span class="text-center text-white stse-ov-text">
+      <h1>Photo Retouching Services</h1>
 
-	
-</div>
-	
-	
-	
-
-  <span  style="margin: 0;position: absolute;top: 50%;left: 50%;-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);opacity:none;z-index:2;" class="text-center text-white">
-<h1>Create better photos with us</h1>
-
-One of the most trusted names in online photo editing & retouching services since 2007. No headaches. No hassle.
-<br><br> <a class="btn btn-lg bg-danger"> Get Started &nbsp<i class="fa fa-arrow-right" aria-hidden="true"></i></a></span> 
-
-
-
- </div><br>
+            One of the most trusted names in online photo editing & retouching services since 2007. No headaches. No hassle.
+                 <br><br> <a class="btn btn-lg bg-danger text-white"  href="loginpage2.php"> Get Started &nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a></span> 
+</div><br>
  
-                                                <!--photo retouching-->
- <div class="container-fluid ">
+                                                <!--photo retouching
+ <div class="container-fluid">
  <center><h1> Photo Retouching Services</h1></center>
  <div class="row" >
- 
- <div class="col-md" style="height:10px;"></div>
- 
+            <!--left col
+ <div class="col-md" ></div>
+           <!--middle col--> <!--
  <div class="col-md-4">
  
   <div class="c" >
-  <img src="images/edit-p-r.jpg" alt="Avatar" class="im img-fluid">
+  <img src="images/edit-before-1.jpeg" alt="before" class="im img-fluid">
   <div class="overlay">
-    <img src="images/edit-p-r.jpg" alt="Avatar" class="t im">
+    <img src="images/edit-after-1.jpeg" alt="after" class="t im">
 	</div>
 </div>
  
  </div>
  
  
- <div class="col-md-4 text-justify"><p>A photograph is the physical capturing
+ <div class="col-md-4 text-justify">A photograph is the physical capturing
 of a moment – and you can never have
 that moment again. That means that
 sometimes, a photograph will appear
@@ -114,57 +66,36 @@ your loved ones justice.
 It can be very upsetting when this
 happens, especially when you thought
 that the photographs were going to look
-SO wonderful.</p></div>
+</div>
+
+
+</div>
+
  <div class="col-md"></div>
  
  </div>
- </div>
+ </div>-->
 
-
- 
- <br>
- <div class="row">
-   <div class = "col-md-2"></div>
-   <div class = "col-md-4 pl-5">
-   <h4>Our retouching services include:</h4>
-    <ul>
-<li>Spots, blemishes, wrinkles, eye bags, and braces removal.</li>
-<li>Natural skin retouching without blurring and losing skin texture.</li>
-<li>Stray hairs removal.</li>
-<li>Teeth whitening and fixing.</li>
-<li>Double chin removal; facial reshaping.</li>
-<li>Make-up correction.</li>
-</ul>
-</div>
-
-<div class = "col-md-4 pl-5">
-<h4>Why choose SourceUS?</h4>
-<ul>
-<li>We have the retouching expertise needed to make images look their best.</li>
-<li>Quick turnaround time and your privacy guaranteed.</li>
-<li>Premium quality at a fair price.</li>
-</ul> <br><br>
-<a class= "btn bg-primary btn-sm btn-block text-white rounded " style="margin-left:-12px;"> Try Now</a>
-</div>
-
- <div class = "col-md-2"></div>
- </div>
- 
- 
- 
- 
-                                                  <!--photo editing services-->
-												  
-<div class="container-fluid ">
- <center><h1> Photo Editing Services for Photographers</h1></center>
+ <div class="container-fluid">
+ <center><h1> Photo Retouching</h1></center><br>
  <div class="row" >
  
- <div class="col-md" style="height:10px;"></div>
+ <div class="col-md"></div>
+ 
+ <div class="col-md-4">
+ 
+  <div class="c" >
+  <img src="images/edit-before-1.jpeg" alt="before" class="im img-fluid">
+  <div class="overlay">
+    <img src="images/edit-after-1.jpeg" alt="After" class="t im">
+	</div>
+</div>
+ 
+ </div>
+
  
  
- 
- 
- <div class="col-md-4 text-justify"><p>SourcesUS provides professional photo
+ <div class="col-md-4 text-justify">SourcesUS provides professional photo
 editing services to photographers and
 photography studios around the globe.
 How can we help your photography
@@ -178,14 +109,80 @@ photo.
 There are no minimum order
 requirements for our photo editing
 services.
-Average turnaround times.</p></div>
+Average turnaround times.</div>
+
+
+ <div class="col-md"></div>
+ 
+ </div>
+ </div>
+
+
+ 
+ <br>
+ <div class="row">
+   <div class = "col-md-2"></div>
+   <div class = "col-md-4 pl-4">
+   <h4>Our retouching services include:</h4>
+    <ul>
+<li>Spots, blemishes, wrinkles, eye bags, and braces removal.</li>
+<li>Natural skin retouching without blurring and losing skin texture.</li>
+<li>Stray hairs removal.</li>
+<li>Teeth whitening and fixing.</li>
+<li>Double chin removal; facial reshaping.</li>
+<li>Make-up correction.</li>
+</ul>
+</div>
+
+<div class = "col-md-4">
+<h4>Why choose SourceUS?</h4>
+<ul>
+<li>We have the retouching expertise needed to make images look their best.</li>
+<li>Quick turnaround time and your privacy guaranteed.</li>
+<li>Premium quality at a fair price.</li>
+</ul> <br><br>
+<a class= "btn bg-primary btn-sm btn-block text-white rounded " href="loginpage2.php"> Try Now</a>
+</div>
+
+ <div class = "col-md-2"></div>
+ </div>
+ 
+ 
+ 
+ 
+                                                  <!--photo editing services-->
+												  
+<div class="container-fluid my-4">
+ <center><h1> Photo Editing Services for Photographers</h1></center><br>
+ <div class="row" >
+ 
+ <div class="col-md"></div>
+ 
+ 
+ 
+ 
+ <div class="col-md-4 text-justify">SourcesUS provides professional photo
+editing services to photographers and
+photography studios around the globe.
+How can we help your photography
+business?
+With 7 years of experience in photo
+retouching, we guarantee premium
+quality of finished photos, quick delivery
+and reasonable prices.
+Our photo retouching rates start at €7 per
+photo.
+There are no minimum order
+requirements for our photo editing
+services.
+Average turnaround times.</div>
 
 <div class="col-md-4">
  
   <div class="c" >
-  <img src="images/edit-p-r-1.jpeg" alt="Avatar" class="im img-fluid">
+  <img src="images/edit-before-2.jpeg" alt="before" class="im img-fluid">
   <div class="overlay">
-    <img src="images/edit-p-r-1.jpeg" alt="Avatar" class="t im">
+    <img src="images/edit-after-2.jpeg" alt="After" class="t im">
 	</div>
 </div>
  
@@ -203,17 +200,17 @@ Average turnaround times.</p></div>
    <div class = "col-md-2"></div>
    
 
-<div class = "col-md-4 pl-5">
+<div class = "col-md-4 ">
 <h4>Why choose SourceUS?</h4>
 <ul>
 <li>We have the retouching expertise needed to make images look their best.</li>
 <li>Quick turnaround time and your privacy guaranteed.</li>
 <li>Premium quality at a fair price.</li>
 </ul><br>
-<a class= "btn bg-primary btn-sm btn-block text-white rounded " style="margin-left:-12px;"> Try Now</a>
+<a class= "btn bg-primary btn-sm btn-block text-white rounded"  href="loginpage2.php"> Try Now</a>
 </div>
 
-<div class = "col-md-4 pl-5">
+<div class = "col-md-4 ">
    <h4>Our retouching services include:</h4>
     <ul>
 <li>Spots, blemishes, wrinkles, eye bags, and braces removal.</li>
@@ -223,14 +220,14 @@ Average turnaround times.</p></div>
 <li>Double chin removal; facial reshaping.</li>
 <li>Make-up correction.</li>
 </ul>
-
+<br>
 
 </div>
 
  <div class = "col-md-2"></div>
  </div>												  
  
-
+</div>
 
   <!--footer-->
   <?php include_once "footer.php"; ?>
