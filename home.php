@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hello, world!</title>
+    <title>SMC</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -71,15 +71,15 @@
         <div class="col-md-2">
 
     <div class="hovereffect">
-        <img class="img-responsive" src="images/sumaiya/2.jpg" alt="" style="width: 213px;">
+        <img class="img-responsive" src="images/new/2.jpeg" alt="" style="width: 213px;">
             <div class="overlay">
                
                 <p class="icon-links">
                     <a href="#">
-                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-heart"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-share-alt fa-inverse"></span>
                     </a>
                     <a href="image2desc.php">
                         <span class="fa fa-download"></span>
@@ -90,18 +90,18 @@
 </div>
         <div class="col-md-2">
    <div class="hovereffect">
-        <img class="img-responsive" src="images/sumaiya/2.jpg" alt="" style="width: 213px;">
+        <img class="img-responsive" src="images/new/3.jpeg" alt="" style="width: 213px;">
             <div class="overlay">
                
                 <p class="icon-links">
                     <a href="#">
-                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-heart"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-share-alt fa-inverse"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-usd"></span>
+                        <span class="fa fa-download"></span>
                     </a>
                 </p>
             </div>
@@ -109,70 +109,70 @@
          </div>
         <div class="col-md-2">
    <div class="hovereffect">
-        <img class="img-responsive" src="images/sumaiya/11.jpg" alt="" style="width: 213px;">
+        <img class="img-responsive" src="images/new/16.jpeg" alt="" style="width: 213px;">
             <div class="overlay">
                
                 <p class="icon-links">
                     <a href="#">
-                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-heart"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-share-alt fa-inverse"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-instagram"></span>
+                       <span class="fa fa-download"></span>
                     </a>
                 </p>
             </div>
     </div>
          </div>
         <div class="col-md-2">   <div class="hovereffect">
-        <img class="img-responsive" src="images/sumaiya/4.jpg" alt="" style="width: 213px;">
+        <img class="img-responsive" src="images/new/4.jpeg" alt="" style="width: 213px;">
             <div class="overlay">
                
                 <p class="icon-links">
                     <a href="#">
-                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-heart"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-share-alt fa-inverse"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-instagram"></span>
+                       <span class="fa fa-download"></span>
                     </a>
                 </p>
             </div>
     </div></div>
         <div class="col-md-2">   <div class="hovereffect">
-        <img class="img-responsive" src="images/sumaiya/5.jpg" alt="" style="width: 213px;">
+        <img class="img-responsive" src="images/new/5.jpeg" alt="" style="width: 213px;">
             <div class="overlay">
                
                 <p class="icon-links">
                     <a href="#">
-                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-heart"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-share-alt fa-inverse"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-instagram"></span>
+                       <span class="fa fa-download"></span>
                     </a>
                 </p>
             </div>
     </div></div>
         <div class="col-md-2">   <div class="hovereffect">
-        <img class="img-responsive" src="images/sumaiya/6.jpg" alt="" style="width: 213px;">
+        <img class="img-responsive" src="images/new/6.jpeg" alt="" style="width: 213px;">
             <div class="overlay">
                
                 <p class="icon-links">
                     <a href="#">
-                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-heart"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-share-alt fa-inverse"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-instagram"></span>
+                       <span class="fa fa-download"></span>
                     </a>
                 </p>
             </div>
@@ -180,103 +180,103 @@
       </div><br>
       <div class="row photos">
         <div class="col-md-2">   <div class="hovereffect">
-        <img class="img-responsive" src="images/sumaiya/7.jpg" alt="" style="width: 213px;">
+        <img class="img-responsive" src="images/new/7.jpeg" alt="" style="width: 213px;">
             <div class="overlay">
                
                 <p class="icon-links">
                     <a href="#">
-                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-heart"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-share-alt fa-inverse"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-instagram"></span>
+                       <span class="fa fa-download"></span>
                     </a>
                 </p>
             </div>
     </div></div>
         <div class="col-md-2">   <div class="hovereffect">
-        <img class="img-responsive" src="images/sumaiya/8.jpg" alt="" style="width: 213px;">
+        <img class="img-responsive" src="images/new/8.jpeg" alt="" style="width: 213px;">
             <div class="overlay">
                
                 <p class="icon-links">
                     <a href="#">
-                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-heart"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-share-alt fa-inverse"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-instagram"></span>
+                       <span class="fa fa-usd"></span>
                     </a>
                 </p>
             </div>
     </div></div>
         <div class="col-md-2">   <div class="hovereffect">
-        <img class="img-responsive" src="images/sumaiya/9.jpg" alt="" style="width: 213px;">
+        <img class="img-responsive" src="images/new/9.jpeg" alt="" style="width: 213px;">
             <div class="overlay">
                
                 <p class="icon-links">
                     <a href="#">
-                        <span class="fa fa-twitter"></span>
+                       <span class="fa fa-heart"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-share-alt fa-inverse"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-instagram"></span>
+                       <span class="fa fa-usd"></span>
                     </a>
                 </p>
             </div>
     </div></div>
         <div class="col-md-2">   <div class="hovereffect">
-        <img class="img-responsive" src="images/sumaiya/10.jpg" alt="" style="width: 213px;">
+        <img class="img-responsive" src="images/new/10.jpeg" alt="" style="width: 213px;">
             <div class="overlay">
                
                 <p class="icon-links">
                     <a href="#">
-                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-heart"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-share-alt fa-inverse"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-instagram"></span>
+                     <span class="fa fa-usd"></span>
                     </a>
                 </p>
             </div>
     </div></div>
         <div class="col-md-2">   <div class="hovereffect">
-        <img class="img-responsive" src="images/sumaiya/11.jpg" alt="" style="width: 213px;">
+        <img class="img-responsive" src="images/new/11.jpeg" alt="" style="width: 213px;">
             <div class="overlay">
                
                 <p class="icon-links">
                     <a href="#">
-                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-heart"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-share-alt fa-inverse"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-instagram"></span>
+                       <span class="fa fa-usd"></span>
                     </a>
                 </p>
             </div>
     </div></div>
         <div class="col-md-2">   <div class="hovereffect">
-        <img class="img-responsive" src="images/sumaiya/5.jpg" alt="" style="width: 213px;">
+        <img class="img-responsive" src="images/new/15.jpeg" alt="" style="width: 213px;">
             <div class="overlay">
                
                 <p class="icon-links">
                     <a href="#">
-                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-heart"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-share-alt fa-inverse"></span>
                     </a>
                     <a href="#">
-                        <span class="fa fa-instagram"></span>
+                       <span class="fa fa-usd"></span>
                     </a>
                 </p>
             </div>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hello, world!</title>
+    <title>SMC</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -66,7 +66,7 @@
   </div>
     </div>
     <div class="col-lg-9">
-   <center> <img src="images/2.jpg" style="width:800px; height: 400px;"></center>
+   <center> <img src="images/new/2.jpeg" style="width:800px; height: 400px;"></center>
   </div>
 </div>
 <br>
@@ -74,43 +74,43 @@
 <div class="row">
 
   <div class="col-lg-2">
-      <img src="images/11.jpg" style="height:150px; width:100%">
+      <img src="images/new/14.jpeg" style="height:150px; width:100%">
     </div>
     <div class="col-lg-2">
-    <img src="images/2.jpg" style="height:150px; width:100%">
+    <img src="images/new/2.jpeg" style="height:150px; width:100%">
   </div>
    <div class="col-lg-2">
-    <img src="images/13.jpg" style="height:150px; width:100%">
+    <img src="images/new/3.jpeg" style="height:150px; width:100%">
   </div>
    <div class="col-lg-2">
-    <img src="images/12.jpg" style="height:150px; width:100%">
+    <img src="images/new/4.jpeg" style="height:150px; width:100%">
   </div>
    <div class="col-lg-2">
-    <img src="images/book.jpg" style="height:150px; width:100%">
+    <img src="images/new/5.jpeg" style="height:150px; width:100%">
   </div>
    <div class="col-lg-2">
-    <img src="images/Download.jpg" style="height:150px; width:100%"> 
+    <img src="images/new/6.jpeg" style="height:150px; width:100%"> 
   </div>
 </div><br>
 <div class="row">
 
   <div class="col-lg-2">
-      <img src="images/2.jpg" style="height:150px; width:100%">
+      <img src="images/new/7.jpeg" style="height:150px; width:100%">
     </div>
     <div class="col-lg-2">
-    <img src="images/11.jpg" style=" height:150px;width:100%">
+    <img src="images/new/8.jpeg" style=" height:150px;width:100%">
   </div>
    <div class="col-lg-2">
-    <img src="images/12.jpg" style=" height:150px;width:100%">
+    <img src="images/new/10.jpeg" style=" height:150px;width:100%">
   </div>
    <div class="col-lg-2">
-    <img src="images/13.jpg" style="height:150px; width:100%">
+    <img src="images/new/11.jpeg" style="height:150px; width:100%">
   </div>
    <div class="col-lg-2">
-    <img src="images/book.jpg" style="height:150px; width:100%">
+    <img src="images/new/12.jpeg" style="height:150px; width:100%">
   </div>
    <div class="col-lg-2">
-    <img src="images/rails.jpg" style="height:150px;width:100%"> 
+    <img src="images/new/13.jpeg" style="height:150px;width:100%"> 
   </div>
 </div>
 
@@ -118,7 +118,7 @@
 </div><hr color="gray">
 
 
-<!--footer-->
+<!--footer--> 
 
 <?php include_once "footer.php"; ?>
 <!-- end of footer-->    

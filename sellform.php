@@ -31,15 +31,22 @@
 <!-- START OF FORM -->
      <form>
         <div class="form-group sab-form-group">
+          <p class="sab-para-text">Please provide your legal name</p>
         <label for="Name"></label>
         <input type="text" class="form-control" id="email" placeholder="full-name">
-        <p class="sab-para-text">Please provide your legal name</p>
+        
         </div>
                 <div class="form-group sab-form-group">
+                  <p class="sab-para-text">Choose the name you want customers to see.</p>
                 <label for="displayname"></label>
                 <input type="displayname" class="form-control" id="email" placeholder="Display Name" >
-                <p class="sab-para-text">Choose the name you want customers to see.</p>
+                
                 </div>
+                 <div class="form-group sab-form-group">
+        <label for="pno"></label>
+        <input type="E-mail" class="form-control" id="pno" placeholder="Phone No" >
+        </div>
+
         <div class="form-group sab-form-group">
         <label for="email"></label>
         <input type="E-mail" class="form-control" id="email" placeholder="E-mail" >
@@ -48,11 +55,16 @@
                 <label for="password"></label>
                 <input type="password" class="form-control"  id="password" placeholder="password">
                 </div>
+                 <div class="form-group sab-form-group">
+                <label for="confpassword"></label>
+                <input type="password" class="form-control"  id="confpassword" placeholder="Confirm password">
+                </div>
+
         <p>Passwords must be at least 8 characters long.</p>
         <p><input type="checkbox" >&nbsp; I agree to the terms and conditions.</p>
                <a href="loginpage.php"><button type="button" class="btn btn-danger btn-block sab-btn">Submit</button></a>
         <p>already have an account <a href="loginpage.php"><span class="text-primary">sign in</span></a></p>
-     </form>
+     </form><br>
     </div>
     <div class="col-md-4">
     </div>

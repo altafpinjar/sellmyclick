@@ -9,7 +9,7 @@
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
   </head>
-  <body style="background-color:white;">
+  <body>
   <!--navbar-->
   <?php include_once "header.php"; ?>
   <!--end of navbar-->
@@ -46,7 +46,9 @@ Image Catergory<br>
 	<option value="Adventure">Adventure</option>
 	<option value="Monuments">Monuments</option>
 	<option value="Photography">Photography</option>
-  </select><br>	<br>
+  <option value="Photography">others</option>
+  </select><br>	<br><br>
+  <input type="text" name="imageName" value="" class="w-50 stsf-b" placeholder="Write tags here..." ><br><br>
   
   Image Description<br>
   <textarea rows="4" cols="50" name="comment" form="usrform"  class="w-50 stsf-b">
