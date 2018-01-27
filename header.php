@@ -101,11 +101,20 @@
 
               <a class="nav-link " href="sellphotos.php" ><i class="fa fa-sellsy" aria-hidden="true"></i>&nbsp;Sell</a>
             </li>
-
-            <li class="nav-item" >
+            <li class="nav-item">
               <a class="nav-link" href="loginpage.php"></i>&nbsp;Login or signup</a>
             </li>
-      <li style="padding-top: 9px; padding-left: 10px;"><a href="#"><i class="fa fa-user-circle-o text-white" aria-hidden="true"></i></a></li>
+ 
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="imagegrids.php">Profile</a>
+          <a class="dropdown-item" href="imagegrids.php">Logout</a>
+          
+        </div>
+      </li>
         </ul>
   </div>
 </nav>
