@@ -250,7 +250,7 @@
 
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 			<div class="hovereffect">
-        <img class="img-fluid" src="3.jpg" alt="">
+        <img class="img-fluid" src="images/3.jpg" alt="">
             <div class="overlay">
                 <h2></h2>
                 <p class="set1">
