@@ -1,5 +1,5 @@
 
-<footer class="footer">
+<footer class="footer" style="z-index: 5;">
 
       <div class="container">
   <div class="row">

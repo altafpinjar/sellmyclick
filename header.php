@@ -94,27 +94,37 @@
             <li class="nav-item" ">
               <a class="nav-link " href="editorial.php">Editorial </a>
             </li>
-            <li class="nav-item" >
-              <a class="nav-link" href="Upload.php"><i class="fa fa-upload" aria-hidden="true"></i>&nbsp;Upload</a>
-            </li>
-            <li class="nav-item" >
+           
 
-              <a class="nav-link " href="sellphotos.php" ><i class="fa fa-sellsy" aria-hidden="true"></i>&nbsp;Sell</a>
-            </li>
+
+                 <li class="nav-item dropdown" style="padding-left: 5px;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  href="Upload.php">
+        <i class="fa fa-upload" aria-hidden="true"></i> Upload
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Upload.php"><font color="black">Free upload</font></a>
+          <a class="dropdown-item" href="sellphotos.php"><font color="black">Sell your photo</font></a>
+          
+        </div>
+      </li>
+
+
+
+             <li class="nav-item dropdown" style="padding-left: 5px;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="profile2.php"><font color="black">Profile</font></a>
+          <a class="dropdown-item" href="home.php"><font color="black">Logout</font></a>
+          
+        </div>
+      </li>
             <li class="nav-item">
               <a class="nav-link" href="loginpage.php"></i>&nbsp;Login or signup</a>
             </li>
  
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="imagegrids.php">Profile</a>
-          <a class="dropdown-item" href="imagegrids.php">Logout</a>
-          
-        </div>
-      </li>
+     
         </ul>
   </div>
 </nav>

@@ -215,7 +215,7 @@
   	
       <div class="container-fluid">
   		<div class="row">
-  		<img  class="img-fluid"  src="men.jpg" style="border-radius:50%;width:150px;height:150px;margin-left:690px;">
+  		<img  class="img-fluid"  src="images/men.jpg" style="border-radius:50%;width:150px;height:150px;margin-left:690px;">
   	    </div>
      </div>
       <h4 align="center">Bruce mars</h4>
@@ -245,7 +245,7 @@
   </div>
   </div>
 </nav><br><br>
-<div class="container-fluid" style="background-color:#d3d3d3;">
+<div class="container-fluid" >
 	<div class="row">
 
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -276,7 +276,7 @@
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 			<div class="hovereffect">
-        <img class="img-fluid" src="2.jpg" alt="">
+        <img class="img-fluid"3 src="images/2.jpg" alt="">
             <div class="overlay">
                 <h2></h2>
                 <p class="set1">
@@ -302,7 +302,7 @@
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 			<div class="hovereffect">
-        <img class="img-fluid" src="3.jpg" alt="">
+        <img class="img-fluid" src="images/3.jpg" alt="">
             <div class="overlay">
                 <h2></h2>
                 <p class="set1">
@@ -331,7 +331,7 @@
     <div class="row">
 		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 			<div class="hovereffect">
-        <img class="img-fluid" src="7.jpg" alt="">
+        <img class="img-fluid" src="images/7.jpg" alt="">
             <div class="overlay">
                 <h2></h2>
                 <p class="set1">
@@ -357,7 +357,7 @@
 		</div>
 		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 			<div class="hovereffect">
-        <img class="img-fluid" src="6.jpg" alt="">
+        <img class="img-fluid" src="images/6.jpg" alt="">
             <div class="overlay">
                 <h2></h2>
                 <p class="set1">
@@ -383,7 +383,7 @@
 		</div>
 		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 			<div class="hovereffect">
-        <img class="img-fluid" src="7.jpg" alt="">
+        <img class="img-fluid" src="images/7.jpg" alt="">
             <div class="overlay">
                 <h2></h2>
                 <p class="set1">
@@ -409,7 +409,7 @@
 		</div>
 		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 			<div class="hovereffect">
-        <img class="img-fluid" src="6.jpg" alt="">
+        <img class="img-fluid" src="images/6.jpg" alt="">
             <div class="overlay">
                 <h2></h2>
                 <p class="set1">
@@ -439,7 +439,7 @@
     <div class="row">
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 			<div class="hovereffect">
-        <img class="img-fluid" src="8.jpg" alt="">
+        <img class="img-fluid" src="images/8.jpg" alt="">
             <div class="overlay">
                 <h2></h2>
                 <p class="set1">
@@ -465,7 +465,7 @@
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 			<div class="hovereffect">
-        <img class="img-fluid" src="9.jpg" alt="">
+        <img class="img-fluid" src="images/9.jpg" alt="">
             <div class="overlay">
                 <h2></h2>
                 <p class="set1">
@@ -491,7 +491,7 @@
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 			<div class="hovereffect">
-        <img class="img-fluid" src="10.jpg" alt="">
+        <img class="img-fluid" src="images/10.jpg" alt="">
             <div class="overlay">
                 <h2></h2>
                 <p class="set1">
@@ -521,7 +521,7 @@
    <div class="row">
 		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 			<div class="hovereffect">
-        <img class="img-fluid" src="4.jpg" alt="">
+        <img class="img-fluid" src="images/4.jpg" alt="">
             <div class="overlay">
                 <h2></h2>
                 <p class="set1">
@@ -547,7 +547,7 @@
 		</div>
 		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 			<div class="hovereffect">
-        <img class="img-fluid" src="2.jpg" alt="">
+        <img class="img-fluid" src="images/2.jpg" alt="">
             <div class="overlay">
                 <h2></h2>
                 <p class="set1">
@@ -573,7 +573,7 @@
 		</div>
 		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 			<div class="hovereffect">
-        <img class="img-fluid" src="3.jpg" alt="">
+        <img class="img-fluid" src="images/3.jpg" alt="">
             <div class="overlay">
                 <h2></h2>
                 <p class="set1">
@@ -599,7 +599,7 @@
 		</div>
 		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 			<div class="hovereffect">
-        <img class="img-fluid" src="4.jpg" alt="">
+        <img class="img-fluid" src="images/4.jpg" alt="">
             <div class="overlay">
                 <h2></h2>
                 <p class="set1">

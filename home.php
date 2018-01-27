@@ -291,7 +291,7 @@
 <div class="row popcat">
   <div class="col-md-3">
       <div class="hovereffect_s">
-    <img src="images/sumaiya/Education.png" >
+    <img src="images/sumaiya/Education.png">
     <div class="overlay_s">
        <h2>Education</h2>
            <a class="info" href="imagegrids.php">VIEW</a>
