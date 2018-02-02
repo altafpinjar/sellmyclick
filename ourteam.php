@@ -140,7 +140,7 @@
             
             <hr />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
-            <a href="#">Know more</a>
+           <!--  <a href="#">Know more</a> -->
         </div>
     </div>
   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-2 wow animated animated3 fadeInLeft">
@@ -148,7 +148,7 @@
           <h2>Front-End Coder</h2>
             <hr />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
-            <a href="#">Know more</a>
+            <!-- <a href="#">Know more</a> -->
         </div>
     </div>
   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-3 wow animated animated2 fadeInLeft">
@@ -156,7 +156,7 @@
           <h2>Front-End Coder</h2>
             <hr />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
-            <a href="#">Know more</a>
+            <!-- <a href="#">Know more</a> -->
         </div>
     </div>
   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-4 wow animated fadeInLeft">
@@ -164,7 +164,7 @@
           <h2>Front-End Coder</h2>
             <hr />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
-            <a href="#">Know more</a>
+            <!-- <a href="#">Know more</a> -->
         </div>
     </div>
    </div>

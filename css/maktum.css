@@ -5,7 +5,7 @@
   top: 0;
   width: 100%;
 }
-.navbar-light ,.btn-outline-secondary,a:hover{
+.navbar-light ,.btn-outline-secondary:hover{
 background-color: #1ABC9C;
 border-color: green;
 }
@@ -34,12 +34,12 @@ border-color: green;
 body {    
 background-color:#fff;
 }
-@media only screen and (max-width: 1200px) {
+/*@media only screen and (max-width: 1200px) {
     body {
         background-color:#fff;
 
     }
-}
+}*/
 
 /* end body*/
 .footer

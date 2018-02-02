@@ -50,43 +50,43 @@
 <div class="row imgsize">
 
   <div class="col-lg-2">
-      <img src="images/11.jpg" >
+      <img src="images/1.jpeg" >
     </div>
     <div class="col-lg-2">
-    <img src="images/2.jpg" >
+    <img src="images/2.jpeg" >
   </div>
    <div class="col-lg-2">
-    <img src="images/13.jpg">
+    <img src="images/3.jpeg">
   </div>
    <div class="col-lg-2">
-    <img src="images/12.jpg">
+    <img src="images/2.jpeg">
   </div>
    <div class="col-lg-2">
-    <img src="images/book.jpg">
+    <img src="images/1.jpeg">
   </div>
    <div class="col-lg-2">
-    <img src="images/Download.jpg"> 
+    <img src="images/2.jpeg"> 
   </div>
 </div><br>
 <div class="row imgsize">
 
   <div class="col-lg-2">
-      <img src="images/2.jpg" >
+      <img src="images/6.jpeg" >
     </div>
     <div class="col-lg-2">
-    <img src="images/11.jpg">
+    <img src="images/5.jpeg">
   </div>
    <div class="col-lg-2">
-    <img src="images/12.jpg">
+    <img src="images/7.jpeg">
   </div>
    <div class="col-lg-2">
-    <img src="images/13.jpg">
+    <img src="images/8.jpeg">
   </div>
    <div class="col-lg-2">
-    <img src="images/book.jpg">
+    <img src="images/.jpeg">
   </div>
    <div class="col-lg-2">
-    <img src="images/rails.jpg"> 
+    <img src="images/rails.jpe  g"> 
   </div>
 </div>
 </div>

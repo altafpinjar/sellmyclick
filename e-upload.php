@@ -125,11 +125,14 @@ Image Catergory<br>
 <br><br>
 
 
-	
+
+
 
   <!--footer-->
   <?php include_once "footer.php"; ?>
   <!-- end of footer-->    
+
   <?php include_once "script.php"; ?>
+ 
   </body>
 </html>

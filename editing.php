@@ -12,13 +12,13 @@
   <body>
   <!--navbar-->
   <?php include_once "header.php"; ?>
-  <!--end of navbar-->
+  <!--end of navbar--><br>
     <div class="wrapper">
-      <h1>Image Editor</h1>
+    <center>  <h1>Free Image Editor</h1></center>
       
       <!--Form for collecting image URL -->
       <form id="urlBox" class = "center">
-        <input class="url-box" type="url" id="imgUrl" placeholder="Paste any image link and hit enter to start playing.">
+        <input class="url-box" type="url" id="imgUrl" disabled="Free Image Editor" placeholder=" SMC Free Image Editor">
       </form>
 
       <!--Controls for CSS filters via range input-->
@@ -90,29 +90,7 @@
 </div>
 
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-58515343-1', 'auto');
-      ga('send', 'pageview');
 
-
-           function readURL(input) {
-            if (input.files && input.files[0]) {
-                var reader = new FileReader();
-
-                reader.onload = function (e) {
-                    $('#blah')
-                        .attr('src', e.target.result);
-                };
-
-                reader.readAsDataURL(input.files[0]);
-            }
-        }
-
-    </script>
 
   <!--footer-->
   <?php include_once "footer.php"; ?>

@@ -12,7 +12,7 @@
     <style type="text/css">
 
    /*<example>*/
-.profile {
+/*.profile {
   width: 100%;
   height: 80%;
   float: left;
@@ -134,6 +134,69 @@
   opacity: 1;
   filter: alpha(opacity=100);
 }
+*/
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Center website */
+
+.row {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+/*.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}*/
 </style>
     <body>
     <!--navbar-->
@@ -143,20 +206,21 @@
     <br>
     <br>
     <br>
-      <div class="container-fluid">
+       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-            <center><img  class="img-fluid"  src="images/hrx.jpg" style="border-radius:50%;width:150px;height:150px;"></center>
+            <center><img  class="img-fluid"  src="images/men.jpg" style="border-radius:50%;width:150px;height:150px;"></center>
           </div>
        </div>
         <center><h4 align="center">MaktumHusen</h4>
       
-        <i class="fa fa-facebook-f fa-2x" style="padding-right: 5px;"></i>
+        <a href="#"><i class="fa fa-facebook-f fa-2x" style="padding-right: 5px;"></i></a>
           
-        <i class="fa fa-twitter fa-2x" style="padding-right: 5px;"></i>
+       <a href=""> <i class="fa fa-twitter fa-2x" style="padding-right: 5px;"></i></a>
     
-        <i class="fa fa-instagram fa-2x"></i></center><br>
+       <a href=""> <i class="fa fa-instagram fa-2x"></i></center><br></a>
         <hr width="700px;" color="green">
+        <!--
         <div class="row">
           <div class="col-md-4">
          <center>   <h3>Uploads</h3></center> <br>
@@ -201,7 +265,297 @@
  
 <br>
 <br><br>
+ -->
 
+
+
+<center>
+<div id="myBtnContainer">
+  <button class="btn active btn" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('Downloaded')"> Downloads</button>
+  <button class="btn" onclick="filterSelection('buy')"> Buy</button>
+  <button class="btn" onclick="filterSelection('Uploaded')"> Uploads</button>
+</div></center>
+
+<!-- Portfolio Gallery Grid -->
+
+<div class="row">
+  <div class="column Downloaded">
+    <div class="content">
+      <img src="images/5.jpg" alt="Mountains" style="width:100%">
+
+    </div>
+  </div>
+  <div class="column Downloaded">
+    <div class="content">
+    <img src="images/1.jpg" alt="Lights" style="width:100%">
+    
+    </div>
+  </div>
+  <div class="column Downloaded">
+    <div class="content">
+    <img src="images/2.jpg" alt="Nature" style="width:100%">
+   
+    </div>
+  </div>
+    <div class="column Downloaded">
+    <div class="content">
+    <img src="images/3.jpg" alt="Nature" style="width:100%">
+   
+    </div>
+  </div>  
+  <div class="column buy">
+    <div class="content">
+      <img src="images/4.jpg" alt="Car" style="width:100%">
+
+    </div>
+  </div>
+  <div class="column buy">
+    <div class="content">
+    <img src="images/5.jpg" alt="Car" style="width:100%">
+   
+    </div>
+  </div>
+  <div class="column buy">
+    <div class="content">
+    <img src="images/6.jpg" alt="Car" style="width:100%">
+   
+    </div>
+  </div>
+
+  <div class="column Uploaded">
+    <div class="content">
+      <img src="images/7.jpg" alt="Car" style="width:100%">
+   
+    </div>
+  </div>
+  <div class="column Uploaded">
+    <div class="content">
+    <img src="images/8.jpg" alt="Car" style="width:100%">
+  
+    </div>
+  </div>
+  <div class="column Uploaded">
+    <div class="content">
+    <img src="images/9.jpg" alt="Car" style="width:100%">
+    
+    </div>
+  </div>
+    <div class="column Downloaded">
+    <div class="content">
+    <img src="images/3.jpg" alt="Nature" style="width:100%">
+   
+    </div>
+  </div>
+    <div class="column Downloaded">
+    <div class="content">
+    <img src="images/3.jpg" alt="Nature" style="width:100%">
+   
+    </div>
+  </div>
+    <div class="column Downloaded">
+    <div class="content">
+      <img src="images/hrx.jpg" alt="Mountains" style="width:100%">
+
+    </div>
+  </div>
+  <div class="column Downloaded">
+    <div class="content">
+    <img src="images/1.jpg" alt="Lights" style="width:100%">
+    
+    </div>
+  </div>
+  <div class="column Downloaded">
+    <div class="content">
+    <img src="images/2.jpg" alt="Nature" style="width:100%">
+   
+    </div>
+  </div>
+    <div class="column Downloaded">
+    <div class="content">
+    <img src="images/3.jpg" alt="Nature" style="width:100%">
+   
+    </div>
+  </div>  
+  <div class="column buy">
+    <div class="content">
+      <img src="images/4.jpg" alt="Car" style="width:100%">
+
+    </div>
+  </div>
+  <div class="column buy">
+    <div class="content">
+    <img src="images/5.jpg" alt="Car" style="width:100%">
+   
+    </div>
+  </div>
+  <div class="column buy">
+    <div class="content">
+    <img src="images/6.jpg" alt="Car" style="width:100%">
+   
+    </div>
+  </div>
+
+  <div class="column Uploaded">
+    <div class="content">
+      <img src="images/7.jpg" alt="Car" style="width:100%">
+   
+    </div>
+  </div>
+  <div class="column Uploaded">
+    <div class="content">
+    <img src="images/8.jpg" alt="Car" style="width:100%">
+  
+    </div>
+  </div>
+  <div class="column Uploaded">
+    <div class="content">
+    <img src="images/9.jpg" alt="Car" style="width:100%">
+    
+    </div>
+  </div>
+    <div class="column Downloaded">
+    <div class="content">
+    <img src="images/3.jpg" alt="Nature" style="width:100%">
+   
+    </div>
+  </div>
+    <div class="column Downloaded">
+    <div class="content">
+    <img src="images/3.jpg" alt="Nature" style="width:100%">
+   
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+<!-- <div class="container">
+  <h2>Image Gallery</h2>
+  <p>The .thumbnail class can be used to display an image gallery.</p>
+  <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p>
+  <p>Click on the images to enlarge them.</p>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/lights.jpg" target="_blank">
+          <img src="images/3.jpg" alt="Lights" style="width:100%">
+          
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/nature.jpg" target="_blank">
+          <img src="images/7.jpg" alt="Nature" style="width:100%">
+         
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/fjords.jpg" target="_blank">
+          <img src="images/8.jpg" alt="Fjords" style="width:100%">
+          
+        </a>
+      </div>
+    </div>
+
+      <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/fjords.jpg" target="_blank">
+          <img src="images/2.jpg" alt="Fjords" style="width:100%">
+          
+        </a>
+      </div>
+    </div>
+      <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/fjords.jpg" target="_blank">
+          <img src="images/3.jpg" alt="Fjords" style="width:100%">
+          
+        </a>
+      </div>
+    </div>
+      <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/fjords.jpg" target="_blank">
+          <img src="images/4.jpg" alt="Fjords" style="width:100%">
+          
+        </a>
+      </div>
+    </div>
+      <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/fjords.jpg" target="_blank">
+          <img src="images/5.jpg" alt="Fjords" style="width:100%">
+          
+        </a>
+      </div>
+    </div>
+      <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/fjords.jpg" target="_blank">
+          <img src="images/8.jpg" alt="Fjords" style="width:100%">
+          
+        </a>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+
+
+
+
+
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+  }
+}
+
+function AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
     <!--footer-->
     <?php include_once "footer.php"; ?>
     <!-- end of footer-->    

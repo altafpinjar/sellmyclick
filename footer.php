@@ -52,11 +52,13 @@
         <div class="col-6 col-sm-3"> <h6>Follow Us</h6>
        <a href="http://facebook.com/"><i class="fa fa-facebook-official fa-2x footericon" aria-hidden="true"></i></a>
         <a href="http://twitter.com/"><i class="fa fa-twitter-square fa-2x footericon" aria-hidden="true"></i></a>
-        <a href="#/"><i class="fa fa-google-plus-square fa-2x footericon" aria-hidden="true"></i></a>
+        <a href="#/"><i class="fa fa-google-plus-square fa-2x footericon" aria-hidden="true"></i></a><br><br>
+          <div id="google_translate_element"></div>
     </div>
+
   </div>
 
 </div>
 <hr color="White">
-<center><p style="padding-bottom: 15px;"><font color="White"><a href="terms&conditions.php">Terms & Conditions&nbsp;</a>|&nbsp;Copyright&nbsp;&copy; 2018&nbsp; <a href="http://sourceuscorporation.com/"><b>SUCO TECHNOLOGIES.</b></a>&nbsp;All rights Reserved. </font></p></center>
+<center><p style="padding-bottom: 15px;"><font color="White"><a href="terms&conditions.php">Terms & Conditions&nbsp;</a>|&nbsp;Copyright&nbsp;&copy; 2018&nbsp; <a href="http://sourceuscorporation.com/"><b>SUCO TECHNOLOGIES.</b></a>&nbsp;All Rights Reserved. </font></p></center>
 </footer>

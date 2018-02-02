@@ -31,7 +31,7 @@
 	<span class="text-center text-white stse-ov-text">
       <h1>Photo Retouching Services</h1>
 
-            One of the most trusted names in online photo editing & retouching services since 2007. No headaches. No hassle.
+            One of the most trusted names in online photo editing & retouching services since 2007.<br> No headaches. No hassle.
                  <br><br> <a class="btn btn-lg bg-danger text-white"  href="loginpage2.php"> Get Started &nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a></span> 
 </div><br>
  
@@ -95,7 +95,7 @@ that the photographs were going to look
 
  
  
- <div class="col-md-4 text-justify">SourcesUS provides professional photo
+ <div class="col-md-4 text-justify">SellMyClick provides professional photo
 editing services to photographers and
 photography studios around the globe.
 How can we help your photography
@@ -135,7 +135,7 @@ Average turnaround times.</div>
 </div>
 
 <div class = "col-md-4">
-<h4>Why choose SourceUS?</h4>
+<h4>Why choose SellMyClick?</h4>
 <ul>
 <li>We have the retouching expertise needed to make images look their best.</li>
 <li>Quick turnaround time and your privacy guaranteed.</li>
@@ -161,7 +161,7 @@ Average turnaround times.</div>
  
  
  
- <div class="col-md-4 text-justify">SourcesUS provides professional photo
+ <div class="col-md-4 text-justify">SellMyClick provides professional photo
 editing services to photographers and
 photography studios around the globe.
 How can we help your photography
@@ -201,7 +201,7 @@ Average turnaround times.</div>
    
 
 <div class = "col-md-4 ">
-<h4>Why choose SourceUS?</h4>
+<h4>Why choose SellMyClick?</h4>
 <ul>
 <li>We have the retouching expertise needed to make images look their best.</li>
 <li>Quick turnaround time and your privacy guaranteed.</li>
