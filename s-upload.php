@@ -18,7 +18,7 @@
   <br><br>
 <div class="container-fluid m-0 p-0" >
 <br>
-<h1 class= "text-center">Upload Your Image</h1><br>
+<h1 class= "text-center">Upload Your Image to $ELL</h1><br>
 <div class="row">
 
 <div class="col-md-2"></div>

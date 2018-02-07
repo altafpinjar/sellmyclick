@@ -42,7 +42,7 @@
   </div>
     </div>
     <div class="col-lg-9 imgdec">
-    <center><img src="images/11.jpg"></center>
+    <center><img src="images/new/2.jpeg"></center>
   </div>
 </div>
 <br>
@@ -50,43 +50,43 @@
 <div class="row imgsize">
 
   <div class="col-lg-2">
-      <img src="images/1.jpeg" >
+      <img src="images/new/11.jpeg" >
     </div>
     <div class="col-lg-2">
-    <img src="images/2.jpeg" >
+    <img src="images/new/2.jpeg" >
   </div>
    <div class="col-lg-2">
-    <img src="images/3.jpeg">
+    <img src="images/new/3.jpeg">
   </div>
    <div class="col-lg-2">
-    <img src="images/2.jpeg">
+    <img src="images/new/2.jpeg">
   </div>
    <div class="col-lg-2">
-    <img src="images/1.jpeg">
+    <img src="images/new/14.jpeg">
   </div>
    <div class="col-lg-2">
-    <img src="images/2.jpeg"> 
+    <img src="images/new/2.jpeg"> 
   </div>
 </div><br>
 <div class="row imgsize">
 
   <div class="col-lg-2">
-      <img src="images/6.jpeg" >
+      <img src="images/new/6.jpeg" >
     </div>
     <div class="col-lg-2">
-    <img src="images/5.jpeg">
+    <img src="images/new/5.jpeg">
   </div>
    <div class="col-lg-2">
-    <img src="images/7.jpeg">
+    <img src="images/new/7.jpeg">
   </div>
    <div class="col-lg-2">
-    <img src="images/8.jpeg">
+    <img src="images/new/8.jpeg">
   </div>
    <div class="col-lg-2">
-    <img src="images/.jpeg">
+    <img src="images/new/9.jpeg">
   </div>
    <div class="col-lg-2">
-    <img src="images/rails.jpe  g"> 
+    <img src="images/new/10.jpeg"> 
   </div>
 </div>
 </div>

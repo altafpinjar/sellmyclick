@@ -50,8 +50,8 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-dark" style="z-index: 40;">
-  <a href="home.php" class="navbar-brand text-white" href="#">Sell My Click</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark" style="z-index: 40; ">
+  <a href="home.php" class="navbar-brand text-white" href="#"><img src="images/click2.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

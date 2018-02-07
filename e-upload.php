@@ -22,7 +22,7 @@
 <div class="row">
 
 <div class="col-md-2"></div>
-<div class="col-md-8 container card" style="background-image:url('images/upload.jpeg'); width:100%;height:auto;">
+<div class="col-md-8 container card" style="background-image:url(''); width:100%;height:auto;">
 	
 	
 		<br>
@@ -51,7 +51,7 @@ Image Catergory<br>
   <input type="text" name="imageName" value="" class="w-50 stsf-b" placeholder="Write tags here..." ><br><br>
    </form>
 
-   <div class="container-fluid" >
+<!--    <div class="container-fluid" >
 
     <div class="row">
       <div class="col-md-3">
@@ -90,15 +90,13 @@ Image Catergory<br>
   <div class="col-md-1">
       </div>
 </div>
-</div><br>
-<form class="text-center" action="thank-you.php">
-<input type="text" name="cost" value="" class="w-50 stsf-b" disabled="" placeholder="Cost of Editing: 5+5+5+5=20rs" ><br><br>
-        <label class="btn btn-info " for="upload-file-selector">
-              
+</div><br> -->
+<form class="text-center" action="">
 
-<input id="fileupload" type="file" multiple="multiple" /></label><br>
+   <label class="btn btn-info " for="upload-file-selector">
+            <input id="upload-file-selector "   type="file">    </label><br>
 <hr />
-<b>Live Preview</b>
+<!-- <b>Live Preview</b>
 <br />
 <br />
 <div id="dvPreview">
@@ -111,12 +109,14 @@ Image Catergory<br>
       <label><input type="checkbox" value="">&nbsp I Agree <a href="#">Terms and Conditions</a></label><br><br>
 <input type ="submit" class="btn-danger w-50" >
 
-<br><br>
-   
+<br><br> -->
+
+   <button><a href="e-upload2.php">NEXT</a></button>
      </form> 
 	 
 	 </div>
 	 </div>
+   
 <div class="col-md-2"></div>	
 	
 	

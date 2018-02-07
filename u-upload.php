@@ -54,9 +54,10 @@ Image Catergory<br>
   <textarea rows="4" cols="50" name="comment" form="usrform"  class="w-50 stsf-b">
 </textarea><br><br>
 
+     <label class="btn btn-info " for="upload-file-selector">
+              
 
-        <label class="btn btn-info " for="upload-file-selector">
-            <input id="upload-file-selector "   type="file">    </label><br>
+<input id="fileupload" type="file" multiple="multiple" /></label><br>
 <br>
     You can upload photos that are .JPEG, .JPG, or .PNG.<br>Max file size 25mb        <br>
 	

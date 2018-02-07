@@ -4,7 +4,7 @@
       <div class="container">
   <div class="row">
     <div class="col-6 col-sm-3">
-      <ul><h6>Company</h6>
+      <ul class="text-white"><h6>Company</h6>
         <li>
           <a href="aboutus.php"> About Us</a>
         </li>
