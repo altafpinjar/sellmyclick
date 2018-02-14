@@ -2,7 +2,7 @@
 
 include_once("checkUserLoginStatus.php");
 if(!$user_ok) {
-    header("location: $siteAddress/loginpage.php");
+    header("location: $siteAddress/smclogin.php");
     exit();
 }
 
@@ -15,19 +15,19 @@ if(isset($_FILES['filefield']['tmp_name'])){
 
     $name=$_FILES['filefield']['name'];
     $name = preg_replace('#[ ]#i', '_', $name);
-    $title = $_POST["title"];
-    $imgcategory =$_POST["imgcategory"];
-    $description = $_POST["description"];
-
+$title = $_POST["title"];
+$imgcategory =$_POST["imgcategory"];
+$description = $_POST["description"];
+$price = $_POST["price"];
 
 
 if ($_FILES['filefield']['tmp_name'] != "") {
 //  $newname = "give_some_unique_name.jpg";
- $query = "INSERT INTO images(name,userName,imageCategory,description,image,date_time) values('$title','$log_username','$imgcategory','$description','upload/$name',now())";
+ $query = "INSERT INTO images(name,userName,imageCategory,description,imagePrice,image,date_time) values('$title','$log_username','$imgcategory','$description','$price','upload/$name',now())";
 
  mysqli_query($connect_db,$query) or die(mysqli_error($connect_db));
  move_uploaded_file($_FILES['filefield']['tmp_name'], "upload/$name");
- header("location: $siteAddress/thank-you.php");
+ header("location: $siteAddress");
  
 }
 exit();
@@ -65,19 +65,25 @@ exit();
 					<hr>
 
 
-<form class="text-center" method="post" action="u-upload.php" enctype='multipart/form-data' onsubmit="return checkCheckBox(this)">
+<form class="text-center" method="post" action="index.php" enctype='multipart/form-data'>
+<h1>Image Upload</h1>
 
-<label>Enter Image Name </label><br>
+
+<label>Enter Image Name </label>
  <input id="title" type="text" name="title" size="30" value="" class="w-50 stsf-b" ><br><br>
 
 
-<label>Write Image Description</label><br>
-<input id="description" type="text" name="description" size="70"  ><br><br>
+<label>Write Image Description</label>
+<input id="description" type="text" name="description" size="30"  ><br><br>
+
+  <textarea rows="4" cols="50" id="description" type="text" name="description" form="usrform"  class="w-50 stsf-b">
+</textarea><br><br>
 
 
 
 
-<label>Select Image Category</label><br>
+
+<label>Select Image Category</label>
 <select name="imgcategory" id="imgcategory" class="w-50 stsf-b" >
 <option value="Education">Education</option>
 <option value="Technology">Technology</option>
@@ -88,64 +94,21 @@ exit();
 <option value="Monuments">Monuments</option>
 <option value="Photgraphy">Photgraphy</option>
 </select><br><br>
-  
-<label>Write additional tags</label><br>
   <input type="text" name="imageName" value="" class="w-50 stsf-b" placeholder="Write tags here..." ><br><br>
 
-<label class="btn btn-info " for="upload-file-selector">
 
+<label>Image Price</label>
+<input type="number" placeholder="Enter Image Price" id="price"  name="price" ><br><br>
 
-
+<div class="input-group input-group-lg">
 <label>Select Image To Upload</label>
- <input type='file'  id="filefield" name='filefield' class="form-control"/>
-</label><br>
-<br>
-    You can upload photos that are .JPEG, .JPG, or .PNG.<br>Max file size 25mb        <br>
-	
-
-     <!--  <label><input type="checkbox" value="">&nbsp I Agree <a href="#">Terms and Conditions</a></label><br><br>
- -->
-
-<b>By submitting, I agree that all info entered was done accurately & truthfully.</b><br />
-<input type="checkbox" value="0" name="agree"/>I Agree <a href="#">Terms and Conditions</a> 
+ <input type='file'  id="filefield" name='filefield' class="form-control"  />
+</div><br><br>
 
 
-
-<br>
-
-
-<a href="http://localhost:8080/sellmyclick/thank-you.php"><button>submit</button></a>
-
-<!-- <input type='submit' value='Save name' name='but_upload' id="submitbtn" ></a>
- -->    
-    <br><br>
+<input type='submit' value='Save name' name='but_upload' id="submitbtn" >
+    
+    
 </form>
-</div>
-	 </div>
-<div class="col-md-2"></div>	
-	
-	
-</div>	
-</div>	
-<br><br>
-
-
-
-
-  <!--footer-->
-  <?php include_once "footer.php"; ?>
-  <!-- end of footer-->    
-  <?php include_once "script.php"; ?>
-  <script>
- function checkCheckBox(f){
-if (f.agree.checked == false )
-{
-alert('Please check the box to continue.');
-return false;
-}else
-return true;
-}
-</script>
-  
 </body>
 </html>

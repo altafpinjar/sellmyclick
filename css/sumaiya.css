@@ -210,7 +210,7 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
 
 /******** hover 2 by altaf *******/
 
-.hovereffect {
+./*hovereffect {
     
     height: 100%;
     float: left;
@@ -321,6 +321,6 @@ a.carousel-control-next:hover, a.carousel-control-prev:hover  {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
-
+*/
 
 /******** end hover 2 by altaf *******/

@@ -115,8 +115,8 @@
          <i class="fa fa-user-circle-o" aria-hidden="true"></i>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="profile2.php"><font color="black">Profile</font></a>
-          <a class="dropdown-item" href="home.php"><font color="black">Logout</font></a>
+          <a class="dropdown-item" href="profile.php"><font color="black">Profile</font></a>
+          <a class="dropdown-item" href="Logout.php"><font color="black">Logout</font></a>
           
         </div>
       </li>

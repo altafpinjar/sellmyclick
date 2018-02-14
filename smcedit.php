@@ -204,7 +204,7 @@ function login(){
 	} else {
 		_("loginbtn").style.display = "none";
 		status.innerHTML = 'please wait ...';
-		var ajax = ajaxObj("POST", "loginpage.php");
+		var ajax = ajaxObj("POST", "smcedit.php");
         ajax.onreadystatechange = function() {			
 	        if(ajaxReturn(ajax) == true) {
 				var split_response = ajax.responseText.split("|");
@@ -216,7 +216,7 @@ function login(){
 				} else {
 					// alert("Successfully Loged In.");
 					// window.location = "login.php";
-					window.location = "http://localhost:8080/SellMyclick/profile.php?u="+split_response[1];
+					window.location = "http://localhost/SellMyclick/profile.php?u="+split_response[1];
 
 					
 					//_("signupform").innerHTML = "OK "+u+", check your email inbox and junk mail box at <u>"+e+"</u> in a moment to complete the sign up process by activating your account. You will not be able to do anything on the site until you successfully activate your account.";

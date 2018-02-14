@@ -14,7 +14,7 @@
   <?php include_once "header.php"; ?>
   <!--end of navbar--><br>
     <div class="wrapper">
-    <center>  <h1>Free Image Editor</h1></center>
+    <center>  <h1 class="flip animated">Free Image Editor</h1></center>
       
       <!--Form for collecting image URL -->
       <form id="urlBox" class = "center">
@@ -91,7 +91,7 @@
 
 
 
-
+<?php include_once "editupload.php"; ?>
   <!--footer-->
   <?php include_once "footer.php"; ?>
   <!-- end of footer-->    

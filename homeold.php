@@ -5,75 +5,6 @@ include_once("checkUserLoginStatus.php");
 
 ?>
 <?php
-
-
-
-if(isset($_POST["elem"])){
-    // if(isset($_SESSION["userName"])){
-    //         $userName = $_SESSION["userName"];
-    // }else {
-    //     echo "6578";
-    // }
-    $userName = "$log_username";
-    $elem = $_POST['elem'];
-  // -------------------------------------------
-  $sql = "SELECT id FROM like_dislike WHERE imageId='$elem' AND userName='$userName' LIMIT 1";
-    $query = mysqli_query($connect_db, $sql);
-  $l_check = mysqli_num_rows($query);
-   if ($l_check > 0){
-        $sql = "DELETE FROM `like_dislike` WHERE imageId='$elem' AND userName='$userName' ";
-        $query = mysqli_query($connect_db, $sql);
-
-    $uid = mysqli_insert_id($connect_db);
-        // echo "You Have Already Liked This Image.";
-        // echo trim(ob_get_clean());
-    exit();
-  } 
-       
-    $sql = "INSERT INTO `like_dislike` (`imageId`,`userName`,`date_time`) VALUES ('$elem','$userName',now())";
-    $query = mysqli_query($connect_db, $sql);
-    $uid = mysqli_insert_id($connect_db);
-
-
-
-    echo "like_success";
-    echo trim(ob_get_clean());
-    exit();
-  }
-
-    // <-------------to store downloaded images entry in databse------------>
-    if(isset($_POST["downloadImage"])){
-        // if(isset($_SESSION["userName"])){
-        //         $userName = $_SESSION["userName"];
-        // }else {
-        //     echo "6578";
-        // }
-        $userName = "$log_username";
-        $elem = $_POST['downloadImage'];
-        // -------------------------------------------
-        //$sql = "SELECT id FROM like_dislike WHERE imageId='$elem' AND userName='$userName' LIMIT 1";
-        // $query = mysqli_query($connect_db, $sql);
-        // $l_check = mysqli_num_rows($query);
-        //  if ($l_check > 0){
-        //     $sql = "DELETE FROM `like_dislike` WHERE imageId='$elem' AND userName='$userName' ";
-        //     $query = mysqli_query($connect_db, $sql);
-    
-        // $uid = mysqli_insert_id($connect_db);
-        //     // echo "You Have Already Liked This Image.";
-        //     // echo trim(ob_get_clean());
-        //     exit();
-         
-           
-            $sql = "INSERT INTO `download` (`imageId`,`userName`,`date_time`) VALUES ('$elem','$userName',now())";
-            $query = mysqli_query($connect_db, $sql);
-            $uid = mysqli_insert_id($connect_db);
-    
-            echo "download_success";
-            echo trim(ob_get_clean());
-            exit();
-        }
-
-
     //  <------- by default below code display only uploded images -- need to sho oly recently uploaded----->
          $imageList = "";
         $select_path="SELECT * FROM images ";
@@ -86,28 +17,8 @@ if(isset($_POST["elem"])){
                 $image_name=$row["name"];
                 $image_path=$row["image"];  
                 $image_id = $row["id"];
-                $imageList .= " <div class=\"hovereffect\">
-        <img class=\"img-responsive\" src=".$image_path."  style=\"width\": 213px>
-            <div class=\"overlay\">
-               
-                <p class=icon-links>
-                    <a href=\"#\">
-                        <span class=\"fa fa-heart\" onclick=\"like_event('$image_id')\" id=\"$image_id\"></span>
-                    </a>
-                    <a href=\"#\">
-                        <span class=\"fa fa-share-alt fa-inverse\"></span>
-                    </a>
-                    <a href=\"#\">
-                        <span class=\"fa fa-download\" onclick=\"download_event('$image_id')\" id=\"$image_id\" id=\"download\" href=\"$image_path\" download=\"$image_path\"></span>
-                    </a>
-                </p>  
-            </div>
-    </div> ";
-
-
-
-
-                }
+                $imageList .= "<img src=".$image_path." height=100>";
+        }
 // <--------below code displays recently uploded images---------->
 
 if(isset($_GET['filter']) && $_GET['filter']=="uplod") {
@@ -314,121 +225,6 @@ if(isset($_GET['filter']) && $_GET['filter']=="photography") {
       <link rel="stylesheet" href="css/animate.css">
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
-    <style type="text/css">
-      .hovereffect {
-    margin-left: 55px;
-    margin-top: 30px;
-    height: 100%;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    cursor: default;
-}
-.hovereffect .overlay {
-    width: 100%;
-    position: absolute;
-    overflow: hidden;
-    left: 0;
-  top: auto;
-  bottom: 0;
-  padding: 0em;
-  height: 2em;
-  background: #79FAC4;
-  color: #3c4a50;
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(0,100%,0);
-  transform: translate3d(0,100%,0);
-  
-
-}
-
-.hovereffect img {
-    display: block;
-    position: relative;
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-}
-
-.hovereffect:hover img {
--webkit-transform: translate3d(0,-10%,0);
-  transform: translate3d(0,-10%,0);
-}
-
-
-.hovereffect a.info {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    text-transform: uppercase;
-  color: #fff;
-  border: 0px solid #fff;
-  margin: 20px 0 0 0;
-  background-color: transparent;
-}
-.hovereffect a.info:hover {
-    box-shadow: 0 0 5px #fff;
-}
-
-
-.hovereffect p.icon-links a {
-  float: center;
-  color: #3c4a50;
-  font-size: 1.1em;
-}
-
-.hovereffect:hover p.icon-links a:hover,
-.hovereffect:hover p.icon-links a:focus {
-  color: #252d31;
-}
-
-.hovereffect h2,
-.hovereffect p.icon-links a {
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(0,200%,0);
-  transform: translate3d(0,200%,0);
-  visibility: visible;
-}
-
-.hovereffect p.icon-links a span:before {
-  display: inline-block;
-  padding: 8px 20px;
-  speak: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-
-.hovereffect:hover .overlay,
-.hovereffect:hover h2,
-.hovereffect:hover p.icon-links a {
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
-.hovereffect:hover h2 {
-  -webkit-transition-delay: 0.05s;
-  transition-delay: 0.05s;
-}
-
-.hovereffect:hover p.icon-links a:nth-child(3) {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
-}
-
-.hovereffect:hover p.icon-links a:nth-child(2) {
-  -webkit-transition-delay: 0.15s;
-  transition-delay: 0.15s;
-}
-
-.hovereffect:hover p.icon-links a:first-child {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
-
-    </style>
 
   </head>
 
@@ -488,12 +284,13 @@ if(isset($_GET['filter']) && $_GET['filter']=="photography") {
     <div class="display-uploaded-images">
       <div class="row photos">
 
-       <!--  <div class="col-md-2">
- -->
-  <!--   <div class="hovereffect"> -->
 
-      <?php echo $imageList; ?>
-        <!-- <img class="img-responsive" src="images/new/2.jpeg" alt="" style="width: 213px;">
+
+        <div class="col-md-2">
+
+    <div class="hovereffect">
+     <!--  <?php echo $imageList; ?> -->
+        <img class="img-responsive" src="images/new/2.jpeg" alt="" style="width: 213px;">
             <div class="overlay">
                
                 <p class="icon-links">
@@ -508,6 +305,8 @@ if(isset($_GET['filter']) && $_GET['filter']=="photography") {
                     </a>
                 </p>
             </div>
+           
+          
     </div>
 </div>
         <div class="col-md-2">
@@ -702,7 +501,7 @@ if(isset($_GET['filter']) && $_GET['filter']=="photography") {
                     </a>
                 </p>
             </div>
-    </div></div> -->
+    </div></div>
       </div>
        <a href="imagegrids.php" ><button class="btn btn-sm" role="button">view more</button></a>
 
@@ -848,46 +647,5 @@ if(isset($_GET['filter']) && $_GET['filter']=="photography") {
   <?php include_once "footer.php"; ?>
   <!-- end of footer-->    
   <?php include_once "script.php"; ?>
-  <script type="text/javascript">
-    function like_event(elem)
-  {
-
-// _("likebtn").style.display = "none";
-//   status.innerHTML = 'please wait ...';
-  var ajax = ajaxObj("POST", "view_more.php");
-  ajax.onreadystatechange = function() {
-      if(ajaxReturn(ajax) == true) {
-          if(ajax.responseText != "like_success"){
-              alert(ajax.responseText);
-            //   status.style.display = "block";
-            //   _("likebtn").style.display = "block";
-          } else {
-             _(elem).innerHTML = "";
-          }
-      }
-  }
-  
-  ajax.send("elem="+elem);
-}
-// <=------------download_event-->
-function download_event(elem)
-{
-// _("likebtn").style.display = "none";
-//   status.innerHTML = 'please wait ...';
-  var ajax = ajaxObj("POST", "view_more.php");
-  ajax.onreadystatechange = function() {
-      if(ajaxReturn(ajax) == true) {
-          if(ajax.responseText != "download _success"){
-              alert(ajax.responseText);
-            //   status.style.display = "block";
-            //   _("likebtn").style.display = "block";
-          } else {
-            //  _(elem).innerHTML = "<i class=\"material-icons\" style.color=\"#000000\" >favorite</i>";
-          }
-      }
-  }
-  ajax.send("downloadImage="+elem);
-}
-  </script>
   </body>
 </html>

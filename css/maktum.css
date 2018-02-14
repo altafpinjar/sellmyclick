@@ -316,6 +316,6 @@ input[type=range]:hover {
     border: 2px solid #22A7F0;
 }
 
-
-
-
+/*#status {
+  display: none;
+}*/
