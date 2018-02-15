@@ -76,7 +76,7 @@ if(isset($_POST["elem"])){
 
     //  <------- by default below code display only uploded images -- need to sho oly recently uploaded----->
          $imageList = "";
-        $select_path="SELECT * FROM images ";
+        $select_path="SELECT * FROM images ORDER BY date_time DESC LIMIT 12";
 
         $var = mysqli_query($connect_db,$select_path);
         
