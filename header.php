@@ -48,7 +48,10 @@
 </nav>
 -->
 
+<?php
+include_once("checkUserLoginStatus.php");
 
+?>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-dark" style="z-index: 40; ">
   <a href="home.php" class="navbar-brand text-white" href="#"><!-- <img src="images/click2.png"> -->$ell My Click</a>
@@ -110,21 +113,33 @@
 
 
 
-             <li class="nav-item dropdown" style="padding-left: 5px;">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         
+          <?php
+if($user_ok){
+
+         echo '<li class="nav-item dropdown " style="padding-left: 5px;">';
+        echo '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="profile.php"><font color="black">Profile</font></a>
-          <a class="dropdown-item" href="Logout.php"><font color="black">Logout</font></a>
-          
-        </div>
-      </li>
-            <li class="nav-item">
-              <a class="nav-link" href="loginpage.php"></i>&nbsp;Login or signup</a>
-            </li>
- 
-     
+        </a>';
+        echo '<div class="dropdown-menu  dropdown-menu-right" aria-labelledby="navbarDropdown">';
+         
+ echo '<a class="dropdown-item" href="http://localhost:8080/sellmyclick/profile.php?u='.$log_username.'"><font color="black">Profile</font></a>';
+   
+         //echo ' <a class="dropdown-item" href="profile.php"><font color="black">Profile</font></a>';
+          echo '<a class="dropdown-item" href="logout.php"><font color="black">Logout</font></a>';
+          echo ' </div>';
+      echo '</li>';
+          }
+?>
+       
+               <?php
+if(!$user_ok){
+  echo '<li class="nav-item">';
+              echo '<a class="nav-link" href="loginpage.php"></i>&nbsp;Login or signup</a>';
+            echo '</li>';
+          }
+?>
+    
         </ul>
   </div>
 </nav>

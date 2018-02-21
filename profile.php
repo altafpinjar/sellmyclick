@@ -6,8 +6,46 @@ if(!$user_ok) {
     exit();
 }
 
+//profile dp diplay
+if($user_ok)
+{
+    
+$sql="SELECT url FROM  profile where userName='$log_username'";
+$var=mysqli_query($connect_db,$sql);
+$imageArray = "";
+$rows=mysqli_fetch_array($var);
+      
+    $image_path = $rows['url'];    
+    $imageArray .= "<img src=".$image_path." height=100>";
 
+}
 
+if(isset($_FILES['filefield']['tmp_name'])){
+  
+
+    $name=$_FILES['filefield']['name'];
+    $name = preg_replace('#[ ]#i', '_', $name);
+
+  $sql = "SELECT id FROM profile WHERE  userName='$log_username' LIMIT 1";
+    $query = mysqli_query($connect_db, $sql);
+  $l_check = mysqli_num_rows($query);
+   if ($l_check > 0){ 
+        $sql="update profile set url='profileimg/$name' , lastUpload=now() where userName='$log_username'";
+        $query = mysqli_query($connect_db, $sql);
+        $uid = mysqli_insert_id($connect_db);
+        // echo "You Have Already Liked This Image.";
+        // echo trim(ob_get_clean());
+     }  else if ($_FILES['filefield']['tmp_name'] != "") {
+        //  $newname = "give_some_unique_name.jpg";
+    $query = "INSERT INTO profile(url,userName,lastUpload) values('profileimg/$name','$log_username',now())";
+    mysqli_query($connect_db,$query) or die(mysqli_error($connect_db));
+    move_uploaded_file($_FILES['filefield']['tmp_name'], "profileimg/$name");
+       header("location: $siteAddress");
+    }
+   // exit();
+  }
+
+//end 
 $imageList = "";
 if(isset($_GET['u'])) {
     
@@ -223,10 +261,26 @@ if(isset($_GET['u'])) {
        <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-            <center><img  class="img-fluid"  src="images/men.jpg" style="border-radius:50%;width:150px;height:150px;"></center>
+
+
+            <form action="" method="POST"  enctype='multipart/form-data'>
+ 
+   
+<input type='file'  id="filefield" name='filefield' class="form-control"  />
+
+<input type="submit" value="Upload" name="but_upload" id="submitbtn" ><br><br>
+
+<div class="display-downloaded-images">
+<?php echo $imageArray; ?>
+</div>    
+</form>    
+<!-- 
+ -->       <!--  <center><img  class="img-fluid"  src="images/men.jpg" style="border-radius:50%;width:150px;height:150px;"></center> -->
           </div>
        </div>
-        <center><h4 align="center">MaktumHusen</h4>
+        <center><h4 align="center"><?php if ($user_ok){
+          echo $log_username;
+        } ?></h4>
       
         <a href="#"><i class="fa fa-facebook-f fa-2x" style="padding-right: 5px;"></i></a>
           

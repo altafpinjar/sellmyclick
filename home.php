@@ -97,8 +97,8 @@ if(isset($_POST["elem"])){
                     <a href=\"#\">
                         <span class=\"fa fa-share-alt fa-inverse\"></span>
                     </a>
-                    <a href=\"#\">
-                        <span class=\"fa fa-download\" onclick=\"download_event('$image_id')\" id=\"$image_id\" id=\"download\" href=\"$image_path\" download=\"$image_path\"></span>
+                    <a href=\"$imageList\">
+                        <span class=\"fa fa-download\" onclick=\"download_event('$image_id')\" id=\"$image_id\" id=\"download\" download=\"$image_path\"></span>
                     </a>
                 </p>  
             </div>
@@ -110,10 +110,10 @@ if(isset($_POST["elem"])){
                 }
 // <--------below code displays recently uploded images---------->
 
-if(isset($_GET['filter']) && $_GET['filter']=="uplod") {
+if(isset($_GET['filter']) && $_GET['filter']=="recentuplod") {
     
     // 1)WRITE IMAGE FETCH QUERY HERE
-    $select_path="SELECT * FROM images ";
+   $select_path="SELECT * FROM images ORDER BY date_time DESC LIMIT 12";
     $var=mysqli_query($connect_db,$select_path);
     
     // 2)STORE IMAGES IN A VARIABLE USING LOOP
@@ -123,7 +123,23 @@ if(isset($_GET['filter']) && $_GET['filter']=="uplod") {
             $image_name=$row["name"];
             $image_path=$row["image"];  
             $image_id = $row["id"];
-            $imageList .= "<img src=".$image_path." height=100><br>";
+              $imageList .= " <div class=\"hovereffect\">
+        <img class=\"img-responsive\" src=".$image_path."  style=\"width\": 213px>
+            <div class=\"overlay\">
+               
+                <p class=icon-links>
+                    <a href=\"#\">
+                        <span class=\"fa fa-heart\" onclick=\"like_event('$image_id')\" id=\"$image_id\"></span>
+                    </a>
+                    <a href=\"#\">
+                        <span class=\"fa fa-share-alt fa-inverse\"></span>
+                    </a>
+                    <a href=\"#\">
+                        <span class=\"fa fa-download\" onclick=\"download_event('$image_id')\" id=\"$image_id\" id=\"download\" href=\"$image_path\" download=\"$image_path\"></span>
+                    </a>
+                </p>  
+            </div>
+    </div> ";
     }
 
 }
@@ -147,7 +163,23 @@ if(isset($_GET['filter']) && $_GET['filter']=="liked")
             // $image_name=$row["name"];
             $image_path=$row["image"];  
             // $image_id = $row["imageId"];
-            $imageList .= "<img src=".$image_path." height=100>";
+              $imageList .= " <div class=\"hovereffect\">
+        <img class=\"img-responsive\" src=".$image_path."  style=\"width\": 213px>
+            <div class=\"overlay\">
+               
+                <p class=icon-links>
+                    <a href=\"#\">
+                        <span class=\"fa fa-heart\" onclick=\"like_event('$image_id')\" id=\"$image_id\"></span>
+                    </a>
+                    <a href=\"#\">
+                        <span class=\"fa fa-share-alt fa-inverse\"></span>
+                    </a>
+                    <a href=\"#\">
+                        <span class=\"fa fa-download\" onclick=\"download_event('$image_id')\" id=\"$image_id\" id=\"download\" href=\"$image_path\" download=\"$image_path\"></span>
+                    </a>
+                </p>  
+            </div>
+    </div> ";
     }
 }
 
@@ -479,12 +511,14 @@ if(isset($_GET['filter']) && $_GET['filter']=="photography") {
      <div aria-label="breadcrumb">
   <ol class="breadcrumb">
     <h5>Have a look now!</h5>&nbsp;&nbsp;
-    <li class="breadcrumb-item active" aria-current="page"><a href="http://localhost:8080/sellmyclick/home.php?&filter=uplod">Recent Images</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><a href="http://localhost:8080/sellmyclick/home.php?&filter=recentuplod">Recent Images</a></li>
     <li class="breadcrumb-item"><a href="http://localhost:8080/sellmyclick/home.php?&filter=liked">Most liked</a></li>
     <li class="breadcrumb-item"><a href="http://localhost:8080/sellmyclick/home.php?&filter=topup">Top uploads</a></li>
   </ol>
+
   
 </div>
+
     <div class="display-uploaded-images">
       <div class="row photos">
 
@@ -493,6 +527,7 @@ if(isset($_GET['filter']) && $_GET['filter']=="photography") {
   <!--   <div class="hovereffect"> -->
 
       <?php echo $imageList; ?>
+
         <!-- <img class="img-responsive" src="images/new/2.jpeg" alt="" style="width: 213px;">
             <div class="overlay">
                
@@ -854,7 +889,7 @@ if(isset($_GET['filter']) && $_GET['filter']=="photography") {
 
 // _("likebtn").style.display = "none";
 //   status.innerHTML = 'please wait ...';
-  var ajax = ajaxObj("POST", "view_more.php");
+  var ajax = ajaxObj("POST", "home.php");
   ajax.onreadystatechange = function() {
       if(ajaxReturn(ajax) == true) {
           if(ajax.responseText != "like_success"){
@@ -869,12 +904,22 @@ if(isset($_GET['filter']) && $_GET['filter']=="photography") {
   
   ajax.send("elem="+elem);
 }
+
+
+
+// $(document).ready(function(){
+//     $(".fa-heart").toggle(
+//         function(){$(".fa-heart").css({"color": "red"});},
+        
+//         function(){$("fa-heart").css({"color": "green"});
+//     });
+// });
 // <=------------download_event-->
 function download_event(elem)
 {
 // _("likebtn").style.display = "none";
 //   status.innerHTML = 'please wait ...';
-  var ajax = ajaxObj("POST", "view_more.php");
+  var ajax = ajaxObj("POST", "home.php");
   ajax.onreadystatechange = function() {
       if(ajaxReturn(ajax) == true) {
           if(ajax.responseText != "download _success"){
